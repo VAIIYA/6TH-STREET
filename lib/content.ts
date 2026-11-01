@@ -13,6 +13,9 @@ const schema = z.object({
   featured: z.boolean().default(false),
   infobox: z.record(z.string(), z.string()).optional(),
   related: z.array(z.string()).default([]),
+  sources: z
+    .array(z.object({ label: z.string(), url: z.string().url() }))
+    .default([]),
 });
 
 export type Article = z.infer<typeof schema> & {

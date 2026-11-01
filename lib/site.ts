@@ -1,7 +1,7 @@
 export const site = {
-  name: "Leonida Files",
+  name: "Grand Theft Wiki",
   tagline: "The unofficial Grand Theft Auto VI wiki",
-  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://leonida-files.vercel.app",
+  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://grand-theft-wiki.vercel.app",
   // Single source of truth for the countdown; verify against Rockstar's official announcement.
   releaseDate: "2026-11-19T00:00:00Z",
   adsenseClient: process.env.NEXT_PUBLIC_ADSENSE_CLIENT ?? "",

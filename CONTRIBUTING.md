@@ -19,3 +19,13 @@ related:
 3. Use `##` and `###` headings; a table of contents is generated automatically.
 4. Only state what is officially confirmed. Label rumours clearly as unconfirmed.
 5. Run `npm run lint && npm run build` before opening a pull request. The build fails on invalid frontmatter.
+
+## News and sources
+
+News articles are our own summaries of public announcements, never copied text. Add a `sources` list with a label and URL for every claim you rely on; it renders as a "Sources" box under the article:
+
+```yaml
+sources:
+  - label: Rockstar Games Newswire
+    url: https://www.rockstargames.com/newswire
+```
