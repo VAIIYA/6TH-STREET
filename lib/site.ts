@@ -5,7 +5,7 @@ export const site = {
   // Single source of truth for the countdown; verify against Rockstar's official announcement.
   releaseDate: "2026-11-19T00:00:00Z",
   adsenseClient: process.env.NEXT_PUBLIC_ADSENSE_CLIENT ?? "",
-  repoUrl: "https://github.com/meneergroot/GTW",
+  repoUrl: "https://github.com/VAIIYA/GTW",
   disclaimer:
     "Unofficial fan site. Not affiliated with, endorsed by, or connected to Rockstar Games or Take-Two Interactive. Grand Theft Auto is a trademark of Take-Two Interactive Software, Inc.",
 } as const;
