@@ -6,6 +6,8 @@ import type { ReactNode } from "react";
 import { AdSlot } from "@/components/AdSlot";
 import { Infobox } from "@/components/Infobox";
 import { Toc } from "@/components/Toc";
+import { Youtube } from "@/components/Youtube";
+import { RumorBadge } from "@/components/RumorBadge";
 import { getAllArticles, getArticle, getHeadings, slugify } from "@/lib/content";
 import { categories, site } from "@/lib/site";
 
@@ -64,7 +66,9 @@ export default async function ArticlePage({ params }: PageProps<"/[category]/[sl
         <h1 className="mt-2 font-display text-6xl leading-none tracking-wide text-pink sm:text-8xl">
           {article.title}
         </h1>
+        {article.rumor && <div className="mt-4"><RumorBadge /></div>}
         <p className="mt-4 text-xl leading-snug text-cream sm:text-2xl">{article.summary}</p>
+        {article.youtube && <Youtube id={article.youtube} title={article.title} />}
         <p className="mt-2 text-xs text-muted">
           {category === "news" ? "Published" : "Last updated"} {article.updated}
         </p>

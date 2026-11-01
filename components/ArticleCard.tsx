@@ -1,5 +1,6 @@
 import Link from "next/link";
 import type { Article } from "@/lib/content";
+import { RumorBadge } from "@/components/RumorBadge";
 
 export function ArticleCard({ article }: { article: Article }) {
   return (
@@ -14,6 +15,7 @@ export function ArticleCard({ article }: { article: Article }) {
       />
       <div className="relative">
         <p className="text-xs uppercase tracking-widest text-peach">{article.category}</p>
+        {article.rumor && <div className="mb-2"><RumorBadge /></div>}
         <h3 className="font-display text-3xl leading-tight tracking-wide text-white">{article.title}</h3>
         <p className="mt-1 line-clamp-2 text-sm text-cream/80">{article.summary}</p>
       </div>

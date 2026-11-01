@@ -13,6 +13,8 @@ const schema = z.object({
   featured: z.boolean().default(false),
   infobox: z.record(z.string(), z.string()).optional(),
   related: z.array(z.string()).default([]),
+  rumor: z.boolean().default(false),
+  youtube: z.string().optional(),
   sources: z
     .array(z.object({ label: z.string(), url: z.string().url() }))
     .default([]),
@@ -61,7 +63,7 @@ export function getArticles(category: CategorySlug): Article[] {
     .filter((f) => f.endsWith(".mdx"))
     .map((f) => load(category, f))
     .sort((a, b) =>
-      category === "news" ? b.updated.localeCompare(a.updated) : a.title.localeCompare(b.title),
+      ["news", "trailers"].includes(category) ? b.updated.localeCompare(a.updated) : a.title.localeCompare(b.title),
     );
 }
 

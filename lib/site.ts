@@ -15,7 +15,8 @@ export const categories = [
   { slug: "locations", label: "Locations", blurb: "From Vice City neon to the Grassrivers swamps." },
   { slug: "vehicles", label: "Vehicles", blurb: "Everything on wheels, wings and hulls." },
   { slug: "gameplay", label: "Gameplay", blurb: "Mechanics, systems and what we know so far." },
-  { slug: "news", label: "News", blurb: "Trailers, announcements and the full timeline." },
+  { slug: "news", label: "News", blurb: "Announcements, rumours and the full timeline." },
+  { slug: "trailers", label: "Trailers", blurb: "Official trailers and launch footage." },
 ] as const;
 
 export type CategorySlug = (typeof categories)[number]["slug"];
