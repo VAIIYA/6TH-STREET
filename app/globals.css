@@ -1,0 +1,102 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-bg: #16121f;
+  --color-surface: #221a2e;
+  --color-surface-2: #2c2240;
+  --color-pink: #e46fbf;
+  --color-peach: #ffd6b0;
+  --color-cream: #f1dccb;
+  --color-muted: #a99bb8;
+  --font-display: var(--font-bebas);
+  --font-sans: var(--font-figtree);
+  --radius-card: 24px;
+}
+
+:root {
+  color-scheme: dark;
+  --sunset: linear-gradient(135deg, #5b5fa8 0%, #b06aa8 55%, #f4a98a 100%);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #16121f;
+  color: var(--color-cream);
+  font-family: var(--font-figtree), system-ui, sans-serif;
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible {
+  outline: 2px solid var(--color-peach);
+  outline-offset: 3px;
+}
+
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.fade-up {
+  animation: fade-up 0.7s ease-out both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .fade-up {
+    animation: none;
+  }
+}
+
+/* Wiki article typography */
+.prose-wiki h2 {
+  font-family: var(--font-bebas);
+  font-size: 2.25rem;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  color: #fff3e6;
+  margin: 2.5rem 0 1rem;
+  scroll-margin-top: 6rem;
+}
+.prose-wiki h3 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--color-peach);
+  margin: 1.75rem 0 0.5rem;
+  scroll-margin-top: 6rem;
+}
+.prose-wiki p,
+.prose-wiki li {
+  line-height: 1.75;
+  font-size: 1.0625rem;
+}
+.prose-wiki p {
+  margin: 0 0 1.1rem;
+}
+.prose-wiki ul {
+  list-style: disc;
+  padding-left: 1.25rem;
+  margin: 0 0 1.1rem;
+}
+.prose-wiki a {
+  color: var(--color-pink);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.prose-wiki a:hover {
+  color: var(--color-peach);
+}
+.prose-wiki strong {
+  color: #fff3e6;
+}
