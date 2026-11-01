@@ -51,6 +51,7 @@ export default async function ArticlePage({ params }: PageProps<"/[category]/[sl
     description: article.summary,
     dateModified: article.updated,
     mainEntityOfPage: `${site.url}${article.href}`,
+    ...(article.sources.length > 0 && { citation: article.sources.map((s) => s.url) }),
   };
 
   return (
@@ -64,11 +65,35 @@ export default async function ArticlePage({ params }: PageProps<"/[category]/[sl
           {article.title}
         </h1>
         <p className="mt-4 text-xl leading-snug text-cream sm:text-2xl">{article.summary}</p>
-        <p className="mt-2 text-xs text-muted">Last updated {article.updated}</p>
+        <p className="mt-2 text-xs text-muted">
+          {category === "news" ? "Published" : "Last updated"} {article.updated}
+        </p>
         <AdSlot slot="article-top" minHeight={120} />
         <div className="prose-wiki mt-6">
           <MDXRemote source={article.body} components={mdxComponents} />
         </div>
+        {article.sources.length > 0 && (
+          <section className="mt-12 rounded-card border border-white/10 bg-surface p-6">
+            <h2 className="mb-3 font-display text-3xl tracking-wide text-white">Sources</h2>
+            <ol className="list-decimal space-y-1.5 pl-5 text-sm">
+              {article.sources.map((s) => (
+                <li key={s.url}>
+                  <a
+                    href={s.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-pink underline underline-offset-4 hover:text-peach"
+                  >
+                    {s.label}
+                  </a>
+                </li>
+              ))}
+            </ol>
+            <p className="mt-3 text-xs text-muted">
+              This article is our own summary. Follow the links above for the original sources.
+            </p>
+          </section>
+        )}
         {related.length > 0 && (
           <section className="mt-12">
             <h2 className="mb-3 font-display text-3xl tracking-wide text-white">Related</h2>

@@ -1,4 +1,4 @@
-# Leonida Files
+# Grand Theft Wiki
 
 An unofficial fan wiki for Grand Theft Auto VI, built with Next.js (App Router), Tailwind CSS v4 and MDX.
 
