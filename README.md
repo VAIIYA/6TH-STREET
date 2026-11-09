@@ -11,6 +11,14 @@ npm install
 npm run dev
 ```
 
+## Live feed (news, rumors, videos)
+
+`scripts/update-feed.mjs` collects GTA 6 headlines from public feeds (Google News, Rockstar's YouTube channels, r/GTA6) and the Wikipedia lead. It writes `content/feed/items.json` and `content/feed/wikipedia.json`. Only headlines, links and short excerpts are stored. Each item links to its original source.
+
+- `.github/workflows/update-feed.yml` runs it every hour and commits changes to `main`. Vercel deploys each commit.
+- Run it locally with `npm run feed:update`.
+- Rumors are labelled "unconfirmed" by a keyword heuristic. Check the source before you rely on one.
+
 ## Add or edit an article
 
 Articles are MDX files in `content/<category>/`. See [CONTRIBUTING.md](CONTRIBUTING.md).
