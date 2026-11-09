@@ -46,11 +46,17 @@ function readJson(file: string): unknown {
   return JSON.parse(fs.readFileSync(full, "utf8"));
 }
 
-/** Newest first. Pass a kind to filter. */
+/**
+ * Newest first. Pass a kind to filter.
+ * Items without a snippet are headline-only (kept for story detection). The site shows
+ * only items that carry a snippet, except videos, which have a thumbnail instead.
+ */
 export function getFeedItems(kind?: FeedKind): FeedItem[] {
   const parsed = z.array(itemSchema).safeParse(readJson("items.json") ?? []);
   if (!parsed.success) throw new Error(`Invalid content/feed/items.json: ${parsed.error.message}`);
-  const items = [...parsed.data].sort((a, b) => b.publishedAt.localeCompare(a.publishedAt));
+  const items = [...parsed.data]
+    .filter((i) => i.summary || i.kind === "video")
+    .sort((a, b) => b.publishedAt.localeCompare(a.publishedAt));
   return kind ? items.filter((i) => i.kind === kind) : items;
 }
 

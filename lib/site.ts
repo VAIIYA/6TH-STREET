@@ -1,11 +1,11 @@
 export const site = {
-  name: "Grand Theft Wiki",
+  name: "6th Street",
   tagline: "The unofficial Grand Theft Auto VI wiki",
-  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://grand-theft-wiki.vercel.app",
+  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://6thstreet.vercel.app",
   // Single source of truth for the countdown; verify against Rockstar's official announcement.
   releaseDate: "2026-11-19T00:00:00Z",
   adsenseClient: process.env.NEXT_PUBLIC_ADSENSE_CLIENT ?? "",
-  repoUrl: "https://github.com/VAIIYA/GTW",
+  repoUrl: "https://github.com/VAIIYA/6TH-STREET",
   disclaimer:
     "Unofficial fan site. Not affiliated with, endorsed by, or connected to Rockstar Games or Take-Two Interactive. Grand Theft Auto is a trademark of Take-Two Interactive Software, Inc.",
 } as const;

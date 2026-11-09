@@ -3,7 +3,7 @@ import { Countdown } from "@/components/Countdown";
 import { ArticleCard } from "@/components/ArticleCard";
 import { AdSlot } from "@/components/AdSlot";
 import { FeedLead, FeedRow, SectionHeading, VideoCard } from "@/components/FeedComponents";
-import { getAllArticles } from "@/lib/content";
+import { getAllArticles, getLatestStories } from "@/lib/content";
 import { getFeedItems, getWikipedia } from "@/lib/feed";
 import { categories, site } from "@/lib/site";
 
@@ -15,6 +15,7 @@ export default function Home() {
   const rumors = getFeedItems("rumor").slice(0, 5);
   const videos = getFeedItems("video").slice(0, 3);
   const wiki = getWikipedia();
+  const stories = getLatestStories(3);
   const featured = getAllArticles()
     .filter((a) => a.featured && a.category !== "news")
     .slice(0, 3);
@@ -54,6 +55,21 @@ export default function Home() {
           </Link>
         </div>
       </section>
+
+      {stories.length > 0 && (
+        <section className="mx-auto max-w-6xl px-5 pt-12" aria-labelledby="stories-heading">
+          <div id="stories-heading">
+            <SectionHeading href="/news#stories" linkLabel="More stories">
+              Our stories
+            </SectionHeading>
+          </div>
+          <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+            {stories.map((a) => (
+              <ArticleCard key={a.href} article={a} />
+            ))}
+          </div>
+        </section>
+      )}
 
       <div className="mx-auto grid max-w-6xl gap-12 px-5 py-12 lg:grid-cols-[1fr_320px]">
         <section aria-labelledby="latest-heading">
