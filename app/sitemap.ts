@@ -7,7 +7,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const cats = categories.map((c) => ({ url: `${site.url}/${c.slug}` }));
   const articles = getAllArticles().map((a) => ({
     url: `${site.url}${a.href}`,
-    lastModified: a.updated,
+    lastModified: a.published ?? a.updated,
   }));
   return [...pages, ...cats, ...articles];
 }

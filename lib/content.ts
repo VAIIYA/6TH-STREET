@@ -11,6 +11,10 @@ const schema = z.object({
   summary: z.string(),
   updated: z.string(),
   featured: z.boolean().default(false),
+  // Set by scripts/generate-articles.mjs for hourly auto-written news stories.
+  auto: z.boolean().default(false),
+  kind: z.enum(["news", "rumor"]).optional(),
+  published: z.string().optional(), // ISO datetime
   infobox: z.record(z.string(), z.string()).optional(),
   related: z.array(z.string()).default([]),
   sources: z
@@ -61,8 +65,16 @@ export function getArticles(category: CategorySlug): Article[] {
     .filter((f) => f.endsWith(".mdx"))
     .map((f) => load(category, f))
     .sort((a, b) =>
-      category === "news" ? b.updated.localeCompare(a.updated) : a.title.localeCompare(b.title),
+      category === "news"
+        ? (b.published ?? b.updated).localeCompare(a.published ?? a.updated)
+        : a.title.localeCompare(b.title),
     );
+}
+
+/** Our own auto-written stories, newest first. */
+export function getLatestStories(limit?: number): Article[] {
+  const stories = getArticles("news").filter((a) => a.auto);
+  return limit ? stories.slice(0, limit) : stories;
 }
 
 export function getArticle(category: string, slug: string): Article | undefined {

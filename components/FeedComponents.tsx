@@ -68,7 +68,11 @@ export function FeedRow({ item, compact = false }: { item: FeedItem; compact?: b
         >
           {item.title}
         </h3>
-        {!compact && item.summary && <p className="mt-2 text-sm leading-relaxed text-cream/75">{item.summary}</p>}
+        {item.summary && (
+          <p className={`mt-2 text-sm leading-relaxed text-cream/75 ${compact ? "line-clamp-2" : "line-clamp-3"}`}>
+            {item.summary}
+          </p>
+        )}
         <Meta item={item} />
       </a>
     </li>

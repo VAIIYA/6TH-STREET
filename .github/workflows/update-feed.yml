@@ -17,17 +17,35 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
+          cache: npm
+      - run: npm ci
       - name: Collect headlines and sources
         run: node scripts/update-feed.mjs
+      - name: Write our own articles from the feed
+        # Needs the ANTHROPIC_API_KEY repository secret. Without it this step does nothing.
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: node scripts/generate-articles.mjs
+      - name: Build check
+        # A broken generated article must never block the Vercel deploy.
+        id: build
+        continue-on-error: true
+        run: npm run build
+      - name: Drop new articles if the build failed
+        if: steps.build.outcome == 'failure'
+        run: |
+          echo "::warning::Build failed with the new articles. Discarding them; the feed is still committed."
+          git checkout -- content/news
+          git clean -fd -- content/news
       - name: Commit changes (triggers a Vercel deploy)
         run: |
-          if git diff --quiet -- content/feed; then
+          if [ -z "$(git status --porcelain -- content/feed content/news)" ]; then
             echo "No new items."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add content/feed
+          git add content/feed content/news
           git commit -m "chore(feed): hourly GTA 6 update"
           git pull --rebase origin "${GITHUB_REF_NAME}"
           git push origin "HEAD:${GITHUB_REF_NAME}"

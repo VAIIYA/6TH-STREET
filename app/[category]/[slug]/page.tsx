@@ -21,7 +21,12 @@ export async function generateMetadata({ params }: PageProps<"/[category]/[slug]
     title: article.title,
     description: article.summary,
     alternates: { canonical: article.href },
-    openGraph: { title: article.title, description: article.summary, type: "article" },
+    openGraph: {
+      title: article.title,
+      description: article.summary,
+      type: "article",
+      ...(article.published && { publishedTime: article.published, modifiedTime: article.published }),
+    },
   };
 }
 
@@ -44,12 +49,16 @@ export default async function ArticlePage({ params }: PageProps<"/[category]/[sl
     .map((href) => all.find((a) => a.href === href))
     .filter((a): a is NonNullable<typeof a> => Boolean(a));
 
+  const isStory = article.auto && article.category === "news";
+  const publisher = { "@type": "Organization", name: site.name, url: site.url };
   const jsonLd = {
     "@context": "https://schema.org",
-    "@type": "Article",
+    "@type": isStory ? "NewsArticle" : "Article",
     headline: article.title,
     description: article.summary,
-    dateModified: article.updated,
+    dateModified: article.published ?? article.updated,
+    ...(article.published && { datePublished: article.published }),
+    ...(isStory && { author: publisher, publisher }),
     mainEntityOfPage: `${site.url}${article.href}`,
     ...(article.sources.length > 0 && { citation: article.sources.map((s) => s.url) }),
   };
@@ -66,7 +75,11 @@ export default async function ArticlePage({ params }: PageProps<"/[category]/[sl
         </h1>
         <p className="mt-4 text-xl leading-snug text-cream sm:text-2xl">{article.summary}</p>
         <p className="mt-2 text-xs text-muted">
-          {category === "news" ? "Published" : "Last updated"} {article.updated}
+          {article.kind === "rumor" && (
+            <span className="mr-2 font-bold uppercase tracking-widest text-peach">Rumor · unconfirmed</span>
+          )}
+          {category === "news" ? "Published" : "Last updated"}{" "}
+          <time dateTime={article.published ?? article.updated}>{article.updated}</time>
         </p>
         <AdSlot slot="article-top" minHeight={120} />
         <div className="prose-wiki mt-6">
@@ -90,7 +103,9 @@ export default async function ArticlePage({ params }: PageProps<"/[category]/[sl
               ))}
             </ol>
             <p className="mt-3 text-xs text-muted">
-              This article is our own summary. Follow the links above for the original sources.
+              {article.auto
+                ? "Written by 6th Street from the reporting linked above, with AI assistance. We only restate what those sources say; follow the links for the original coverage."
+                : "This article is our own summary. Follow the links above for the original sources."}
             </p>
           </section>
         )}

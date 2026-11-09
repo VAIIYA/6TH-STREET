@@ -17,18 +17,43 @@ const ITEMS_FILE = path.join(FEED_DIR, "items.json");
 const WIKI_FILE = path.join(FEED_DIR, "wikipedia.json");
 
 const MAX_ITEMS = 300;
+const MAX_HEADLINE_ONLY = 120;
 const TIMEOUT_MS = 20_000;
-const USER_AGENT = "GrandTheftWikiFeedBot/1.0 (+https://github.com/VAIIYA/6TH-STREET)";
+const USER_AGENT = "SixthStreetFeedBot/1.0 (+https://github.com/VAIIYA/6TH-STREET)";
 
 // Only keep entries that are actually about GTA 6.
-const ABOUT_GTA6 = /\bGTA ?(?:6|VI)\b|Grand Theft Auto VI|GTA6/i;
+const ABOUT_GTA6 = /\bGTA ?(?:6|VI)\b|Grand Theft Auto (?:VI|6)\b|GTA6/i;
 // Heuristic label for unconfirmed reporting. Shown as "Rumor" on the site.
 const RUMOR_HINT = /\b(rumou?rs?|leaks?|leaked|insider|reportedly|allegedly|sources say|speculat\w*|tipped)\b/i;
 
 const gnews = (q) =>
   `https://news.google.com/rss/search?q=${encodeURIComponent(q)}&hl=en-US&gl=US&ceid=US:en`;
 
+// Bing News RSS carries a real description per article and the publisher's own URL,
+// so its items get a snippet. Google News RSS only repeats the headline, so those
+// items stay headline-only (useful for spotting stories several outlets cover).
+const bing = (q) =>
+  `https://www.bing.com/news/search?q=${encodeURIComponent(q)}&format=rss&setmkt=en-US&setlang=en-US&qft=sortbydate%3d%221%22`;
+
 const SOURCES = [
+  { name: "Bing News", kind: "news", bing: true, url: bing('"GTA 6" OR "GTA VI" OR "Grand Theft Auto VI"') },
+  { name: "Bing News", kind: "news", bing: true, url: bing('"Grand Theft Auto 6" OR "GTA 6 trailer" OR "GTA 6 preload"') },
+  {
+    name: "Bing News",
+    kind: "rumor",
+    bing: true,
+    url: bing('(GTA 6 OR "GTA VI") (rumor OR leak OR insider OR reportedly)'),
+  },
+  // Publisher feeds: their descriptions are the excerpts the outlets publish themselves.
+  { name: "GameSpot", kind: "news", url: "https://www.gamespot.com/feeds/news/" },
+  { name: "Eurogamer", kind: "news", url: "https://www.eurogamer.net/feed" },
+  { name: "Push Square", kind: "news", url: "https://www.pushsquare.com/feeds/latest" },
+  { name: "Dexerto", kind: "news", url: "https://www.dexerto.com/feed/" },
+  { name: "GamesRadar+", kind: "news", url: "https://www.gamesradar.com/rss/" },
+  { name: "IGN", kind: "news", url: "https://feeds.feedburner.com/ign/all" },
+  { name: "VGC", kind: "news", url: "https://www.videogameschronicle.com/feed/" },
+  { name: "Insider Gaming", kind: "news", url: "https://insider-gaming.com/feed/" },
+  { name: "Polygon", kind: "news", url: "https://www.polygon.com/rss/index.xml" },
   {
     name: "Google News",
     kind: "news",
@@ -107,9 +132,30 @@ function getLink(block) {
   return getText(block, "link");
 }
 
-function excerpt(text, max = 220) {
+function excerpt(text, max = 260) {
   if (text.length <= max) return text;
   return `${text.slice(0, max).replace(/\s+\S*$/, "")}…`;
+}
+
+// Strip feed boilerplate ("The post X appeared first on Y", "Read more") and normalise
+// the " ..." truncation Bing adds.
+function cleanSummary(text) {
+  return text
+    .replace(/\s*(?:The post|This post)\b.*?\bappeared first on\b.*$/i, "")
+    .replace(/\s*(?:Read more|Continue reading|Click here)\b.*$/i, "")
+    .replace(/\s*(?:\.{3}|…)\s*$/, "…")
+    .replace(/\s+([.,;:!?])/g, "$1") // tag stripping leaves "GTA 6 ." behind
+    .trim();
+}
+
+// Bing wraps the publisher link: apiclick.aspx?...&url=<encoded publisher url>.
+function unwrapBing(link) {
+  try {
+    const target = new URL(link).searchParams.get("url");
+    return target && /^https?:\/\//.test(target) ? target : link;
+  } catch {
+    return link;
+  }
 }
 
 const norm = (s) => s.toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
@@ -120,7 +166,8 @@ function parseFeed(xml, source) {
   const out = [];
 
   for (const block of blocks) {
-    const url = getLink(block);
+    const rawLink = getLink(block);
+    const url = rawLink && source.bing ? unwrapBing(rawLink) : rawLink;
     let title = getText(block, "title");
     const publishedRaw = getText(block, "pubDate") ?? getText(block, "published") ?? getText(block, "updated");
     if (!url || !title || !publishedRaw) continue;
@@ -129,13 +176,14 @@ function parseFeed(xml, source) {
     if (Number.isNaN(publishedAt.getTime())) continue;
 
     // Google News appends " - Publisher" to titles and provides the publisher in <source>.
-    const publisher = getText(block, "source");
+    const publisher = getText(block, "source") ?? getText(block, "News:Source");
     if (publisher) title = title.replace(new RegExp(`\\s+-\\s+${publisher.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}$`), "");
 
     if (!ABOUT_GTA6.test(title)) continue;
 
     const videoId = getText(block, "yt:videoId");
-    const description = getText(block, "description") ?? getText(block, "media:description") ?? getText(block, "summary") ?? getText(block, "content");
+    const rawDescription = getText(block, "description") ?? getText(block, "media:description") ?? getText(block, "summary") ?? getText(block, "content");
+    const description = rawDescription ? cleanSummary(rawDescription) : undefined;
     const summary =
       description && !norm(description).startsWith(norm(title).slice(0, 40)) && description.length > 40
         ? excerpt(description)
@@ -173,7 +221,7 @@ async function main() {
   // Re-clean summaries stored by earlier runs so old HTML leftovers disappear too.
   const previousItems = (await readJson(ITEMS_FILE, [])).map((i) => {
     if (!i.summary) return i;
-    const summary = cleanText(i.summary);
+    const summary = cleanSummary(cleanText(i.summary));
     const { summary: _drop, ...rest } = i;
     return summary.length > 40 ? { ...rest, summary: excerpt(summary) } : rest;
   });
@@ -226,16 +274,19 @@ async function main() {
     merged.set(item.id, { ...item, firstSeen: prev?.firstSeen ?? new Date().toISOString() });
   }
 
-  const seenTitles = new Set();
-  const items = [...merged.values()]
-    .sort((a, b) => b.publishedAt.localeCompare(a.publishedAt))
-    .filter((i) => {
-      const key = norm(i.title);
-      if (seenTitles.has(key)) return false;
-      seenTitles.add(key);
-      return true;
-    })
-    .slice(0, MAX_ITEMS);
+  // Same headline from several outlets: keep one, preferring the copy that has a snippet.
+  const byTitle = new Map();
+  for (const i of [...merged.values()].sort((a, b) => b.publishedAt.localeCompare(a.publishedAt))) {
+    const key = norm(i.title);
+    const kept = byTitle.get(key);
+    if (!kept || (!kept.summary && i.summary)) byTitle.set(key, i);
+  }
+  // Headline-only items (Google News) are only used to spot stories several outlets cover.
+  // Cap them separately so they cannot push snippets and videos out of the file.
+  const newestFirst = [...byTitle.values()].sort((a, b) => b.publishedAt.localeCompare(a.publishedAt));
+  const full = newestFirst.filter((i) => i.summary || i.kind === "video").slice(0, MAX_ITEMS);
+  const headlineOnly = newestFirst.filter((i) => !i.summary && i.kind !== "video").slice(0, MAX_HEADLINE_ONLY);
+  const items = [...full, ...headlineOnly].sort((a, b) => b.publishedAt.localeCompare(a.publishedAt));
 
   const itemsJson = JSON.stringify(items, null, 2) + "\n";
   const prevItemsRaw = await readFile(ITEMS_FILE, "utf8").catch(() => "");
