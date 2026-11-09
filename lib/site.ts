@@ -18,4 +18,11 @@ export const categories = [
   { slug: "news", label: "News", blurb: "Trailers, announcements and the full timeline." },
 ] as const;
 
+// Top-level live sections (fed hourly from content/feed). Wiki categories come after.
+export const sections = [
+  { href: "/news", label: "News" },
+  { href: "/rumors", label: "Rumors" },
+  { href: "/videos", label: "Videos" },
+] as const;
+
 export type CategorySlug = (typeof categories)[number]["slug"];

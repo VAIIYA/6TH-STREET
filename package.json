@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "feed:update": "node scripts/update-feed.mjs"
   },
   "dependencies": {
     "@vercel/analytics": "^2.0.1",
