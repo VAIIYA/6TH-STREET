@@ -1,21 +1,838 @@
 [
   {
-    "id": "bdd21812f128",
-    "title": "GTA 6 Preload Leaks Reveal Regional Censorship, and Early GTA Online Features",
-    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9YM0lCZEhSUmp6WDRUZi1qRDNaVjN2WWlKR1h3TUZFQ3FneWNIS2d1Q2xfdnFNWkdfZS1iaUx5WmVtalRSejJLdzFqNXJCMF9zZjJ3ZkoyZjJpVG5lczE1dVNlRFZfRGVRM2tWNQ?oc=5",
-    "source": "NoobFeed",
-    "kind": "rumor",
-    "publishedAt": "2026-11-09T20:10:55.000Z",
-    "firstSeen": "2026-11-09T20:24:19.280Z"
-  },
-  {
     "id": "6da321f8fa36",
     "title": "GTA 6 Standard Edition vs. Ultimate Edition: Which Version Should You Buy?",
     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPMEFYNk1xWHNTajItSUlDWHFkNWxTNnpvUVRlM1BBTERkS3l6Ymd2cFB0dDc5Nno4aHFzaGVoWGZXM3dyaDY0Q2tGZEJaa2VsVFlpQTdtSDJzWk42ZGo4SUlINEw5VV9XWF9XYzRqdUJxQU5zWEN4U0VWX29YaUZxUmVRUFFhZ3Blakp4UUpxUTBqV2JDalBnX2ZWNmFYT1E?oc=5",
     "source": "PCMag",
     "kind": "news",
-    "publishedAt": "2026-11-09T19:59:05.000Z",
+    "publishedAt": "2026-11-10T03:29:06.000Z",
     "firstSeen": "2026-11-09T15:32:12.535Z"
+  },
+  {
+    "id": "ffed1fda61ee",
+    "title": "GTA VI's pre-orders tracking \"far above expectations\" according to Take-Two CEO",
+    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNY25mSzhtSWk3M3pMbGFBSmZqY2JFZzl3UGR2VDZVeGxZZFh4dmNxVDJaQnE2aFFPekVTTDQxMlRsN2xieEEzaUFfelJNNEJ4QU1EYk5wR3NXNi1tdHBMNF9Sa1RHREVtdXloLWdYaE8xek9lUF84WWFiQUduR3ZpZ1ZTeXdhTnd0MG5wejRhOUk3OE9URnNwT0pNM2EzZnB3MDJ6Z0JNbGxFWkxpcjh1QjhrUVpzSkduOG9wY2Y1dHFSWlFaUExzbg?oc=5",
+    "source": "GosuGamers",
+    "kind": "news",
+    "publishedAt": "2026-11-10T03:20:43.000Z",
+    "firstSeen": "2026-11-10T03:30:27.513Z"
+  },
+  {
+    "id": "5d923a79330a",
+    "title": "GTA 7 timeline hinted at by Take-Two's CEO just days before GTA 6 finally arrives",
+    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNMVVScU84aFd0N2JaZWJDMlJQd2h5dnI3Rmo2U0RJQ2xubDJaRzhEb2xPeEFqRjFnRG5NT3ljSkNOQ0ZBTlJNanF3WUZpTGIzWl9ZTU1YNjRwSDVMMGZ3d0FSOV95TFk2UUlGakROUUNBS3BZd18yMS13bHpuZXVjQy13RDlTZFBJX3dOZ000N1QtZXBzMndZaUxreUhabHVtUGRzR1pXdmdlWTV4MTVVNGpCc1J1X2tQM0pwSjJobHRETGtSQjFoUQ?oc=5",
+    "source": "TweakTown",
+    "kind": "news",
+    "publishedAt": "2026-11-10T03:18:02.000Z",
+    "firstSeen": "2026-11-10T03:30:27.513Z"
+  },
+  {
+    "id": "cc75961f7a38",
+    "title": "Take-Two Q2 Net Bookings Drop 18%, Projected to Double Next Quarter Driven by 'GTA VI'",
+    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQdnJ4bFRrbWFoWTBXR0V5TmRaWGRRanFrMENtMVcxbUM2YVJwTTViZ2pnLTNKWldkeXU1dkx6dTd5eDl2SnJFemwxM1lubmdEdjd4ZTZzUk5fSHVOSW5zbGkwVzVkRkItVkhHX3hkejJmaVRKNE1Oc2VoSDVnYVFwNTdNY2Q1Tl9yTC1kdl9ZU01GaFoyNktiaGFBbERwdk84R3dzcjVqQWFJZWVWeWFBWFlhRlhrYjRULXlENHRMT0VXcTA?oc=5",
+    "source": "Inven Global",
+    "kind": "news",
+    "publishedAt": "2026-11-10T03:06:21.000Z",
+    "firstSeen": "2026-11-10T03:30:27.513Z"
+  },
+  {
+    "id": "912cdeec28eb",
+    "title": "You Can Buy A Real-Life ‘GTA 6’ Supercar for Almost AUD $2 Million",
+    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPR2p0MG1KSTNlN29YTEFsNFhzTXRTUTVvaVZHeHBVVlZBRGNhUnkyWXFMYzZ3d29fanRVRmFPdjNQZ1I4UldPN2tvYlBjdGVPak50eHY4ZWsxeGNjWXVOMWJfTl94Wms1d0FVOVJ6alBNQm5FTVZzLXBxenl6ZEtETVdzdmY0V2lTZHc?oc=5",
+    "source": "Man of Many",
+    "kind": "news",
+    "publishedAt": "2026-11-10T03:05:49.000Z",
+    "firstSeen": "2026-11-10T03:30:27.513Z"
+  },
+  {
+    "id": "1f33aab4f777",
+    "title": "Take-Two shares slip 3.5% as GTA VI nears with quarterly bookings down 18%",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNWm14LS1PQ1N1ZWROTklzMWdCOFZGUzl5OHd4SDR3MHBia3FmODUzZ0JvbjR0N3RGNlBfSnpqbnhHc2s0QmlJbTFVeFBlQklfYjEtMEN3eHRMSzM1WUdUeHRwZlZZVmUtZkIxYV91WkFVSU41dFRZTlVMeWVrM29fMmZIZzNmMk9WWGFnUkFiREZhR3kzUmUwVVBucG9WTGNq?oc=5",
+    "source": "Startup Fortune",
+    "kind": "news",
+    "publishedAt": "2026-11-10T02:28:51.000Z",
+    "firstSeen": "2026-11-10T03:30:27.513Z"
+  },
+  {
+    "id": "e55abe9b53a4",
+    "title": "GTA 6 Preload Guide: File Size, PS5 Pro Enhanced Graphics & Latest Details",
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOYm5kc0NodklxbmE2empiOHFzR2xMeE1uVDlsYnVIZVlic1p2NGlyUXFfV3RISzRwbl9DSjNjTm51WmxfS0pUSkl2YUhBTXVURXAxNnRvVFlTekotelZyXzAyVWhoLXc2cjdYSUt3SUtaZ2lwZXlIZW1wd1RBZndRR2hBdjBFS3c1Q3M1S1JCTFVFa2kxQnIwSjA0VnNUeThsamNhbGln?oc=5",
+    "source": "MMOEXP",
+    "kind": "rumor",
+    "publishedAt": "2026-11-10T02:08:27.000Z",
+    "firstSeen": "2026-11-10T03:30:27.513Z"
+  },
+  {
+    "id": "be78cedaee52",
+    "title": "GTA 6 Preload Begins: Miami Takeover, Selfridges Collab, Heat Jerseys & Music Festival",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNNmFLM2F1aGVjQUhKVm1lLTJkZGJaWFV1Yi1FTjJVTE1fb0I3cXBSOFJMcklyUVVFeFYxV2p6OU1zUXNQTTk5aGwzVi0yUjBsSkxmMi10NlZCWXhLOWR4X0YtZFM0NEUtQTR1TS1PcWVTR2tic2JqUmpWU1NzMzFDU1Q5U1VVZ2p6cmNCaEZ1S0RlVU8waVhWYnJ6ekdTUlBtYldIanpvamVIS21xRlRXWERpN3E?oc=5",
+    "source": "MMOEXP",
+    "kind": "news",
+    "publishedAt": "2026-11-10T02:06:38.000Z",
+    "firstSeen": "2026-11-10T03:30:27.513Z"
+  },
+  {
+    "id": "4079538a0370",
+    "title": "Rockstar Games and PlayStation Announce 'Grand Theft Auto VI: The Festival' in Miami",
+    "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNTV8yRlEzS3A3MHhBSVQycHUyRE1BOXBQeGZvV01fZWd2ZUtpM0htTzkwS0x6V2Yzd211SGkzQkpEai1aM0VxMGRIcnlDdzlrSEVESmhkN2d2R054LU9ueVhnSXpRcVU0NEt6cmNyd1JKYXZUaTBsdmFVR2VmcFdIblVfT1ZHNElwLVM3cjZUSHlvNThWYzRCRk9PQ2QweHVvNDY1SFhBbEJmakNpZzFvZkFLcnRxQjNyRGJZbWRaSDRkU2NaWl8zRnBISjV6cC1YNHBjWXAzaFpnMFNGTkpBemhkTS1zenFy?oc=5",
+    "source": "Hypebeast",
+    "kind": "news",
+    "publishedAt": "2026-11-10T01:50:01.000Z",
+    "firstSeen": "2026-11-10T03:30:27.513Z"
+  },
+  {
+    "id": "15d25c107c42",
+    "title": "GTA 6 Preload Is Live: File Size, PS5 Pro Support, 120Hz and Multiplayer Clues",
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPRzNtRGVyc1dqTGlTMWdxenNRSFlTNUNiMGJfcXlaZ1NJMFozNjBucTRwT0dzbjNGVWNjb3VOZ2lzR3RROHNuM1RzRHJsZkJQRjRndkhDYXVrcFlmTzAwYS1JQnNLaGYxaFZZMzVlQzJPRlpCYTZEMmhhNllkaUoxdW52ZXpMZHVBVjd0TklDcDVMWmFxWmh4bVpuRnkzckZQT29kdWNSUHlHSWh4?oc=5",
+    "source": "MMOEXP",
+    "kind": "news",
+    "publishedAt": "2026-11-10T01:43:44.000Z",
+    "firstSeen": "2026-11-10T03:30:27.513Z"
+  },
+  {
+    "id": "9e2be25be27e",
+    "title": "GTA 6 Preload Guide: Download Times, 212GB Size & PS5/Xbox Requirements",
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQdHo3THhDRnlEU1RjZFBQQTRUUU1nanZuRGRub2FUejJHWDM3Zm1VdTh4R09obnJoSnVaRDdXTmg1UTFuWDZTNk1ZeExzX25EdWpCS3hsRWJLVUlWWTAzQ1VlcDRpM2hIVDF1Qm5JRnZxWVlBM2cwQUtiZGxFODYxYVRRV1VLN2RsWnNhdUJFN28wdUhpOWRJQW9IMGVmREpRNUE?oc=5",
+    "source": "MMOEXP",
+    "kind": "news",
+    "publishedAt": "2026-11-10T01:39:38.000Z",
+    "firstSeen": "2026-11-10T03:30:27.513Z"
+  },
+  {
+    "id": "2219c8d4274b",
+    "title": "Don't Want 'GTA 6' Spoilers? Here Are the Words You Need to Mute on Social Media Right Now.",
+    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPVHl4OUd3QmpEYkpjbVJrOGlleHUyOE5WNlhLS1YxYmY2UlR1TkhIVEp6M0ZFSnhHNGJidkFhcUpTb0REWV8yMV9WR1QxS0FLTk12ZWZWV01JRW16VDhGcHhBWnR6c2FnbjAwWTRocUhoSFFpY014V2RfVFZNMTYwMUhoTXl5OEhFMFFJNnhvSHpBSk54SWxvT3dDZFhpc1hlVjdOMmc3Y2tPX2tUUFNNU0p6WENmS2NpLS1n?oc=5",
+    "source": "VICE",
+    "kind": "news",
+    "publishedAt": "2026-11-10T01:24:44.000Z",
+    "firstSeen": "2026-11-10T03:30:27.513Z"
+  },
+  {
+    "id": "a181c5b1bfe3",
+    "title": "GTA VI has been certified Gold ahead of its scheduled launch.",
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOWnNmY2l1SFZLa2hRSXNDMXRNT1JoVElhbkxHT2ptdzNHY1E1dDNLM19UMkhmV3FDZjhFdXh5cnBtNXBUeTlzUWFvSk1XWmJtUW12YUxDVmF6ZkVNWTFSa2hSOUc3b2JjSmpvUk9UZjBpWjZVa2Y2UDNOZmE0SThvb1ktbnk1Sl96czY1eGVwaVN4dVJSVzNV?oc=5",
+    "source": "GameGPU",
+    "kind": "news",
+    "publishedAt": "2026-11-10T01:12:29.000Z",
+    "firstSeen": "2026-11-10T03:30:27.513Z"
+  },
+  {
+    "id": "653722db006d",
+    "title": "Grand Theft Auto VI takes over Miami with star studded festival set for Wynwood",
+    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPT0Y4YWxMTDRFTExWWmVHc1Z6OE9VVmZaa1lxN0lMczRBZnN3SDZWUjJWUjFGcUJQTHBROFQzZVYyaEd5dUc5NXJtSmZOcjFRNFUyY0pzeXlUb1BuMVBBSFpnbTdza0hGWDlHYkhmNTJIc2RIdFdSODdRWVBxUEpQakxZcjI2a0lXSDUzOGFYV1VEelR2ckRTeFZpOElSV0VrZU5xZjNmcVZHZ2Y0SC1mWVh1M0lzSXk5ZHcwZWFWOA?oc=5",
+    "source": "WSVN",
+    "kind": "news",
+    "publishedAt": "2026-11-10T01:11:50.000Z",
+    "firstSeen": "2026-11-10T03:30:27.513Z"
+  },
+  {
+    "id": "896a218182a2",
+    "title": "GTA 6 Preorders Beat Forecasts While NBA 2K27 Sales Fall Short",
+    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9PZ3JYQk9TZ3k1dTVlbWZGQ01BVE50OWdHSUU1aVR3cV9rNEpUSTJmMWhYQ3lISi1tZVFrRW1DQndqYVlUczhqWjVPYzRhZjRmcG1ucg?oc=5",
+    "source": "ShiftDelete.Net",
+    "kind": "rumor",
+    "publishedAt": "2026-11-10T01:10:35.000Z",
+    "firstSeen": "2026-11-10T03:30:27.513Z"
+  },
+  {
+    "id": "5126b0bfeecd",
+    "title": "Take-Two shares gain on results, guidance, GTA VI release date reiterated",
+    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNNlMxcVlTMlk2bGd6U3ZHa3BLcTNWSkI2TG9zNkh4dUY5WEZCbGNXT2JrZExWYUd3dGVzOHd1QWJVcGh2LUJrdno4OUNyaG1fbDBfU3g0eG04RjFURW5rRnZLaUpHaldFX3ZzaDNlOGUtMVFmMEFoZWNOZFUzeUtiOUJjNnJQS3NUZkk4RVdxQ1hFel9pNjdSNl9mZzR2ODRHXzNFcmQzRHFYb3BwVFFFNzRqVUhWQXlpMHc?oc=5",
+    "source": "Investing.com",
+    "kind": "news",
+    "publishedAt": "2026-11-10T00:57:57.000Z",
+    "firstSeen": "2026-11-10T03:30:27.513Z"
+  },
+  {
+    "id": "274b52ba534f",
+    "title": "GTA 6 Preload: 212 GB, 9 Days on PS5 [2026]",
+    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5Mc1ZPbEg3TlBfbmNhOUdxazdEM2xWMk9ySHlJUWVrLUVwN1RJZ181RkZYckdoX3lyWUdCWnRuVjZJZEhsNXpfWjV0Z2NJSDdpYTNVbVhUZ3lhbGtkcVVtRThNRDZQMHNtY0t0cFpXaHhjbV9hSUE?oc=5",
+    "source": "shattered.io",
+    "kind": "news",
+    "publishedAt": "2026-11-10T00:53:49.000Z",
+    "firstSeen": "2026-11-10T03:30:27.513Z"
+  },
+  {
+    "id": "14d2f10764db",
+    "title": "GTA 6 CEO says AI will make creating games easier, but \"making a big hit\" will be as hard as ever",
+    "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-ceo-says-ai-will-make-creating-games-easier-but-making-a-big-hit-will-be-as-hard-as-ever-hit-creation-remains-the-purview-of-human-beings/",
+    "source": "GamesRadar+",
+    "kind": "news",
+    "publishedAt": "2026-11-10T00:48:38.000Z",
+    "firstSeen": "2026-11-10T03:30:27.513Z"
+  },
+  {
+    "id": "3e6935959918",
+    "title": "GTA 6 Festival Miami: Lottery Closes 4 p.m. ET [2026]",
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQZnF1TUpiSERIV2FFVmFUeUVyV0w0UFFOOEpwMTR4S2EycGlUV0hGVVUxVVNiQmtpT1d6SlNrTW54RnhKbEtzeVBkSkJMYW83bE1hMnJYeGgzQlpyaHEwMFhIel9QUkMtNnRQNi1GWnFqTzFWNzZJcUtNYjBRWWVwU3Vub0o4WFll?oc=5",
+    "source": "shattered.io",
+    "kind": "rumor",
+    "publishedAt": "2026-11-10T00:44:45.000Z",
+    "firstSeen": "2026-11-10T03:30:27.513Z"
+  },
+  {
+    "id": "5df85edecfe1",
+    "title": "GTA 6's PlayStation Store Data Hints at Multiplayer Support",
+    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNUDRkdXhzX25jSl9LY1JRbTdEclFNWEJCUUFLRVFrSTZwNGdJeWJWTmd1SXRhamFqUzR2VWMxQUFXc2loMlVNa1hLV0x1WE4tdTNPUFg5aGdxLXE0cW01cGdybUxzTWFXQ3doM3RySDNMVzE2TGtpUTZOaE0xWFhfUUp0aE54bmVHMVJBNEhJdXQ4cEhyaGwxRdIBngFBVV95cUxOQUlhek90OHNHWVB1bnQ4bDh0dmdkUkRMUlhRTHAybnJxUTdXV090d2tkb0ZjYmk3NVk2RWNhTndCUjFiTHEySTd1S3g4OFBkQzc1TGdSZ2NVNkswNm5aWmJKWU9Fcnk1akNxRFFETjdDMERTVnZ1YVJQR2phYTJqNVRGZkRhMXBDVzlSTldUZk5ZX1VNdTROektsNzIyQQ?oc=5",
+    "source": "TechPowerUp",
+    "kind": "news",
+    "publishedAt": "2026-11-10T00:40:28.000Z",
+    "firstSeen": "2026-11-10T03:30:27.513Z"
+  },
+  {
+    "id": "d5ca09b770c6",
+    "title": "GTA 6 is almost here and these gaming essentials can upgrade your setup",
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNVWRfRHZUYm4xWUpOZ3Q0RFlMX1JrOWljSGtkdWpYbjRnWUlNM1BTMEU4Z3ZPaW9ld2Q3VlVKUkJlZUg5eFQxMnFGQlBDaDlEeU1YSlhLNXVaZkpDejJrektnWWgzSl9pZHZaTWFmQkN6bUpwZDBIRjJyckxHUjFEeHhOd29OSUpNZjNOY0ZzcDlHUjVCZHB6UW5nNjRzVGw3MVQwX0VlSnp6VzV2NGk3V2hIa2haWWdaa0xZXw?oc=5",
+    "source": "USA Today",
+    "kind": "news",
+    "publishedAt": "2026-11-10T00:24:00.000Z",
+    "firstSeen": "2026-11-10T03:30:27.513Z"
+  },
+  {
+    "id": "d0a267c5c0ae",
+    "title": "Take-Two's $38.7 Billion Bet on GTA VI Launching in Ten Days",
+    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNZEV2X0M3V2Y2aWVmSHFMbTdWTURJUFZveG1zZXdqRmI5UkhKdmVEM3RIQjFNaFM3WGVlRVRhSDg1Q1dOX0NNaHg5YlRQQTliTVU5YlpvT3NraW1pY3o2a3g5Q2pGcEJPMm9RRWlXRUVUZ2FhVHFmSVJ3NlVjLUZIbDRKZjEwM0VMYUVJZGRwaUo3MlpXWHYyajdiN0pOS25YYzg4dDZuZlhPdXdkUEJvV2pyWjYxV3dQSmczWUxZYmZWWDg?oc=5",
+    "source": "24/7 Wall St.",
+    "kind": "news",
+    "publishedAt": "2026-11-10T00:11:27.000Z",
+    "firstSeen": "2026-11-10T03:30:27.513Z"
+  },
+  {
+    "id": "eb51beec4d44",
+    "title": "Take-Two Q2 2027: GTA VI Is the Whole Bet Now",
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOZ3Zsdk1MS1hUdmNPVm44NjVKUlVkSFI1WHRkRzB3Vy1US3dkX05nMWQzWU1wWWV1QzA1SFc0anNNdG9KaHFkLTBaWXRpZVoxVlNYZGlVZDRiTHF6Skc0RDMyTWZPeVJveUVPQjFaekpuQmFUMG1lRkR1Y2FBTEhrTmVySm91amYtdlZhLUpLSmx2SWRmZHF5OG5haWNEZw?oc=5",
+    "source": "24/7 Wall St.",
+    "kind": "news",
+    "publishedAt": "2026-11-10T00:11:27.000Z",
+    "firstSeen": "2026-11-10T03:30:27.513Z"
+  },
+  {
+    "id": "5eb3d155f348",
+    "title": "GTA 6 Not Downloading on PS5? How to Fix Your Pre-Load",
+    "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5YRmlYTjVLUjJYUHB2OVdzeVRpa0YzSXZ4LTJnX0RZdlA2QXVzdkpMTXdGWWpmam5PMmI2akV3UXBXLWFZcTYtRUlQTEcxeXFjM3lRZkNkcXdvWElIaUVYSlNMcm8wZnItWVNxV2VLMHV5aDhoc2pF?oc=5",
+    "source": "Cultured Vultures",
+    "kind": "news",
+    "publishedAt": "2026-11-10T00:05:06.000Z",
+    "firstSeen": "2026-11-10T03:30:27.513Z"
+  },
+  {
+    "id": "0782221e4a36",
+    "title": "There’s An IRL GTA 6 Live Event And You’ll Need To Win A Lottery To Get In",
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOUFc2S2x4TWZmS3pJY045V1BVNFhWckQ2aWFyTkJWU3VCWUw3eDllMUV1WTVoODViclRTTDByOXZQRVVUZ2RzTkxfSngyNzdPaUE2R1VmanctVG14NXZCM1MyWTRITUNhajloc29abGpoMEdETU1zZHlNaFUzYjI1eHVNR0gzcjZKaXB1bEVqdlNOZFV0U1hRSlREVDVhSDFwdG9reg?oc=5",
+    "source": "Kotaku",
+    "kind": "news",
+    "publishedAt": "2026-11-10T00:00:42.000Z",
+    "firstSeen": "2026-11-10T03:30:27.513Z"
+  },
+  {
+    "id": "7c24597161c2",
+    "title": "Before you preload GTA VI, make sure your XBOX has enough room",
+    "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPNXBNcm82QW1MME5sVjVhOUJlcFNyOWlyb3ozbk5PZjQ2ek5scDBaMThPc2RjdzNseDB1WEVHdjZveUxXWjZSVHluRDVaQ2xKV0VKQXhaZGRuZFpTcXR3ZHd1N2JsQ0c2Y2xuVkZpZEZReXo1V1g3RmwycU9ZVXBOc2dVbnllU1NuU2pqYVREVjItQTNRd2IycUZKN211cV9tWGFGWVBRd0Vkem1BRjBHZTdmd2VkRUozOGhLM21hS0RlRFNSeTR6NmR3Y3J6ZE1fMS02dnlkaWppR1U?oc=5",
+    "source": "Windows Central",
+    "kind": "news",
+    "publishedAt": "2026-11-10T00:00:00.000Z",
+    "firstSeen": "2026-11-10T03:30:27.513Z"
+  },
+  {
+    "id": "f9b0caf766fe",
+    "title": "GTA 7 Won’t Take as Long as GTA 6, Says Take-Two CEO",
+    "url": "https://insider-gaming.com/take-two-ceo-gta-7-development/",
+    "source": "Insider Gaming",
+    "kind": "news",
+    "publishedAt": "2026-11-09T23:54:12.000Z",
+    "summary": "It's been 13 years since GTA 5 released, and we're just now getting GTA 6. Take-Two's CEO says Grand Theft Auto 7 shouldn't take as long.",
+    "firstSeen": "2026-11-10T03:30:27.513Z"
+  },
+  {
+    "id": "b7f369234e34",
+    "title": "Selfridges' GTA 6 Pop-Up Includes a Drivable Supercar",
+    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOUDFfVnVNdDB5WDdlTGJ5VTBxSGNoVU1EWnJvRHAtVTN5dVNsTzVxTk96QWUxM3Z1dTRxS2dUMm9WMWJ1UVo0endRTXFldEd1NTUtUXU5Wkh6N3hrMHBuTVBlcU1uX1B1emZaZ2lhWlljU2xGcGQ1cEtjNXduemQwVk5ZQUQzNkd0MXlra3JnVXhIOTkwWGFQTg?oc=5",
+    "source": "Resell Calendar",
+    "kind": "news",
+    "publishedAt": "2026-11-09T23:46:40.000Z",
+    "firstSeen": "2026-11-10T03:30:27.513Z"
+  },
+  {
+    "id": "afcacd3b5c8e",
+    "title": "All the takeaways about GTA VI from the Take-Two earnings call | Strauss Zelnick",
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQSGNtdVlxUVpNTG1ma054SlUxMVNfcXNMNTRqYXNORmNzZGpuUktLYVZPdVAwc2FJeWpVNzR0TmxZaVdvWElhR1NLVDhiQUJtZDBkNnVxX3c0bV85TS1ORXE4allGWG9tYTdNamw4RExTTENTOHo0REpOb21GWHpSaTlrMXRLRXZXa3EzNGpPanBscF95SXlVZHZBTQ?oc=5",
+    "source": "GamesBeat",
+    "kind": "news",
+    "publishedAt": "2026-11-09T23:45:31.000Z",
+    "firstSeen": "2026-11-10T03:30:27.513Z"
+  },
+  {
+    "id": "8c6e36c4fbde",
+    "title": "GTA 6 drops Nov. 19 as preloads open Nov. 10: Five things to know about 'Grand Theft Auto'",
+    "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPWW13bHdLdkhqb1F6VjE1c3VPSTNFUWJiN3l4R2JwcFJFYXpYdm5BaDNFRmZFMHk4X3pNYXBGX0tpQVJ3cDBTOXVFU01lcTlwd0swMTF3eVhwZXFMTDVJSHFmSVJaZ19KelVJOGNIeDYxNUI0UVJ5aXo1MDEyZ0pIaHhpZE5PTEFQNVl0VVB4UG03WmRNYnJ3QUQ4cDZrV1NmTVhGeVo3SWhla0tNQzhVeGJ4LVpLNWE5cERMcU5URW1HTVBhdEJMTFRzRjhFc0pBS0E?oc=5",
+    "source": "Gulf News",
+    "kind": "rumor",
+    "publishedAt": "2026-11-09T23:44:28.000Z",
+    "firstSeen": "2026-11-10T03:30:27.513Z"
+  },
+  {
+    "id": "7fbd94665b16",
+    "title": "Take-Two lifts annual revenue, profit forecasts as 'GTA VI' launch nears",
+    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOVU1kNnl5WDJ3dmRVVTJEczM5UF9Lc0otMlB3YlRqWGtmYzNlZ0VtTlhJN1VWQjd5M2RNbVNlbnROS2JDajd2cjhISzBNRHVnc0d0MG8yT292SFJJb19RdEd5b0diUVVkLXIzWFFRbGhKZFNBRXJISGdLVzZpd0ExTWVza1BGSjV5TW9BY3VTa1huVXN4SGpTU3Q4M1ZVcDdMYVNv?oc=5",
+    "source": "Reuters",
+    "kind": "news",
+    "publishedAt": "2026-11-09T23:31:08.000Z",
+    "firstSeen": "2026-11-10T03:30:27.513Z"
+  },
+  {
+    "id": "6bdd485ee9a8",
+    "title": "GTA 6 Festival: Lineup, Date And How To Get Tickets",
+    "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPXzdTUkNPSnJRN1hhd185azRUYjJNc0JmRWdxb1lYNzNNTVQ4dVZ2WlhJSEZjZVFyMWdPZG1MWUpic3NLX3hUa2N4dUNoandoZ0R1bnVsWFBIY2FCNTRXUlRpVEpodTZpaUI4RjZpU2ZOQndkUDhETDV6ZHR1V1Q3OE5pdFZ6aU1hRF9ncEVKM1piZUNWdTRBbFlMeHlBR3lSbVhWd3hIYlNNSDZFQWRfWS1wQWxxOTNCQmtaSThsSXNZYjhvU3U5OHNfMXBLbmRyU0U1eUN3TlE2b19WcmRKUEtGdXBKRDhN?oc=5",
+    "source": "Forbes",
+    "kind": "news",
+    "publishedAt": "2026-11-09T23:22:44.000Z",
+    "firstSeen": "2026-11-10T03:30:27.513Z"
+  },
+  {
+    "id": "fa206ed59adb",
+    "title": "What Grand Theft Auto Games Should You Play Before GTA 6?",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQc0ZuUUNITWZCY1RWUzZFUWdoV2J5clBnUDFfY05FRzJVcE1YSk56OTJOR2M4QkFpdE1JZ3VwUXhsQ0g2V1RkUk5rSG5yaXU1akg5aTFhNmdYMGh5MU5fTXl6ZUF0cjhsd0VMd2ZLYmROb3A3WlBoOVQyN01JSUwwemRITnloT1JOaG1QM1FWUmF5ZUh6cUEwWXptcWxKNE9E?oc=5",
+    "source": "Man of Many",
+    "kind": "news",
+    "publishedAt": "2026-11-09T23:20:10.000Z",
+    "firstSeen": "2026-11-10T03:30:27.513Z"
+  },
+  {
+    "id": "6f9846b459dc",
+    "title": "Strauss Zelnick Officially Confirms that ‘Grand Theft Auto VI’ Has Gone Gold (During Today’s Earnings Call)",
+    "url": "https://www.reddit.com/r/GTA6/comments/1xs74kk/strauss_zelnick_officially_confirms_that_grand/",
+    "source": "r/GTA6",
+    "kind": "community",
+    "publishedAt": "2026-11-09T23:19:23.000Z",
+    "summary": "submitted by /u/yourfavchoom [link] [comments]",
+    "firstSeen": "2026-11-10T03:30:27.514Z"
+  },
+  {
+    "id": "4469fac659dc",
+    "title": "Take-Two 'Enhancing' Technical Defenses and Legal Activities to Combat GTA 6 AI Reverse-Engineering Threat",
+    "url": "https://www.ign.com/articles/take-two-enhancing-technical-defenses-and-legal-activities-to-combat-gta-6-ai-reverse-engineering-threat",
+    "source": "IGN",
+    "kind": "news",
+    "publishedAt": "2026-11-09T23:18:51.000Z",
+    "summary": "The boss of Rockstar parent company Take-Two has responded to the threat of AI-assisted reverse-engineering and decompilation of games ahead of the crucial launch of GTA 6.",
+    "firstSeen": "2026-11-10T03:30:27.513Z"
+  },
+  {
+    "id": "2ca364c73b63",
+    "title": "Take-Two Q2 FY2027 slides: mixed results, GTA VI pre-orders soar",
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOU0dZc1czMlkwUjlBUUh0cjRENENyYkJCZVRpQ290amtwaUdNRDgtMzV0TDJTVHhTTkhscVpHZXZQT3B3YTBtNnQ5d2FsZXF3MnN3Wk9DaXNuWE0wYTYyVGZLMldURUwzemdydzRMb1RHZG5zczI0dmtvemgxUkFncVV0WExhc0ViVDJOY21OQnJVd0Q0Z0h3Wm9PVVZMMzBoNlJSbGVrYWIwZlBYaDNBMjNwQ3FXWktS?oc=5",
+    "source": "Investing.com",
+    "kind": "news",
+    "publishedAt": "2026-11-09T23:16:27.000Z",
+    "firstSeen": "2026-11-10T03:30:27.513Z"
+  },
+  {
+    "id": "6185398ff0d9",
+    "title": "NBA 2K27 Missed Internal Sales Targets Due to GTA 6",
+    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQOVdUMkVyYjdJWVZUejlESUZYd01DcG1KM3poT2NESWhmQ2NQVmdTeXBreFF0N01PTTk1cmxac29uTUNFeWpqM0ZBVE5SX0MtTV9aYmJ3RTJOSjhyYng1Q2lLYndaaEtWdnpQRXRkZzA3M0E3amJTQUNjeEpQY1MxN2dIbTdHNFR5dExfWFFxeFE2a3c?oc=5",
+    "source": "GoNintendo",
+    "kind": "news",
+    "publishedAt": "2026-11-09T23:16:24.000Z",
+    "firstSeen": "2026-11-10T03:30:27.513Z"
+  },
+  {
+    "id": "59e3f348fcc7",
+    "title": "How to play 'GTA 6' a day before everyone else in the U.S.",
+    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9XZmFiZG1mdkpSc0xWNmxSdXZGUDZ0SG5HQm9iM0ZBbzRhWlFxUFU4OHhwRjlSZF9hLVh6QWt2MkZNVjNhNjhOT2dkR0N6U0laS3ZHWlAyNHMtM3FERWJSWkZVR0NNdlJ2N3BVel9ZajRjV1BY?oc=5",
+    "source": "Mashable",
+    "kind": "news",
+    "publishedAt": "2026-11-09T23:04:23.000Z",
+    "firstSeen": "2026-11-10T03:30:27.513Z"
+  },
+  {
+    "id": "bb88bd6b9670",
+    "title": "GTA VI has gone gold!!!",
+    "url": "https://www.reddit.com/r/GTA6/comments/1xs6oan/gta_vi_has_gone_gold/",
+    "source": "r/GTA6",
+    "kind": "community",
+    "publishedAt": "2026-11-09T23:01:08.000Z",
+    "summary": "Let's go and he also confirmed the no delays (obviously). submitted by /u/juicewrldfan4life999 [link] [comments]",
+    "firstSeen": "2026-11-10T03:30:27.514Z"
+  },
+  {
+    "id": "2799b4d2d726",
+    "title": "GTA 6 has gone gold!",
+    "url": "https://www.reddit.com/r/GTA6/comments/1xs6mde/gta_6_has_gone_gold/",
+    "source": "r/GTA6",
+    "kind": "community",
+    "publishedAt": "2026-11-09T22:59:17.000Z",
+    "firstSeen": "2026-11-10T03:30:27.514Z"
+  },
+  {
+    "id": "15ea86919bd1",
+    "title": "GTA VI Pre-Orders Far Exceed Expectations Days Ahead of Launch",
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNcUpENFFLbWVzMVBQMWR6bkJFWGV5VTJNX3lJWmJmQkFTWmY5VXUyRmdheDd0RE4zb21UbEg1X29WdmJZMkhoTFdHUUl5OTFpc0hQd2RpQWN3NW1LTXVuSHIxU29xY2tQa2ZxUTJJZ1BJMFNVNWotRk1DY3UzMWo1dUFqSXZYV0lubEtqa1dlaGxpdU5fU0dSTmw4TE01QdIBowFBVV95cUxNLW1neWlBTkxoZkFYbkVtUGxCcXgtdkl5eDdpa25JOXh0RW1jczllSzBNcE8wUTk5dHV2NUVRUmowakxJM0Q3Tm1NWDZXQ2lYbUVmM0RGdjNpTXdXRmREODR0dEhTX3VESmpiMzdYbHZxTHhObHlvb0RXVUhTTWRYbVNxaVRnd2ZQWVY5Nk1oazRJSjJ6NkhlWDR3czFnbUl3RWN3?oc=5",
+    "source": "TechPowerUp",
+    "kind": "news",
+    "publishedAt": "2026-11-09T22:57:59.000Z",
+    "firstSeen": "2026-11-10T03:30:27.513Z"
+  },
+  {
+    "id": "f8feb5a68062",
+    "title": "Rockstar's owner expected GTA 6 to be big, but not this big: \"The numbers will speak for themselves\"",
+    "url": "https://www.gamesradar.com/games/grand-theft-auto/rockstars-owner-expected-gta-6-to-be-big-but-not-this-big-we-know-that-the-numbers-will-speak-for-themselves-soon-enough/",
+    "source": "GamesRadar+",
+    "kind": "news",
+    "publishedAt": "2026-11-09T22:57:50.000Z",
+    "summary": "GTA 6 pre-orders are \"far above\" Take-Two's expectations",
+    "firstSeen": "2026-11-10T03:30:27.513Z"
+  },
+  {
+    "id": "174c8e323428",
+    "title": "Rockstar's owner expected GTA 6 to be big, but not this big: \"We know that the numbers will speak for themselves soon enough\"",
+    "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQd19WMVNiSi1ScnBlTG5pamZuRDNJV1RTdnNVUFBDZmtNczA5bm5fUVFHTVk0YVVJV2I3b0JwV190LTZZYlh4bnlUcGFvT0lxUFJqa25Pa21peFN6WjRBN1ZzOWNIRUdZWmtLVENlamx2dGt2SUZ2bDFZcTNsci1qSkNKQWpXQVU3QzBvdHdVamlyWXZkS0hoRE5iSHBtME5SczZHOVNMdUctNmd1akpoMEpnM1VrUjg3d1pxU1R2MnBySU82bEp1aDlwQjh6dWFPREhCSjVVZzFucmVpZEoyVVU4V29KMms2MDlnT1VsMG9fRlZRVEVCX1ZEcDJOeG9W?oc=5",
+    "source": "GamesRadar+",
+    "kind": "news",
+    "publishedAt": "2026-11-09T22:57:50.000Z",
+    "firstSeen": "2026-11-10T03:30:27.513Z"
+  },
+  {
+    "id": "328e108d736f",
+    "title": "GTA 6 Disc Release and PC Version Update Would Come From Rockstar, Take-Two CEO Says",
+    "url": "https://insider-gaming.com/gta-6-disc-and-pc-version-update-come-rockstar-take-two/",
+    "source": "Insider Gaming",
+    "kind": "news",
+    "publishedAt": "2026-11-09T22:56:06.000Z",
+    "summary": "Strauss Zelnick, the CEO of Take-Two Interactive, has confirmed where information about a GTA 6 disc and PC release will come from.",
+    "firstSeen": "2026-11-10T03:30:27.513Z"
+  },
+  {
+    "id": "531cb4db59e9",
+    "title": "As investors ask about GTA 6 and AI, Take-Two CEO once again puts faith in dev creativity, states making hit games \"remains the purview of human beings\"",
+    "url": "https://www.eurogamer.net/gta-6-ai-strauss-zelnick-earnings-call-purview",
+    "source": "Eurogamer",
+    "kind": "news",
+    "publishedAt": "2026-11-09T22:47:40.000Z",
+    "summary": "Today, as part of Take-Two Interactive Software's Q2 2027 earnings call, Strauss Zelnick fielded questions from investors after presenting the financial results of the company. One caller was concerned about AI - specifically about the proliferation of…",
+    "firstSeen": "2026-11-10T03:30:27.513Z"
+  },
+  {
+    "id": "00ee3648b14f",
+    "title": "GTA VI Game Data Suggests PSSR Update With 120 Hz Support and PS5 Pro \"High CPU Frequency Mode\"",
+    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPUVVyVTJoaXI4STk0RFRtNEVWUDhYamc4d1pDSGtHNmpyMXlSSWRNMmM0bDhDVTBCYXFheXFZcGdvTUs3eGc0dEtadjh4eGZRWlppT2RXcGVsM1lFLWwwWjlQcTAwb1M1V3dZQ1UyOXFNN3l5T1JCYWVnM2RGa1VxbzJZdTFtMGljclNHbGUyMnVYMlBJMVYtNkpqSlEyalk3WDVNN1N6LWJtZ05HSmhjb2NlNHJ0SmFUeFNUX3h3TDQzQms5YUxB0gHMAUFVX3lxTE12a3lDU3JINzRWNzdUZmxpdE1ZVExIdkJuQ3ZITzRobjVnMGhKclg5dldkWU9SMFFTVGR3d0dzaDJBME5CNGJZYlloNmFleUhWdHpWYnRQZGNwWlVYcUs5VVEyNERobTVKODFoMlRHell3MVJFSzEwVzI4Q0dCcXZWU212RzRBa3lRZHF4U1BKYzNhSVJrYXVVX0NuTHlFN1VEVXA4azVrT3hFa1lEcEI1SmotNU9IM0cybXJaWXdROW5CdlBVTWxSY0RKeA?oc=5",
+    "source": "TechPowerUp",
+    "kind": "news",
+    "publishedAt": "2026-11-09T22:35:10.000Z",
+    "firstSeen": "2026-11-10T03:30:27.513Z"
+  },
+  {
+    "id": "1ab278e58c19",
+    "title": "Take-Two’s CEO: “Rockstar has completed the development of GTA VI.”",
+    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQNUdRSjVWOG1oX1F6c19vN2V1UUJyeHBKQ2dmdDhGZV8wQ2hWeHFtNmVWclBWWkRvUFJGc3N6ZnNILV9pOEdaSTRkOGFUXzFZUlROVjNpZ090Z1drZ3BUc19VTjRsV3NCcUZIRTB1TTcwaXIwTnNkWEUzNi1qUFZfdE1oVWJlaFhQT09GTW1tdDJuMmlqazJWTXJhc1RuOHdJR2RZ?oc=5",
+    "source": "The Verge",
+    "kind": "news",
+    "publishedAt": "2026-11-09T22:32:12.000Z",
+    "firstSeen": "2026-11-10T03:30:27.513Z"
+  },
+  {
+    "id": "e9f50c7664c9",
+    "title": "Take-Two says GTA VI pre-orders are at \"unprecedented levels\" as NBA 2K27 falls short",
+    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNWFE1RkdUalN2VmZOMjEyOXliM2Y4MFRUa1BNbnVkektXTUxsWWtxeHEwSDlnNlF4X043RlI5OUowRGRBS3JVS296NlVZLWUySUZHMzZERHBSY0NHSWVnVGVzelFnT0N3RkdKdElvODlWS1R1NUh5amJ4SkNmak10bGpwS3EwYVZSZzdSLTBmVGFTVGhzRkhoa0xWaFBMTDNBTjI5TEJyVTB3WWtqaHdiUllNc29WRkUtUF9fQlVtY1o4N0VC?oc=5",
+    "source": "Inven Global",
+    "kind": "news",
+    "publishedAt": "2026-11-09T22:30:21.000Z",
+    "firstSeen": "2026-11-10T03:30:27.513Z"
+  },
+  {
+    "id": "f2019b5d9516",
+    "title": "GTA 6 Pre-Orders Outperform Even Take-Two's Expectations, GTA 5 Just Keeps on Selling",
+    "url": "https://www.pushsquare.com/news/2026/11/gta-6-pre-orders-outperform-even-take-twos-expectations-gta-5-just-keeps-on-selling",
+    "source": "Push Square",
+    "kind": "news",
+    "publishedAt": "2026-11-09T22:30:00.000Z",
+    "summary": "GTA 5 now at 235 million sales. We won't know how well GTA 6 is selling during its pre-order phase until after the game's launch next week, but with the biggest entertainment release of all time projected and now Take-Two CEO Strauss Zelnick talking up the…",
+    "firstSeen": "2026-11-10T03:30:27.513Z"
+  },
+  {
+    "id": "3b046b9af66f",
+    "title": "NBA 2K27 Missed Sales Expectations Due to GTA 6",
+    "url": "https://insider-gaming.com/nba-2k27-missed-sales-expectations/",
+    "source": "Insider Gaming",
+    "kind": "news",
+    "publishedAt": "2026-11-09T22:26:26.000Z",
+    "summary": "Though it still sold well compared to previous entries, NBA 2K27 didn't hit sales expectations, and GTA 6 could be the reason why.",
+    "firstSeen": "2026-11-10T03:30:27.513Z"
+  },
+  {
+    "id": "98f320907a1f",
+    "title": "NBA 2K27 Sold Less Than Expected Because Of… GTA 6",
+    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxONC0zT3RreWpOZ1BYN3pyNDdxNXdRdUR4N2Q3dHBFdVRCaEdobF9pZjUxd0t2Vmg1cWlGNDhlWmVFazlBdmtzck9QTFkzbnVkU1piTWpPN0VOLUFmRS1vSWVYSmlNMncta1pZTEp5bDEySndjcThUVnAyRjdNWTJWbzItU0M5dw?oc=5",
+    "source": "Kotaku",
+    "kind": "news",
+    "publishedAt": "2026-11-09T22:17:50.000Z",
+    "firstSeen": "2026-11-10T03:30:27.513Z"
+  },
+  {
+    "id": "7b51099dc824",
+    "title": "GTA VI Launches in 10 Days, and Take-Two's Forecast Might Be Too Low. Is the Stock a Buy Before Nov. 19?",
+    "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxORkYxTGxaN3h0Nk0zTHhKSWd4b1l1LUJ2TldtY3hyZDhfcnRPU1BNejBaRTlyUFpDZEtsOThDaWdnOE1EdEQzaHZLbV8wQ3lKWUVHTUVCaEx3ZjJFa1VIODJYNkFsMGgzVFZIZWdHT0VwYkxpYWpaTFNtd3FIekxoQ3o5dmZJYjhfMkdVM3lHMU5Qd2FkbDBhNWdadVB1dERnQVlpdjdjT1h0NFBWWlNKTFhxSjVFUWw4VldYVG0wMDBpU09Ca0hET1lJajQ4TjQzYmNSVENVUExlRG8?oc=5",
+    "source": "The Motley Fool",
+    "kind": "news",
+    "publishedAt": "2026-11-09T22:17:00.000Z",
+    "firstSeen": "2026-11-10T03:30:27.513Z"
+  },
+  {
+    "id": "74b8cb7a3053",
+    "title": "Travis Scott, Cardi B And Justice Turn ‘Grand Theft Auto VI’ Into A Miami Music Festival",
+    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxObVgtSDgwcGlWTGsxbkI2a2xKU1pNTkp6eVE2Yl9lRVZraUs2SzVpR3BBWFVoamN3NlVEdzZMazh1dW5NVHJWUVBiRzBRU2doc084VGhjbVpHNkRxTmJ1YnZrYUpaNnh1RW5ienhzaWtVQ3hJOWxuQUJBZ1pzcVhyb0ZHMS0xbVpvaDNBc0dCQWtBazlrX1BvclM1dE0xT183dENFYmVhZVFkRmotWFlCclBQUjN4ckRERUZZUERCV04zYzFxekE?oc=5",
+    "source": "That Eric Alper",
+    "kind": "news",
+    "publishedAt": "2026-11-09T22:12:44.000Z",
+    "firstSeen": "2026-11-10T03:30:27.513Z"
+  },
+  {
+    "id": "1de600ee7efc",
+    "title": "Take-Two Stock Climbs on Q3 Results, 'GTA 6' Update: 'Unprecedented Levels' of Preorders to Power 'Historic Year'",
+    "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQX1ByZUdOOS1YLTVFTVp5TERwY2pwT013MHRPenNGcUhUTXo3YXpGeHNzZk9SdEY4SnJ4X3ZEdjFyVktsNHV3aTFhN2V5eDhmQnkyU0ZPbmE5ZUpjQ3ptemI0VlFXRVd0bnNZcGVqS2dzWl95WE1lTDlINTdwSXhuaGZwSVFibHRITkRBRXRTT1h6Sk5WeGZUb0M1bTE1elEzT2tUTmRxalRxU0tPLUVrbnNlSlljcFBpcXMzdFpvcnZZeGhQWEp3SUZ2dURBVmxaMlJtdVludXBYcEhVeF9uWmY2WG1mZGV6Mi1lVTZCeDB6ZTl0?oc=5",
+    "source": "Benzinga",
+    "kind": "news",
+    "publishedAt": "2026-11-09T22:10:56.000Z",
+    "firstSeen": "2026-11-10T03:30:27.513Z"
+  },
+  {
+    "id": "a6ba5420cb9e",
+    "title": "Grand Theft Auto VI on PlayStation 5 Pro will receive the updated PSSR 2.60 upscaling.",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPYlRRVkJDZ05hNmZLaF84VkdtRVE0a2pwbGxhek5faGVzdHlScTZNSEtGSm1VRnJNem9yRnU3UUt0Q3RGS1JnYldpdERwbUJHcWctbzJ3bXh4N2thZC1KZGpkUWtiY19kbUFreUhSWHRpSkNwNEJTZk5OeW5IS1pBdkNRNF9xNXZNMDZ6RjNWdGcxaTJoQ2pUek9kdEtZRExXMVNxTkc2YUVHRHB1dVBnd282cTM4Zw?oc=5",
+    "source": "GameGPU",
+    "kind": "news",
+    "publishedAt": "2026-11-09T22:06:50.000Z",
+    "firstSeen": "2026-11-10T03:30:27.513Z"
+  },
+  {
+    "id": "a3c0b599a4da",
+    "title": "GTA VI awareness and participation is very strong indeed | Strauss Zelnick exclusive interview",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQWG45N1ZTNkdHeHVBVkRmQ3BNdElYZFl6LUVmSUllQ3Z1NFBOWnA5VGhKZGppQVZFc3p6ZGZxc2REenhIRWo3ZF9rR1U0cjEwT1lYRVpleUR0bGpEWF9QRG5WRVR4R3l4MHFFeTV3Mk50b0N0N2I1a3VLN091eW9zSWFBeTM3Z2Ntb2JHSUNmWkI2dkVtaEk2S0F2cmZaX1JQeEZkeUJyUXpqay1HZGllRk1TVF8xUQ?oc=5",
+    "source": "GamesBeat",
+    "kind": "news",
+    "publishedAt": "2026-11-09T22:04:39.000Z",
+    "firstSeen": "2026-11-10T03:30:27.513Z"
+  },
+  {
+    "id": "fcc533697fed",
+    "title": "GTA 6 pre-orders are tracking \"well above expectations\" and the game will \"set a new baseline\" for Take-Two, says CEO Strauss Zelnick",
+    "url": "https://www.eurogamer.net/gta-6-preorders-tracking-take-two-earnings-call",
+    "source": "Eurogamer",
+    "kind": "news",
+    "publishedAt": "2026-11-09T22:02:50.000Z",
+    "summary": "Today, as part of Take-Two Interactive Software's Q2 2027 earnings call, Strauss Zelnick noted that pre-orders for Grand Theft Auto 6 are tracking \"far above expectations\", and is certain that soon \"numbers will speak for themselves\" when it comes to the game.",
+    "firstSeen": "2026-11-10T03:30:27.513Z"
+  },
+  {
+    "id": "188df2f882cc",
+    "title": "Here's a List of Movies to Watch Before GTA 6, Including Some Classics That You Can Go See in Theaters This Week",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOekZwZFlKRWc5TmtKSi1LcGhGOXNBd2Z3MEZLbW9YYlptY1p6ckxuQm0zQzZ6em5WYTNNNEVxTmVNV1Jxcl94ZlhQRkVXVHRaczdIZTN6OHZVeW1rQ3dzVnNXNkhVeGFiMUZwYUlERlBOUzRCS1hrUElObHNIZEpHRGJQNWl5QkYwRmVLWVpHOXpsSThUOEVpVmFjTHNSQldsMDgxNm92RDFJQ2tXN3ZTM2dB?oc=5",
+    "source": "IGN",
+    "kind": "news",
+    "publishedAt": "2026-11-09T21:57:29.000Z",
+    "firstSeen": "2026-11-10T03:30:27.513Z"
+  },
+  {
+    "id": "a4be07a0d71a",
+    "title": "Here Are Some Movies to Watch Before GTA 6 (Including Some You Can Watch in Theaters)",
+    "url": "https://www.ign.com/articles/here-are-some-movies-to-watch-before-gta-6-including-some-you-can-watch-in-theaters",
+    "source": "IGN",
+    "kind": "news",
+    "publishedAt": "2026-11-09T21:57:28.000Z",
+    "summary": "We've compiled a list of movies to watch before GTA 6, including some classics that will be shown at Regal Cinemas over the course of the next week.",
+    "firstSeen": "2026-11-10T03:30:27.513Z"
+  },
+  {
+    "id": "a9838c5cf1cf",
+    "title": "GTA 6 Preloads Nov. 10: $79.99, No Disc Included [2026]",
+    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNNFZlNXJpN3ZUNWhVRTlsSzdFYlY1UWtIQW9KajZHdm01c3h6eDVmYmtfX1dSamc4blk2R3RUcEJ6aU9wamJXNTgwMFRJNmlZRDVQTHlScFl3LUVWclZFQkdNNENrUk05LTB3a0RRcUdocUdweXNQc2dyai04b0VrX2swTHQxMkJHZDFv?oc=5",
+    "source": "shattered.io",
+    "kind": "rumor",
+    "publishedAt": "2026-11-09T21:57:09.000Z",
+    "firstSeen": "2026-11-10T03:30:27.513Z"
+  },
+  {
+    "id": "dd037a7cda72",
+    "title": "Rockstar Games and West Coast Customs Created a Real Car from GTA 6 And Are Selling it For $1.3 Million",
+    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOanZJakxaVFZoMmRrZUcxMDlHU1BLRjdPaE5wWVhqSXRjb052eUdPc3pjTGVCS25ZWGxON0Y2R2xRRVV0RmlEdDV1UnJhZ1FiWUZITW5DV0pDNTdvTDY5ZFJqcElHRHVza0J3LXc3UmFGalduaEczZjlCNmJodExRVGxHNFdlZw?oc=5",
+    "source": "IGN",
+    "kind": "news",
+    "publishedAt": "2026-11-09T21:53:42.000Z",
+    "firstSeen": "2026-11-10T03:30:27.513Z"
+  },
+  {
+    "id": "be551da69427",
+    "title": "A Real Life GTA 6 Car Is Being Sold for $1.3 Million",
+    "url": "https://www.ign.com/articles/a-real-life-gta-6-car-is-being-sold-for-13-million",
+    "source": "IGN",
+    "kind": "news",
+    "publishedAt": "2026-11-09T21:53:41.000Z",
+    "summary": "Rockstar Games and West Coast Customs teamed up to build real versions of GTA 6's cars... and you can buy one of them if you have $1.3 million lying around.",
+    "firstSeen": "2026-11-10T03:30:27.513Z"
+  },
+  {
+    "id": "97231550a1ab",
+    "title": "Take-Two lifts annual revenue, profit forecasts ahead of \"GTA VI\" launch",
+    "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxONURaNXhvTkJpWjZka0hKZWV5R2FnMm0ydGhlUk5QWlY5RFdwMC1xakxVS1BHRVktX1R5dmNwdDUyanVZd1NRZEQzQXhsbEhNTTRVWDd5am8zbGlyR0xpUGRrNlFPcFZudm1GYzFUWnZEdVFLeDdkeEdTWmdwTmRoOFV5OXRUdUYyNGVFWExmcnZ0N01xd2txcmhkcXFmOGhBbENrQWpZSTJWZE9Wc1NzeWxjMFhUZW5TWm1tOEtHOXZ0WVE1Tk0yMXFQVk9qLXd3Y3otblhxSHBhY0xuSVF2dnJ3d2plemU2UWduNXlCRHp2YThMekxMUTdpeVFQQQ?oc=5",
+    "source": "The Lufkin Daily News",
+    "kind": "news",
+    "publishedAt": "2026-11-09T21:53:24.000Z",
+    "firstSeen": "2026-11-10T03:30:27.513Z"
+  },
+  {
+    "id": "a49a80125934",
+    "title": "GTA 6 Pre-Orders Are Coming In ‘Far In Excess’ Of What Take-Two Expected, Says CEO",
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOMFNWS3dzZGhQV08xNVRENGE0WE9fbThwZ1hTTlpKRmtTdlp1QVBHb3FVZk1Ib05VMjNnNndpZnhJcVhkOXVBbzlzUnB5Q29mZWo3b2FJR1lYOU9LUHMzakNFYkJRR2t5NnBmNU9pUTlUVFVEanpjclFnQXAzUzBLN1dmT1V3OTJZMEZ2Uzl6Z05Ha180ZV93SjJBbUMyb0d1X2FNZTZraFpMd0NWLVE?oc=5",
+    "source": "Kotaku",
+    "kind": "news",
+    "publishedAt": "2026-11-09T21:49:41.000Z",
+    "firstSeen": "2026-11-10T03:30:27.513Z"
+  },
+  {
+    "id": "78125b7563d0",
+    "title": "Rockstar and PlayStation announce GTA VI: The Festival in Miami with Travis Scott and Cardi B",
+    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPd3hzUEZ6aTNaWTBCYmtjd0JzZ1VzVkt1bmY1VFkxd29Fb09SY1JTSDA4cnVqdjQ0UFp4Yi16RDdlb2JqS3BzUTdQWFBDbmRWU3U1RnBYSklSeHRoZDVzdnE2M2IwVjN3UVFtUk9ua3pIWG9zbkdVMkZPNU10WjF5TWxBam93UEx6d2twdlRKVGJFNXBLNy0wZW5HT2FRVXVIZkxoTE5GZFZjdVFTZnItMEc5NklUQm9wSUs3MVZTYW5HWWRDbk5qTjc5RnAzbmo3?oc=5",
+    "source": "Inven Global",
+    "kind": "news",
+    "publishedAt": "2026-11-09T21:49:14.000Z",
+    "firstSeen": "2026-11-10T03:30:27.513Z"
+  },
+  {
+    "id": "d5daf4761427",
+    "title": "Grand Theft Auto VI Festival to Feature Cardi B, Travis Scott, Don Tolliver, and More",
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPT1o0ZGtibjBkeVRVYlQ2XzdnTlEzdFhvNHQ3c1ZRRlBxNzVkbTlHeVRhNWtUc1hZbUtraE1Vc2hULVY1LWlySE5ZcE8ybFRRZndCc3UyYmhBV2t2QTRrcEZqN2VtcU5XSk05Tzd2cjc0cUIzZXVYWkxVSExqeFRTYlhiY1JNRkU?oc=5",
+    "source": "Digital Music News",
+    "kind": "news",
+    "publishedAt": "2026-11-09T21:43:14.000Z",
+    "firstSeen": "2026-11-10T03:30:27.513Z"
+  },
+  {
+    "id": "4a303c43f823",
+    "title": "GTA 6 Caused Some Gamers to Hold Off on Buying New Games",
+    "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPYzBrZWV0d3FzelA5bkppcjJMQW5Fb3I1MFdXM3IyXzBuclZfc25DZTlJTEQ2c1NkS1JEeWhDdWVNSkJKTlNWcm4wbnFEdlc3OEUwSWtUQkNUbHM3V3MzZ1lUSXNwZUJxU3lQOXp0ZllpZElMam5Mc1dEclBpNmdxRmpMc2JSV0EzOWgyb2dMNE5kUVNqZy1PbXBmaVplUVl0bUpFTmlwS1hrRDVYY0JUWEthTVUtQ3MtVERYZGphZ3pldHFUZHZPdzJlSkk0RElQT0dxMzV3?oc=5",
+    "source": "IGN",
+    "kind": "news",
+    "publishedAt": "2026-11-09T21:42:47.000Z",
+    "firstSeen": "2026-11-10T03:30:27.513Z"
+  },
+  {
+    "id": "596be62372c3",
+    "title": "GTA 6 Presales Are “Far In Excess” of Take-Two Expectations",
+    "url": "https://insider-gaming.com/gta-6-presales-far-in-excess-take-two-expectations/",
+    "source": "Insider Gaming",
+    "kind": "news",
+    "publishedAt": "2026-11-09T21:42:34.000Z",
+    "summary": "Take-Two Interactive Strauss Zelnick says that presales of GTA 6 are \"far in excess\" of what the company expected ahead of launch.",
+    "firstSeen": "2026-11-10T03:30:27.513Z"
+  },
+  {
+    "id": "8c806369fda0",
+    "title": "GTA 6 Caused Some Gamers to Hold Off on Buying New Games — Including Take-Two's Own NBA 2K27, Strauss Zelnick Says",
+    "url": "https://www.ign.com/articles/gta-6-caused-some-gamers-to-hold-off-on-buying-new-games-including-take-twos-own-nba-2k27-strauss-zelnick-says",
+    "source": "IGN",
+    "kind": "news",
+    "publishedAt": "2026-11-09T21:41:41.000Z",
+    "summary": "The behemoth that is GTA 6 looms large over the video game industry, and it’s so big that it not only caused the September crush of releases, but caused some gamers to hold off on buying new games entirely.",
+    "firstSeen": "2026-11-10T03:30:27.513Z"
+  },
+  {
+    "id": "2f2c0666a681",
+    "title": "Take-Two Forecast Disappoints as CEO Calls GTA VI ’Uncharted Territory’",
+    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5STjZmSGdRcmsyLVZ6YzNZd0tGYXk1M21VMTZrRWxuMG1YZVpRNlljV3VtbTU0UWFpVmVzVnZ6WkpXWTYyY3RfVHZ3Q1BjN0NOZlVyaGpnU1FGbWh6TnpCTWo5b0ZBRGlRS21tUkNOdUJWOWcyb1o3SVRYaw?oc=5",
+    "source": "Barron's",
+    "kind": "news",
+    "publishedAt": "2026-11-09T21:41:00.000Z",
+    "firstSeen": "2026-11-10T03:30:27.513Z"
+  },
+  {
+    "id": "9fc28eae2d35",
+    "title": "GTA 6 release date: Is there early access? The soonest anyone can play.",
+    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNVnJpQWpzVDc0ZWo5eU9Yb0x3d2RxSThNRVViVzdnY0p5V1h1ZVp4WThNWEZtV3lVbXBtOUYzdFl5Q2pzSzQyYlVKVXZTS1lMWUd1RzhCWkpmc0RNRzZkcHVuRF9VUEJuWWJYVEptVmJTdy1lYk85c1BNTXBjS3YtMkdRTQ?oc=5",
+    "source": "Mashable",
+    "kind": "news",
+    "publishedAt": "2026-11-09T21:39:35.000Z",
+    "firstSeen": "2026-11-10T03:30:27.513Z"
+  },
+  {
+    "id": "5a06ad5eeb21",
+    "title": "Take-Two Says GTA 6 Preorders Blow Past Forecasts as Launch Nears",
+    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE93STcyRDdRS3d3a3JGQS0xdldoWlBjYm5EcEVURHFla3NhUFlSaUZMRVlOcEQ3UXZpVVQtRGMzT3JXNEJ5MUVXamtaWExteDV0ak1FX3pWZUljZUVYOWlmMnoxYlNEeE9vejBYTHJhTWpCeTMyZGc?oc=5",
+    "source": "BigGo Finance",
+    "kind": "news",
+    "publishedAt": "2026-11-09T21:35:00.000Z",
+    "firstSeen": "2026-11-10T03:30:27.513Z"
+  },
+  {
+    "id": "5414125fcda1",
+    "title": "Rockstar Will Support GTA Online Well After GTA 6 Comes Out",
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPRS1UZmZXTFVrOXp0U1JpVktCWnJLbnhMUzM5bGVWS1Joay1mOHBRaGROS1FtS0lKWUpvbl9ubFpzZWkwTWNWczJkakY0SzJyckRJTTZ2M3ZMZXNFU25tNFhRZ0Y4TU9xNVRqT29VT3FBVUxOWFREeExxUmd0RDZIVFRqRmZ1cE9neW8tcmU4MA?oc=5",
+    "source": "RockstarINTEL",
+    "kind": "news",
+    "publishedAt": "2026-11-09T21:34:37.000Z",
+    "firstSeen": "2026-11-10T03:30:27.513Z"
+  },
+  {
+    "id": "44ccab38e4cf",
+    "title": "Take-Two Interactive Software Reports Lower Revenue Ahead of ‘GTA VI’ Launch",
+    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPdDJtVUNEcUxFRVJvR3M0TkEyS2ZtWjBORW5HNVN6czEtZ0ZDbEdCWlJvNmtqWFhlbXhYOENJZUFMLVNMdFVzaklna29sVWEzRmZLQUNpSmZNWkJyc0pFdk5fQ05ELTdfaG5NSlVVZ01UeGJDWEV0QVVTdDUwQmJVOUFIOWs5LWZzNjN2Y0lUbUlSMXF0bVFzU2xJOWNibmloaHNNM0VET1AyRThVRlZaeXcwR0RlV2J6QUM3eFFB?oc=5",
+    "source": "WSJ",
+    "kind": "news",
+    "publishedAt": "2026-11-09T21:31:00.000Z",
+    "firstSeen": "2026-11-10T03:30:27.513Z"
+  },
+  {
+    "id": "665284193aaf",
+    "title": "GTA 6 Pre-Order Numbers Are \"Unprecedented\" Says Take-Two",
+    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNenZuYXpsTHd6RVJkeTlaQUNoNUpSd3lwcGd0bGdhVmxTMnE1a1JKeVpxMGl2Tm4xOUs2d2Z2OHJsMmtEZWRPeGU1ZW1aUGNYT1dCTktxZDJ6WmVrLW1IZ21Lbk95ZWNfWHZON1FvSTVIRUM0OWJPTWtsOXgzVTJHbHFSclMxOWg5S2c?oc=5",
+    "source": "RockstarINTEL",
+    "kind": "news",
+    "publishedAt": "2026-11-09T21:27:25.000Z",
+    "firstSeen": "2026-11-10T03:30:27.513Z"
+  },
+  {
+    "id": "4099e6fa9611",
+    "title": "GTA 6 pre-order latest officially revealed by Take-Two Interactive",
+    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE81Sjc5NFV2OTAxRFlUN0Z4NE1QeXV3RjU2b1JXZVFwS1Z3QTNqOHhWY0d2WEVWWURiOHdubkNWUlJIYnFvZE9iOUZjajZ4UnQ5ZHJhNmgzR2dBU0ZabFdEamNURG5ZQjdib21GXw?oc=5",
+    "source": "Indy100",
+    "kind": "news",
+    "publishedAt": "2026-11-09T21:26:32.000Z",
+    "firstSeen": "2026-11-10T03:30:27.513Z"
+  },
+  {
+    "id": "880bccdbcae3",
+    "title": "Take-Two says preorders for GTA 6 are at 'unprecedented' levels",
+    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQVlNtbkppTWpEYXp3dnBncFBLd2pVUDdmeVRKOEE4VXNDYm5KRDVQV3ZoQVN3WDRmSkFVbzBUdVpxMkNTbG9GaFNpLXRRX2tiLUZVY0lKcGRlaTYwY0FOX01JM3BaRTRUa0tMWWZBb0xYZW1TRHBRYU9QdGwyczB5b200c3JuMGQwbVF5SHFpejNsb2dobzZPTDZjSlhQNlpqaFZ3LVQ3YnRwRlRXVDlfMHUzT1o3Tl9SZ3pOT19SeXFzdw?oc=5",
+    "source": "TradingView",
+    "kind": "rumor",
+    "publishedAt": "2026-11-09T21:24:19.000Z",
+    "firstSeen": "2026-11-10T03:30:27.513Z"
+  },
+  {
+    "id": "4eb5490e48c8",
+    "title": "Take-Two says preorders for GTA 6 are at 'unprecedented' levels (TTWO:NASDAQ)",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOdkUzQ082TGZLLUM0UndaMUVmNGFhZ2wxUWdXWGdtUlVLVlpfbTVQY3hVSF9oYllqOVN1U1o3c0liZU9pU1YzTTZnMV8tYkp2TGlXemVHWFdEZ1hRTk1TeEtHdGNObFkwWEFxUnhDenh4c3M3T0M0UTlwRWtUeEZNM2ZVeFlIN1gxblhjOUZJS0ZCUFhjNUFsV3htaF9JdHlj?oc=5",
+    "source": "Seeking Alpha",
+    "kind": "news",
+    "publishedAt": "2026-11-09T21:24:00.000Z",
+    "firstSeen": "2026-11-10T03:30:27.513Z"
+  },
+  {
+    "id": "7d440e2c2c4a",
+    "title": "Take-Two Q2 net bookings fall 18% to $1.6bn as NBA 2K27 misses forecast but GTA 6 pre-orders are \"tracking far in excess\" of expectations",
+    "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOZ19IQnJEVVdWUW9INHE4UDc5R19EdWJKd0xkQy16dkFwNW1CY3pzbkFSU1IyMlRpY2tqdTNoaW5CZG9NZFh5SDhtR2R0UTBLY20tcVQxcDZibG5ISldwRHNYczhFTHFLTHFQWTZOZEFrMHE4R21fTzc0YXFaelNhbnA0WkduSzk0MFY5SlN4dHBxN29GbVFncFk0eXBqdkVDLUlsanU0ZkVZUVVDUEVyLThKRFZPTjVCcjZsMUZyTXMxTldDbWRpdTRTdmVqVDdLV3Z0U1kycDJGczBfTHVVcjFmV3BQNXJDRnVMcTVBX0t4dU1x?oc=5",
+    "source": "GamesIndustry.biz",
+    "kind": "news",
+    "publishedAt": "2026-11-09T21:22:20.000Z",
+    "firstSeen": "2026-11-10T03:30:27.513Z"
+  },
+  {
+    "id": "f870c3260068",
+    "title": "‘Grand Theft Auto VI’ Appears to Spoof Luxury Brands Including Chrome Hearts, Gucci, and More",
+    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1pel82bWMtLVJBWWhJLUtpSW8yQmNPYUhRaUluVlFqd2FKUHpEdzB6aUMzaUpLVzlyc01TVERGX0NCVjZRcmk2bWhhWUhhNGxtTC1hNjJ6NzlYMWFBMWRXT3EzZzc3R0pvNDMzcUZ5a0ZhZkRaVGFPNFIyaG83dw?oc=5",
+    "source": "Complex",
+    "kind": "news",
+    "publishedAt": "2026-11-09T21:17:44.000Z",
+    "firstSeen": "2026-11-10T03:30:27.513Z"
+  },
+  {
+    "id": "f6278fadd5c6",
+    "title": "How to Pre-load ‘Grand Theft Auto VI’ on Xbox without Pre-ordering the Game",
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQZUxzMWZFRTJIZlgyVHFVT3MyaXpEenhKRkxGaDl2N3pJdzNQSG5YYzlmYkMwVkEyM2NDWVNQVHBvSlhsV0hXMEdfNks2cFdtVkFGSzUzYm1wcVVxSEpiZm5BNzdNeXZYSFl1ZHdYSkYwWnNUNnhUQ242NzhCMkk2M0hNYmFjZDczWS1SUGNqY2F1ekNncWdPeDgwSFJMaThJRXpMVEZITl8?oc=5",
+    "source": "PlayDayOne",
+    "kind": "news",
+    "publishedAt": "2026-11-09T21:17:35.000Z",
+    "firstSeen": "2026-11-10T03:30:27.513Z"
+  },
+  {
+    "id": "e4e4724ba61c",
+    "title": "'It's Not Going to Be Delayed Again' — Strauss Zelnick on GTA 6 Expectations, GTA Online, and the Next 10 Years",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQOVhrRUhQbmlRbGY5OEItTzhpbmNicjJDSmEwTm9CZUJWcEZucTdjZmVRTTZKc0k4VENVRS1veU85enkyZ3JZYTliZ1NSQW5Jb3lZNkpMdHV0dlphNk9IXzdrVnNvY1N5YnBQOVRseGhJQ3otRHJKbmlDRy1hSktIdWJjWUFjVWQyMzA5UkVXZWNtVV9RRnZ3QXVwQWd0ZFhZdmJUUHV5ZnlPVloyT2NxU2xaZm8?oc=5",
+    "source": "IGN",
+    "kind": "news",
+    "publishedAt": "2026-11-09T21:17:02.000Z",
+    "firstSeen": "2026-11-10T03:30:27.513Z"
+  },
+  {
+    "id": "cdb51da45316",
+    "title": "Take-Two Holds $8B+ Bookings Target as GTA VI Launch Approaches",
+    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOU3RxZENiZ3V4RWVNNEhpcjNrZjhzQWVyLUQ3LUpHT3BqSE5KWXN3QTNCc3BwcWFDWExqb0NUeUJJMFoxU1JsZThzS05CVEFIbkl1bDREamtHSFE3N2FHZWgxdEp5bVpWbk9udnl6ejM5V2dHM3J5VmVOZl9oYXJzRjV6QjZXTXZaVTIydHVCTnl6SzJwb1QyNWVTVDVBaWh0d1J5c1FFWUFRRl9wdThMMktSUDVGZXFGSFl2SHVTd01Wc1dn?oc=5",
+    "source": "24/7 Wall St.",
+    "kind": "news",
+    "publishedAt": "2026-11-09T21:16:27.000Z",
+    "firstSeen": "2026-11-10T03:30:27.513Z"
+  },
+  {
+    "id": "d43301e044ed",
+    "title": "Take-Two Boss Strauss Zelnick on GTA 6 Expectations, GTA Online, and the Decade to Come",
+    "url": "https://www.ign.com/articles/take-two-boss-strauss-zelnick-on-gta-6-expectations-gta-online-and-the-decade-to-come",
+    "source": "IGN",
+    "kind": "news",
+    "publishedAt": "2026-11-09T21:16:07.000Z",
+    "summary": "IGN interviews Take-Two boss Strauss Zelnick 10 days before the biggest release in entertainment history: GTA 6.",
+    "firstSeen": "2026-11-10T03:30:27.513Z"
+  },
+  {
+    "id": "58936751d4d7",
+    "title": "Travis Scott, Cardi B, and Metro Boomin lead Grand Theft Auto VI: The Festival lineup — here’s how to attend",
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOcGpzUV9XS0xuN2tjeFJKRXdkWldHZTVjOVMwZEx2dVFiVWI5cUJPWWNZbjRhZVBZT1RMdlplWXFDemxSTmowX3VjOGZsVDM1eUQ4VEx0aWNTQ2t1bmdiRGc2dWtReXMyRTRNT2d3Z2l3WWpyckx4a28tc0QzWUYzdkVhR1BXN2t6UTBUZlVBVWVPNl9NTVE?oc=5",
+    "source": "Revolt TV",
+    "kind": "news",
+    "publishedAt": "2026-11-09T21:15:46.000Z",
+    "firstSeen": "2026-11-10T03:30:27.513Z"
+  },
+  {
+    "id": "fc435ef1ff47",
+    "title": "‘GTA 6’ Presales ‘Far in Excess’ of Expectations Ahead of Next Week’s Launch, Take-Two CEO Says",
+    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9xVk80YTlkWHpUZ19CN3dDODNLTUVmQjBId2Vsb1RBNkZFX1dDNDFMV1A5bmpsZVQ3OWZyOFpZdnNBYTlFRGk5REtHTU9pSEt0bm8xRUhFa0N0VTQxcW1fcVBNYVg1S1RCdTMzVm12VFQ1WEF4cXJmREowT2g1OWs?oc=5",
+    "source": "Yahoo Finance UK",
+    "kind": "news",
+    "publishedAt": "2026-11-09T21:15:33.000Z",
+    "firstSeen": "2026-11-10T03:30:27.513Z"
+  },
+  {
+    "id": "445aeb4604a6",
+    "title": "Take-Two’s ‘NBA 2K’ Sales Disappoint Due to ‘Grand Theft Auto VI’",
+    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPLV9CV2RJWTM3a1Y4aFRtNl9rWDVpT2t4emZ5YTRSOUVtcFJxanhqdDdEUVdXMVgwTUhiajdoUmJIaWtPY1hsMGxEMUR5UlN5djdCVmNTQWhqQ2R3LTV1VUd0RVE4cGpkN24yVVRfdGFsQTZheDhTN2lIVWpDVjFJMkJBQmZIR2o1RldMb0VCRmxtc185RDdDcTMwVVRLaFBlWE9mX3ZzbElEbkQtRVo0bDJPbWVtWVZKU0Rj?oc=5",
+    "source": "Bloomberg.com",
+    "kind": "news",
+    "publishedAt": "2026-11-09T21:15:18.000Z",
+    "firstSeen": "2026-11-10T03:30:27.513Z"
+  },
+  {
+    "id": "434ab8bbf7b9",
+    "title": "\"Pre-orders for Grand Theft Auto VI are tracking far above our initial expectations\"",
+    "url": "https://www.reddit.com/r/GTA6/comments/1xs3zmt/preorders_for_grand_theft_auto_vi_are_tracking/",
+    "source": "r/GTA6",
+    "kind": "community",
+    "publishedAt": "2026-11-09T21:14:55.000Z",
+    "summary": "From info from today's meeting https://www.take2games.com/ir/quarterly-earnings submitted by /u/Frosty_Limit_8204 [link] [comments]",
+    "firstSeen": "2026-11-10T03:30:27.514Z"
+  },
+  {
+    "id": "be8b9177e76f",
+    "title": "GTA 6 Pre-Load Is Now Live in New Zealand Ahead of November 19 Launch",
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNMV9VMzR0MFBHMEY1aWFkVDBLaW9jTDZmelBrOGVUMnhtSS1JZjZ3RFpJTlRaQzU2OTY2b1dIanJFS1lvU2QxNUJPS1BVOUNWNEgybWVSbkFENnZYWmRSbXBZbmpIaUxKSnREQmhPc3ZqcjZBZV9aYXRpLVdCdWhxZjlxUEhYV3FmdTkwcDhsVDBmSXRzU0pRb0FjUVJyLXdiNkFIVWVHZXpnYnNnLVF3?oc=5",
+    "source": "KeenGamer",
+    "kind": "rumor",
+    "publishedAt": "2026-11-09T20:41:34.000Z",
+    "firstSeen": "2026-11-10T03:30:27.513Z"
+  },
+  {
+    "id": "0a3a3371335b",
+    "title": "Rockstar Announces GTA 6 Music Festival in Miami for November 21",
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQNTlXVkZoQmVycHV1RkJxWmVFWEUtdVlMTWk0UE1Xa3hTUWlid3M2TFY3SVY4SW90NldXTHctM2dxSkpQZncwYkVvWm9yYUVRVjBxY1VjUGRDcEJYQnpBaXZJVU9JaVNUSHdYS2VYTWJibjk4ak1CRFBLWElWak9SdWlmWkxzTUNhcTE3VkU1ZEVnZFFEbG1NdWplcE52bEl1amtKNngtZC0?oc=5",
+    "source": "KeenGamer",
+    "kind": "rumor",
+    "publishedAt": "2026-11-09T20:24:35.000Z",
+    "firstSeen": "2026-11-10T03:30:27.513Z"
+  },
+  {
+    "id": "bdd21812f128",
+    "title": "GTA 6 Preload Leaks Reveal Regional Censorship, and Early GTA Online Features",
+    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9YM0lCZEhSUmp6WDRUZi1qRDNaVjN2WWlKR1h3TUZFQ3FneWNIS2d1Q2xfdnFNWkdfZS1iaUx5WmVtalRSejJLdzFqNXJCMF9zZjJ3ZkoyZjJpVG5lczE1dVNlRFZfRGVRM2tWNQ?oc=5",
+    "source": "NoobFeed",
+    "kind": "rumor",
+    "publishedAt": "2026-11-09T20:11:47.000Z",
+    "firstSeen": "2026-11-09T20:24:19.280Z"
   },
   {
     "id": "883f0919b1b4",
@@ -35,6 +852,16 @@
     "publishedAt": "2026-11-09T19:30:17.000Z",
     "summary": "Steven Ogg famously portrayed the wildcard character Trevor in Rockstar's Grand Theft Auto 5, and he wishes Rockstar brought the character back for GTA 6. Speaking to Principle Magazine, Ogg said it would have been a nice moment to \"pass the torch\" to have…",
     "firstSeen": "2026-11-09T20:24:19.280Z"
+  },
+  {
+    "id": "45f273cdbc9b",
+    "title": "Rockstar made a real-life GTA 6 Vice City supercar you can actually buy for $1M",
+    "url": "https://www.dexerto.com/gta/rockstar-made-a-real-life-gta-6-vice-city-supercar-you-can-actually-buy-for-1m-3426772/",
+    "source": "Dexerto",
+    "kind": "news",
+    "publishedAt": "2026-11-09T19:26:40.000Z",
+    "summary": "Rockstar Games has teamed up with West Coast Customs to bring an iconic GTA 6 supercar into the real world, and fans can actually buy it for £1 million.",
+    "firstSeen": "2026-11-10T03:30:27.513Z"
   },
   {
     "id": "4a933a47a47c",
@@ -75,6 +902,15 @@
     "firstSeen": "2026-11-09T20:24:19.280Z"
   },
   {
+    "id": "b54141935668",
+    "title": "Travis Scott, Cardi B, and more to celebrate ‘Grand Theft Auto VI’ launch with Miami music festival",
+    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOUU5OXzNmbjBsc2J5SEdIc09PZWc0ZFJJX192eWJvbVAtZ3RvSjI4a1FCeTA1YmJoT2dsYTZfcHRla19FRlp5SG1HWXI3VG1iOXVQYmxrSVFhYU9xMW9uVmd2MVVBMWkyalZ2ZzE1aWJQNk5CYWFhSkxQQ2R2SmVGUEp0RVV0VWdWX1ZJUnpoRFJiWjZGU2g0M2tPMDVjUHhjY1hoYmZVelMwYTB0cXRzYUw5MTN0aDdIU280b2hZLUk1dlZwNEE?oc=5",
+    "source": "The Needle Drop",
+    "kind": "news",
+    "publishedAt": "2026-11-09T19:10:06.000Z",
+    "firstSeen": "2026-11-09T20:24:19.280Z"
+  },
+  {
     "id": "f3e65a3bdbc2",
     "title": "GTA 6: The Festival Officially Unveiled For November 21",
     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPYXZnT3ZYdmRhVGpXNE5qZ1dpcWdRWksxeWFjQUplQ0FRR1JxaFVNRkpZZzhMNmVDcW0yWERPZUljUmNoY2F0cEF4ZnlfZkVVZ0h3ZURfODdRNS04MXA1ZHM0VTdJTjFIZFJHRVQzenVGTk42TXIwTFEzMkJLa0gyVzh3Y2t0cC13dFMtc05EYURfQQ?oc=5",
@@ -90,15 +926,6 @@
     "source": "Happy Gamer",
     "kind": "rumor",
     "publishedAt": "2026-11-09T19:06:47.000Z",
-    "firstSeen": "2026-11-09T20:24:19.280Z"
-  },
-  {
-    "id": "b54141935668",
-    "title": "Travis Scott, Cardi B, and more to celebrate ‘Grand Theft Auto VI’ launch with Miami music festival",
-    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOUU5OXzNmbjBsc2J5SEdIc09PZWc0ZFJJX192eWJvbVAtZ3RvSjI4a1FCeTA1YmJoT2dsYTZfcHRla19FRlp5SG1HWXI3VG1iOXVQYmxrSVFhYU9xMW9uVmd2MVVBMWkyalZ2ZzE1aWJQNk5CYWFhSkxQQ2R2SmVGUEp0RVV0VWdWX1ZJUnpoRFJiWjZGU2g0M2tPMDVjUHhjY1hoYmZVelMwYTB0cXRzYUw5MTN0aDdIU280b2hZLUk1dlZwNEE?oc=5",
-    "source": "The Needle Drop",
-    "kind": "news",
-    "publishedAt": "2026-11-09T19:03:43.000Z",
     "firstSeen": "2026-11-09T20:24:19.280Z"
   },
   {
@@ -126,8 +953,28 @@
     "source": "Polygon",
     "kind": "news",
     "publishedAt": "2026-11-09T19:00:20.000Z",
-    "summary": "Despite costing over $3,000, the official Grand Theft Auto 6 jacket immediately sold out.",
-    "firstSeen": "2026-11-09T20:24:19.280Z"
+    "firstSeen": "2026-11-09T20:24:19.280Z",
+    "summary": "Despite costing over $3,000, the official Grand Theft Auto 6 jacket immediately sold out."
+  },
+  {
+    "id": "4002dfb0883a",
+    "title": "Grand Theft Auto 6 (GTA 6) is available for pre-loading in India.",
+    "url": "https://www.digit.in/news/gaming/gta-6-pre-load-goes-live-in-india-here-is-how-to-download-the-game-on-ps5-and-xbox-gaming-consoles.html",
+    "source": "Digit",
+    "kind": "news",
+    "publishedAt": "2026-11-09T18:59:00.000Z",
+    "summary": "GTA 6 pre-loading on PlayStation 5 went live on November 10 at midnight. This means eligible players in India can now start downloading the game. For Xbox Series X and Series S users, pre-loading…",
+    "firstSeen": "2026-11-10T03:30:27.513Z"
+  },
+  {
+    "id": "a787d1acb674",
+    "title": "Grand Theft Auto 6 PC and physical disc news will come from Rockstar, confirms Take-Two",
+    "url": "https://www.tweaktown.com/news/114580/grand-theft-auto-6-pc-and-physical-disc-news-will-come-from-rockstar-confirms-take-two/index.html",
+    "source": "TweakTown",
+    "kind": "news",
+    "publishedAt": "2026-11-09T18:57:00.000Z",
+    "summary": "Take-Two CEO Strauss Zelnick won't confirm a GTA 6 PC version or a physical disc release, saying that news will come from Rockstar as pre-orders surge.",
+    "firstSeen": "2026-11-10T03:30:27.513Z"
   },
   {
     "id": "6b77aa140b0c",
@@ -216,7 +1063,7 @@
     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNa0dHVUJ2LXl5YUlEczlzZWF2aEcxUU9HejRHOHFQSTdQYi1RNFN4UkVBdWZ2SUstYlc0YzRrM1l1YUJ1anNJWkZPRXU1dlJpZVpKUUxsak9vWFpZZ1ZYSWV0NTlaOHJkRzI4WnFPLU1EQjB1bVA1WU82OXRFSWdtSTJCZGJvLVVzczhvenR1clhzcEY2STBvVVFaNVMySTFTX1RlUDNHSzBrUmNHYmVOMElxSndURUU?oc=5",
     "source": "Xbox Achievements",
     "kind": "rumor",
-    "publishedAt": "2026-11-09T18:06:01.000Z",
+    "publishedAt": "2026-11-09T18:07:55.000Z",
     "firstSeen": "2026-11-09T20:24:19.280Z"
   },
   {
@@ -244,6 +1091,15 @@
     "source": "Pure Xbox",
     "kind": "news",
     "publishedAt": "2026-11-09T18:00:00.000Z",
+    "firstSeen": "2026-11-09T20:24:19.280Z"
+  },
+  {
+    "id": "1e32cd690fd9",
+    "title": "GTA 6 leak points to 120Hz console support: 60 FPS still looks unlikely",
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPanNEOTA4V2x0SVN1M2k0a2JyRkM0OU1YSGZKT0JSQ3dqVERYZWZScHBVNjVBSmQ4eVR0S1hFamJ0S0N4c2R5bXlQX0k4NDhhV1VuYUVPMmJfN29nQnpvVzFHM2xIUUlJTnY4ZkhMNVhyRE5NSzktQW9iZ3V4UE41TVk3ZGxEeHdvb29LYlhaRU9KNlNNOUdBeGJlS3FaTnZYdy1tVkR3?oc=5",
+    "source": "Softonic",
+    "kind": "rumor",
+    "publishedAt": "2026-11-09T17:55:53.000Z",
     "firstSeen": "2026-11-09T20:24:19.280Z"
   },
   {
@@ -283,15 +1139,6 @@
     "firstSeen": "2026-11-09T20:24:19.280Z"
   },
   {
-    "id": "3e8b00e32170",
-    "title": "Travis Scott, Cardi B, and Metro Boomin lead Grand Theft Auto VI: The Festival lineup — here’s how to attend",
-    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNRnlabEY1cnJabjNZYVVmbnZralBzX3NjV3pEbGxHN2pucDVEMGhvVG5QWFEtNWlLV2VKa3JLb3h1czNLamlkUVZjMXZTS2pfb1lrdVRlMV8tN3FSZjFIYUVldFpsazJmdUZfeFNWMnh5TDFrOExoNmYyU1RYX19YUnRGV0FrdmFiRjNaV0taUEJSN0U?oc=5",
-    "source": "Revolt TV",
-    "kind": "news",
-    "publishedAt": "2026-11-09T17:27:35.000Z",
-    "firstSeen": "2026-11-09T20:24:19.280Z"
-  },
-  {
     "id": "c63b01c4a511",
     "title": "Days before GTA 6, crime game for \"thousands\" blows up despite \"Mixed\" Steam reviews and gen AI",
     "url": "https://www.gamesradar.com/games/simulation/days-before-gta-6-crime-game-for-thousands-of-players-blows-up-on-steam-despite-50-percent-positive-reviews-and-gen-ai-use/",
@@ -307,15 +1154,6 @@
     "source": "GamesRadar+",
     "kind": "news",
     "publishedAt": "2026-11-09T17:25:22.000Z",
-    "firstSeen": "2026-11-09T20:24:19.280Z"
-  },
-  {
-    "id": "1e32cd690fd9",
-    "title": "GTA 6 leak points to 120Hz console support: 60 FPS still looks unlikely",
-    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPanNEOTA4V2x0SVN1M2k0a2JyRkM0OU1YSGZKT0JSQ3dqVERYZWZScHBVNjVBSmQ4eVR0S1hFamJ0S0N4c2R5bXlQX0k4NDhhV1VuYUVPMmJfN29nQnpvVzFHM2xIUUlJTnY4ZkhMNVhyRE5NSzktQW9iZ3V4UE41TVk3ZGxEeHdvb29LYlhaRU9KNlNNOUdBeGJlS3FaTnZYdy1tVkR3?oc=5",
-    "source": "Softonic",
-    "kind": "rumor",
-    "publishedAt": "2026-11-09T17:23:17.000Z",
     "firstSeen": "2026-11-09T20:24:19.280Z"
   },
   {
@@ -371,6 +1209,16 @@
     "kind": "news",
     "publishedAt": "2026-11-09T17:10:06.000Z",
     "firstSeen": "2026-11-09T20:24:19.280Z"
+  },
+  {
+    "id": "bbaaa7a72d7c",
+    "title": "Physical GTA 6 Xbox case leak reveals possible advantages over PS5 version",
+    "url": "https://www.notebookcheck.net/Physical-GTA-6-Xbox-case-leak-reveals-possible-advantages-over-PS5-version.1446204.0.html",
+    "source": "Notebookcheck",
+    "kind": "rumor",
+    "publishedAt": "2026-11-09T17:09:00.000Z",
+    "summary": "A retail packaging leak indicates GTA 6 supports Dolby Vision and Dolby Atmos on Xbox consoles. Dolby Vision can produce more accurate colors than the PS5’s HDR10. PlayStation systems output Atmos…",
+    "firstSeen": "2026-11-10T03:30:27.513Z"
   },
   {
     "id": "ab8822385ff8",
@@ -472,32 +1320,14 @@
     "firstSeen": "2026-11-09T20:24:19.280Z"
   },
   {
-    "id": "de3772661b65",
-    "title": "Grand Theft Auto VI: The Festival Set for November 21 in Miami",
-    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOdkhRTGNEQ0xNY2g2TnhpMmFTWmVacmtrWFBJOXZveElNOGZWMnNkSGRKVWVHTGk4clkzRFNnM1pkUzBibXJ2RklqV0Y4aXlZUUlsbmx1RGxhT1hfQ2lJX0pMQWtjanloVTNqdE12bTJ4OEVvMU50WmdUUUktUFNoSWRUV1gxU2FzM0tzMDFCZWh6Q18tb2kwLWVWZ25Vc3c5Qng5ag?oc=5",
-    "source": "VGChartz",
-    "kind": "news",
-    "publishedAt": "2026-11-09T16:38:07.000Z",
-    "firstSeen": "2026-11-09T20:24:19.280Z"
-  },
-  {
     "id": "8cd103397a5f",
     "title": "Every GTA 6 Location Revealed So Far—GTA 6 Map Breakdown",
     "url": "https://insider-gaming.com/all-gta-6-locations-revealed-so-far/",
     "source": "Insider Gaming",
     "kind": "news",
     "publishedAt": "2026-11-09T16:26:05.000Z",
-    "summary": "GTA 6 promises to feature a gargantuan map, and in this guide, we're looking at all the major GTA 6 locations revealed so far.",
-    "firstSeen": "2026-11-09T20:24:19.280Z"
-  },
-  {
-    "id": "a70fe2d3e95e",
-    "title": "GTA VI Is Putting on a Music Festival",
-    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5icGFHSUlvQmMzVERPS0xGTE9kb3lWVWhKYlc5U1BXeFNkSDZvQ19zTWlkdGRnUV91Q0toUWdzQnozbU1YbE5rMUpvRDBXczJGRlo3UjZGQW12QXRTZ0ZYVVB3S3FZTHFkeURuN3JKdEtqRG5v?oc=5",
-    "source": "Pitchfork",
-    "kind": "news",
-    "publishedAt": "2026-11-09T16:22:53.000Z",
-    "firstSeen": "2026-11-09T20:24:19.280Z"
+    "firstSeen": "2026-11-09T20:24:19.280Z",
+    "summary": "GTA 6 promises to feature a gargantuan map, and in this guide, we're looking at all the major GTA 6 locations revealed so far."
   },
   {
     "id": "60b3f3a13251",
@@ -510,85 +1340,34 @@
     "firstSeen": "2026-11-09T20:24:19.280Z"
   },
   {
-    "id": "2bd238c14684",
-    "title": "Rockstar spins the GTA 6 wheel again and lands on comically large music festival featuring Travis Scott, Cardi B, and composer Justice",
-    "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxNeGxqRTFzY3haS1R3YUZsbVF1WklxanNtblRkbDU5WHJZaWtOeGctNXV3R2FzT1VpQlRTbF9menhNSFRJdnFteG5FNHpaLWZiRjEtTWpGZy0wbU0wS1pmNHFIdHhxMWs3UGJfdzBJc2dSc2puRUtsS1hpVmROcnVoM1hVbWp4WjhpdGZrUEhxS1NyeUt3VkRjQ1VTRXNjYlJzNTF0bVVoam9ObnllZEFvdjljUGttVjJnRG1CalVWVVM5ZGZfcVhZUnVrRWI5S0ZXa3gxQVQzeDdRcGc0WEdCd1hjZE1BanZjMXFUTlo0R2d6akt1NTVtdG5xaGRYc0JKcHFPSmZDai04WmowNDJITA?oc=5",
-    "source": "GamesRadar+",
+    "id": "4d5b14a7343d",
+    "title": "GTA 6 Preloading Is Live. Here's How to Install the Game on Xbox and PlayStation",
+    "url": "https://www.pcmag.com/news/gta-6-preloading-is-live-how-to-install-game-on-xbox-and-playstation",
+    "source": "PCMag",
     "kind": "news",
-    "publishedAt": "2026-11-09T16:21:07.000Z",
-    "firstSeen": "2026-11-09T20:24:19.280Z"
-  },
-  {
-    "id": "57ae86b9a0e4",
-    "title": "A Free GTA 6 Competitor Is Blowing Up on Steam",
-    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9fMjdnRElzUmMxcmhpMGozMmZ2VFh6cTVVUnI2ZVRPc0F3eU54VWtiRm1iRWlrTFhYN3J3SFNmLUtuNjRtQjJBTHgta2FuNDFYbFZCTkxwa2xYSWhpUVRKSjVIaVpZdjNkOTFQaTlkUzl2dUV5?oc=5",
-    "source": "Polygon.com",
-    "kind": "news",
-    "publishedAt": "2026-11-09T16:15:47.000Z",
-    "firstSeen": "2026-11-09T20:24:19.280Z"
-  },
-  {
-    "id": "0664683ea0c3",
-    "title": "How to Avoid GTA 6 Story Spoilers—Best Words to Mute on Social Media",
-    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9KQmRjdTQ5UzFPRHB0VDhKWEpVWmp2Ni1zamswSjQyS01zcjQ2T2kxY1VDUnFoS19RT2NvbE4wUkpyTUdoZWxvdGZjWUJwZVdGNWwzbA?oc=5",
-    "source": "Insider Gaming",
-    "kind": "rumor",
-    "publishedAt": "2026-11-09T16:11:02.000Z",
-    "firstSeen": "2026-11-09T20:24:19.280Z"
-  },
-  {
-    "id": "02d339b8f55e",
-    "title": "Rockstar to bring official Grand Theft Auto VI festival to Wynwood: Travis Scott, Cardi B and Justice headline one-night event",
-    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE0yT00ybWNyQzBqTEVZbklsSkZKSzA0UDVrT0NUZmcyVVpWV1dzeDBFanpHdUNkWW4zbHVzT3I0Zi0wZGtKS2g3OXhyTVRsYm81YTFpQ0Zhd1FuY2k5aGd1LUZMcVdYODdIQTBsMU44aFladE0?oc=5",
-    "source": "Secret Miami",
-    "kind": "news",
-    "publishedAt": "2026-11-09T16:06:40.000Z",
-    "firstSeen": "2026-11-09T20:24:19.280Z"
-  },
-  {
-    "id": "4a60f7551e66",
-    "title": "[Countdown] GTA VI Release Begins",
-    "url": "https://www.reddit.com/r/GTA6/comments/1xrvkxj/countdown_gta_vi_release_begins/",
-    "source": "r/GTA6",
-    "kind": "community",
-    "publishedAt": "2026-11-09T16:04:50.000Z",
-    "firstSeen": "2026-11-09T20:24:19.281Z"
-  },
-  {
-    "id": "04e4e7af928a",
-    "title": "Will GTA 6 support 120Hz on PS5 Pro? Report says yes, but no VRR",
-    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQUGFSVHEwUGY5d21QVXI5U2RNSy1oRmMtdUg5dWJHeHFjb3VhWndHODV1b2xjendsd3JVRVEzT2xaLUdhSENUdGg2OXRqUmZ6NHRnWkZ2VWlIMWJ3ZW9VQTMtOFBxN3BYNFYyYVlqS3IwcG1CU3ZhUWdXWmFNcVlwQThPNEJ0VGxYcm5rbGRrMnpCbTQ?oc=5",
-    "source": "Sportskeeda",
-    "kind": "rumor",
     "publishedAt": "2026-11-09T16:00:00.000Z",
-    "firstSeen": "2026-11-09T20:24:19.280Z"
+    "summary": "Don't want to miss a second of playtime? GTA 6 comes out on November 19, but you can preload the game starting this Monday night, so you're ready to go when the game unlocks.",
+    "firstSeen": "2026-11-10T03:30:27.513Z"
   },
   {
-    "id": "b30e8726ccbb",
-    "title": "GTA VI Is Throwing A Massive Miami Music Festival, And You Could Be There",
-    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNVVhEVzdBZjdENmNKWGlPTjVTTXhKTWU5cUE3YmVkWEU5QmFSekF0cUlBRF83bW82d2szS0ktM3h5TjhSREdnemlkVV9DM1ZGcFhrODVScl9VejFnUDJKVDJIQ1JVa0dkeVZoUFd0djFERDJtaWp2cFVRZFJ0MnhoQzRNbzdaRTFhZEFpa3dWRzlobmRKVFJPVXQ0ZWt0eERLMEV5MTRjV1M?oc=5",
-    "source": "Yahoo",
+    "id": "32f45d3759cb",
+    "title": "‘Grand Theft Auto 6’ lunch music festival featuring Cardi B, Travis Scott, and Justice",
+    "url": "https://happymag.tv/grand-theft-auto-6-music-festival/",
+    "source": "Happy Mag",
     "kind": "news",
-    "publishedAt": "2026-11-09T15:59:34.000Z",
-    "firstSeen": "2026-11-09T20:24:19.280Z"
+    "publishedAt": "2026-11-09T16:00:00.000Z",
+    "summary": "The hype around Grand Theft Auto VI’s launch is making up for its years of anticipation – 13, to be exact, since the last instalment. The Southern California-inspired GTA…",
+    "firstSeen": "2026-11-10T03:30:27.513Z"
   },
   {
-    "id": "6055cbd23572",
-    "title": "Rockstar reportedly planning GTA 6 launch ‘festival’ in Miami with Cardi B, Travis Scott and more",
-    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPYWZ1b3VhWXpFb3BISnNZN19URUlUd0I3QlVqV1pWYko2cUZqT1FwYlpVMzdvX0g3eHIxNThVNE1taUQyZGo3bEFGcmxvb3h0UDJ6Qm9hUVVnZjBNZXN5MHFCYzZxQldSN1FYQjE3bG9wby1TOGd2aDgxcFRwWFcwdGxFbmtDXzhkelBtdTBDdm8?oc=5",
-    "source": "Mezha.net",
-    "kind": "rumor",
-    "publishedAt": "2026-11-09T15:55:45.000Z",
-    "firstSeen": "2026-11-09T20:24:19.280Z"
-  },
-  {
-    "id": "0c688c973be6",
-    "title": "Rockstar Games Announces ‘Grand Theft Auto VI:’ The Festival in Miami",
-    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNTklwdmhtVlgyTEtRMzI5dmFNWG5lQVVtT3R3bGR1UXNSYVp0STl5UlBLS3NySFJqTi1zYXFTdTlaaEFIUUFBejhFN2p0dE9DTWJ3ZGJ0NUtQUGt1eTgzYlFmcXVxQThGZWVkaHFvY0YzdndvMHdXMjl2cEs2T1lBQ2RvVk5jWjE1NFAxT01adW4wYXFhNjdacXRndWtRYmtCYlE?oc=5",
-    "source": "The Source Magazine",
+    "id": "2a83a8e89220",
+    "title": "Missing GTA 6 file in the Australian and New Zealand preload has dataminers guessing",
+    "url": "https://www.well-played.com.au/gta-6-preload-datamine-missing-anz-file/",
+    "source": "WellPlayed",
     "kind": "news",
-    "publishedAt": "2026-11-09T15:53:23.000Z",
-    "firstSeen": "2026-11-09T15:30:10.939Z"
+    "publishedAt": "2026-11-09T16:00:00.000Z",
+    "summary": "GTA 6's Australian and New Zealand preload build is missing a file named core_restofworld001. Dataminers speculate on cut content, but nothing is confirmed.",
+    "firstSeen": "2026-11-10T03:30:27.513Z"
   },
   {
     "id": "dda338495a92",
@@ -598,24 +1377,6 @@
     "kind": "news",
     "publishedAt": "2026-11-09T15:52:58.000Z",
     "summary": "Much of the IRL marketing and promotion for Rockstar's Grand Theft Auto 6 has taken place in Miami, but the developer isn't ignoring other parts of the world. The British retailer Selfridges, an upscale department store, hosted a takeover of its flagship…",
-    "firstSeen": "2026-11-09T20:24:19.280Z"
-  },
-  {
-    "id": "da11f70b9844",
-    "title": "GTA 6 preload release date: When you can download the game",
-    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOYl9peThJT3lmNW9KNEpVRG03WmFPdTR3dkhfWWo5VVg2ZEdVV2RFdWJPVHhGMTc0OTF5SzRFMmluWlotU2FSby1RWk9tMTdDcU5CUlhOZjdSaGFEand4eEZ1aWNoWC1kN09HZHJERUVGX0VKTzYzeEtLSkpOcER2b2tJSmREMkZiYW85TkRiLVVjMzdCTE03WGtB?oc=5",
-    "source": "Mashable SEA",
-    "kind": "news",
-    "publishedAt": "2026-11-09T15:51:40.000Z",
-    "firstSeen": "2026-11-09T20:24:19.280Z"
-  },
-  {
-    "id": "b99583f7180b",
-    "title": "Grand Theft Auto VI Takes Over Miami With Star-Studded Music Festival",
-    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQTThfRGNUd1UycU5qcEJRbWRTTjlkSHBxbXZ1MktvVGNTUkVLXzFTcXozTEl0YVJYSGFYMHQ2VW01cnMzMWJYMmE2bXhTOHg2VUJ3XzI0aFdLcVdTRFRDajhyYkJTVm1lUTJFU0FvS3BpSEVfLTF3ZFN2ckhEb1FGNUs0aV96cmRKUnZiS0UxUE96dmtKUE5haU8xdzJ3a2pUVm5lc2t6bU0?oc=5",
-    "source": "Floridian Press",
-    "kind": "news",
-    "publishedAt": "2026-11-09T15:49:58.000Z",
     "firstSeen": "2026-11-09T20:24:19.280Z"
   },
   {
@@ -629,113 +1390,14 @@
     "firstSeen": "2026-11-09T20:24:19.280Z"
   },
   {
-    "id": "4e2638e0092b",
-    "title": "Grand Theft Auto VI: The Festival to Feature Travis Scott, Cardi B, and Justice",
-    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNbWU3OWJkYlVBWmpyWW1ENDNuVnkzbGVIM0MtMFhwSmN0Z1lsRTFfZ2xKMGw3SW1XMFh5WVhGdUxBRUNhMDVHVlhWeXByM1hEMWkxY3JKa2lSZm41QVFYMGgtMUFNVEx1VkxTQXJ6SWh5SVY5elBzWlkxYmQ0Q2dRRUo4V3hUWXBDVmFEYkFlY2I2RHBfWUlZX3VyaHQ2aEE?oc=5",
-    "source": "Consequence of Sound",
-    "kind": "news",
-    "publishedAt": "2026-11-09T15:45:11.000Z",
-    "firstSeen": "2026-11-09T20:24:19.280Z"
-  },
-  {
     "id": "465d7ad5dfd6",
     "title": "‘Even if Someone Does Get It Running on PC, That’s Not Going to Be a Good Experience’ – Why AI Cloning Won’t Sink GTA 6’s Launch, but Could Reshape Game Development",
     "url": "https://www.ign.com/articles/even-if-someone-does-get-it-running-on-pc-thats-not-going-to-be-a-good-experience-why-ai-cloning-wont-sink-gta-6s-launch-but-could-reshape-game-development",
     "source": "IGN",
     "kind": "news",
     "publishedAt": "2026-11-09T15:30:00.000Z",
-    "summary": "Will AI-made PC ports impact GTA 6's launch? The experts say no, but vibe-coding is here to reshape the games industry as we know it.",
-    "firstSeen": "2026-11-09T20:24:19.280Z"
-  },
-  {
-    "id": "3a41bf5393fe",
-    "title": "Take-Two targets US$8B in bookings from GTA VI — analysts see 37% upside but warn of key risks for investors",
-    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQNkd3YW96WDBkaWhtU2h1eEh0dmVZejFoQTAyRzBGV3R6dEJRWS1JZW5XWFJpOGNaejRKcWRQak9Dam5mSzdTZFF3Y0tCTUp5T1h2X1VIblRMRkhKdmRxM2doYnR5enZnVXVWRnoxOHVCb0FSSFBibzhYeHRLUlVqaw?oc=5",
-    "source": "Yahoo! Finance Canada",
-    "kind": "news",
-    "publishedAt": "2026-11-09T15:30:00.000Z",
-    "firstSeen": "2026-11-09T20:24:19.280Z"
-  },
-  {
-    "id": "2926bbdafee9",
-    "title": "10 Details That Show Rockstar Went Above and Beyond With GTA VI",
-    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPeHp5aXE5V3BBdXdUdFNNbmFyZXZtaUhGcTdxM05OV3B0dG1jX05SLXY1UFVMVHF1NmQ0QjVQSHNhUG8xTmwzWGp0b0RHQWR6dFRPSFdfLXZXbmlsVUFUSkVGNDdkbXp2QVZscU5iOGhPZWFEVHRVNlQyTlA2MWVBdFJkZDJjWF9zTnE3UzR2a0lZOVpH?oc=5",
-    "source": "DualShockers",
-    "kind": "news",
-    "publishedAt": "2026-11-09T15:30:00.000Z",
-    "firstSeen": "2026-11-09T20:24:19.280Z"
-  },
-  {
-    "id": "926c8905f438",
-    "title": "83,000 days have been booked off work in the UK coinciding for ‘Grand Theft Auto VI’ release",
-    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNX0E1a2xMcC1GQW51YVdRMlgySU5BanAxbmNXNXZlWWtlbV9xVXBGYXJieUdzMFoyYWdNVllHUmxjUGNLaEY4Q3ludUpfWGk4SVRTVDBmMmdHWDBIVmY1NW9IVTIteEdFMGllazRSV05jazM0SHlCa0pmcnpqc2NnMXFXMjhTaFpFQkdzUmxESE1EQVVxbDdPc3J1VllYQ255eHc?oc=5",
-    "source": "Dangerous Minds",
-    "kind": "news",
-    "publishedAt": "2026-11-09T15:27:24.000Z",
-    "firstSeen": "2026-11-09T20:24:19.280Z"
-  },
-  {
-    "id": "922b64adcf67",
-    "title": "Take-Two faces earnings test days before GTA 6 launch By Investing.com",
-    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOWHkxdFZYTDJsM2FweUFxaTh6Z05kTWJabHZhZVl5WWdnQkRLczVhQ2ZLWDBVQkYwRW1xaEFfR1ZHMGdaaC04b2pQWVpEUTFFMnlRV0I4U2dZdGQxZTN5b3pNbHNDYWg0dlY0TUxqQlhidktVeFlSSUhDaUZFUVZWUmZlVDhDWkxtamo2cXdKTjl4bG51VkhtdUpGdkFXYmhydWl5eGtrc0g3NTFqUUNjR0dKcw?oc=5",
-    "source": "Investing.com Nigeria",
-    "kind": "news",
-    "publishedAt": "2026-11-09T15:25:11.000Z",
-    "firstSeen": "2026-11-09T15:30:10.939Z"
-  },
-  {
-    "id": "7b5a3f321345",
-    "title": "GTA VI Trophies Leak: 55 Rewards Reported [2026]",
-    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1iSDJYN0kwcElFc1UzZU9lUGYwX3g5MFZlLWZGbzBwWDd5ekE5bEJaWWVGWlo1ZGNNQmY5bU56VlBwY0EwaTBCTFhSME1TaWZsNktaMGVrQUdrSVZSOU90T3cxQXU0eF84ZzA1NWozUF8?oc=5",
-    "source": "shattered.io",
-    "kind": "rumor",
-    "publishedAt": "2026-11-09T15:23:53.000Z",
-    "firstSeen": "2026-11-09T15:30:10.939Z"
-  },
-  {
-    "id": "66f1903ffff8",
-    "title": "Rockstar announces Grand Theft Auto 6: The Festival, a special live event featuring music from GTA 6 — here's when you can get tickets",
-    "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQSFpOLWhuclJaMEtCOTNxWWRCazY4YXNOLVRMSjVxOGJvdkgtampvWW92STVLMHFzRnBWMHhIaXlfRU9jUmxWZlNOVlktY3prNndia3hBMzhDX09vS19scm93TFZKY21MRnV4WXQwenNkczRYOGY1dDZIZGJxQjZpZHB4WjF5V1hVWF9ZSlhqaUlXaUN6eEdhZl9iWERPMHFPUkhyWWVUNWtWMTk1Z0RKV2RYRUMtb05xZUV6Q0dIRVU0b254OXcwZ195TmdzTE1oMUNkaDZSNE9CekF1YVJBM1Q3cmEwR2ZLaWg3cURR?oc=5",
-    "source": "TechRadar",
-    "kind": "news",
-    "publishedAt": "2026-11-09T15:21:54.000Z",
-    "firstSeen": "2026-11-09T15:30:10.939Z"
-  },
-  {
-    "id": "8046ccf6bc13",
-    "title": "Travis Scott, Cardi B and Justice to play Grand Theft Auto VI: The Festival in Wynwood",
-    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNZEZpd21PbUp0LTJkMlkteVlzMktOQ0VqUm9ucVdNeWpXRVZyblVhUDZmM1FzOXJnbG9xd1hqUlhva2huWllHZEI0dDVSQW85OEszN19va0dINnBkcExicjdoWTM0bHR3dWtEd2xlaC1MSGJqV25CeDZRSVd3VUZHcWRPYzEyVjhNcGFmZ1BvNEI3NzZrR2RYUHY1T29Wcjd3c3JueGRCRi16aGhkOHlhOTJvUmtpa0xZTWgyR2JaQnlxRVJfcnRxYzlB?oc=5",
-    "source": "Miami New Times",
-    "kind": "news",
-    "publishedAt": "2026-11-09T15:21:25.000Z",
-    "firstSeen": "2026-11-09T15:30:10.939Z"
-  },
-  {
-    "id": "5f00f676a832",
-    "title": "GTA 6 Release Times and Preload: When Can You Start Playing?",
-    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQcW96UFJUemtJVzZGbjF0T0Nrc0syTlgzYlJ6ZEhnb19mYlFuR3BCUFlYaTY4Q1AtTGtYMFdUMnRUUzl0djhkalc1clMxRW81Sjhra09xQVQ2eDBjMXhrTGpPUFhDNjZhN0Y0M2tLanp6bXpJRXhPYnVLbEwzRXRPUFZ2VmVIRlVqQnRQTmZyZWNkQmJVMVQ4?oc=5",
-    "source": "Push Square",
-    "kind": "news",
-    "publishedAt": "2026-11-09T15:19:05.000Z",
-    "firstSeen": "2026-11-09T20:24:19.280Z"
-  },
-  {
-    "id": "5042598b62ed",
-    "title": "New GTA 6 PS5 And PS5 Pro Features Datamined",
-    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1ZelZTWkRweWgycTE4eHVNdFB4TWdwNS1UTW5XbEV4R1pnVjFsbmprZUdYSllHWG54aE45eU05Zk9taXBJRFcxTFdKMVZ3RXd2RDZvclctbFhyZGVtWHZIWWFmaFp5NkUzRUhUaE1QcHhGNHJ6dFdLdjdNcw?oc=5",
-    "source": "RockstarINTEL",
-    "kind": "news",
-    "publishedAt": "2026-11-09T15:15:54.000Z",
-    "firstSeen": "2026-11-09T20:24:19.280Z"
-  },
-  {
-    "id": "4e8606410fd3",
-    "title": "GTA VI texture files will be 57 GB in size for PlayStation 5",
-    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOUW85TVRLVjNPOXBzX0xxSG12Z2puQnpjNlNEX3Q5VkNSZFVVcjdYV0VUeGd1RFZmT01Ea0oyVzFLS0k2MWJ3cm5QUmY1Slg4TGVRR25UZkEyNlk2WmJPa2RNcGNvVFJuSjFwekJkcmFMMmpYZjhpVEZoYWNLZVJjRHVKWUJfYWdhWEtQTzNUckxOU21SWDlIV051U25HRVBfSUVFNFRzOFJWX0NNRHhoVGJIdkxVTUx5cFgwdjAxTVVULUE?oc=5",
-    "source": "GameGPU",
-    "kind": "news",
-    "publishedAt": "2026-11-09T15:11:40.000Z",
-    "firstSeen": "2026-11-09T15:30:10.939Z"
+    "firstSeen": "2026-11-09T20:24:19.280Z",
+    "summary": "Will AI-made PC ports impact GTA 6's launch? The experts say no, but vibe-coding is here to reshape the games industry as we know it."
   },
   {
     "id": "7816388cbb5a",
@@ -744,106 +1406,18 @@
     "source": "r/GTA6",
     "kind": "community",
     "publishedAt": "2026-11-09T15:11:38.000Z",
+    "summary": "submitted by /u/Turbostrider27 [link] [comments]",
     "firstSeen": "2026-11-09T15:30:10.939Z"
   },
   {
-    "id": "99352425be22",
-    "title": "Travis Scott, Cardi B, Justice Race to Miami for \"GTA VI\" Fest",
-    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxORENXeUFiVnNzV0oxOFBjUVlTV1NRdDRuTG8zQjhRSFNJSE5BZzMwU2xOa3FoOVJXZ0xTQWNNOGJ5ckFSQ19aN1BFM05qWjYxQ1Q5VG9leUlyU3lhYUtGMElSWFZGOEZ1UnVISUNVMGptQlRUVGNKMjJRMERMWTAzQXBROUxjNkU?oc=5",
-    "source": "Hits Daily Double",
+    "id": "2845a45ddd65",
+    "title": "‘Grand Theft Auto 6’ Preload Times and Game Size: Everything You Need to Know, Including Tricks to Free Up Space",
+    "url": "https://tech.yahoo.com/gaming/articles/grand-theft-auto-6-preload-230802847.html",
+    "source": "YAHOO!",
     "kind": "news",
-    "publishedAt": "2026-11-09T15:09:50.000Z",
-    "firstSeen": "2026-11-09T15:30:10.939Z"
-  },
-  {
-    "id": "93e7e3658cbf",
-    "title": "GTA 6 Is Getting Its Own Music Festival in Miami This Month",
-    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQWlZKN1ZlbTRZRC04OVVfdWpGalphZXMyV1lvWmZOdUNoYTBfMzM2bGphdnFBUTMwSnZwRUc5X0dpT2EwMFVIYXFtRDdOR1RWa3JWTjNqUjhVNmp6Zy12emlfaVI4dUFJV19Pa05USUswYjJfRkZBQ3hpemQ0TldpdnNGc28xc3JJQW15T1dGbmNUUE9vV0E?oc=5",
-    "source": "PlayDayOne",
-    "kind": "news",
-    "publishedAt": "2026-11-09T15:07:12.000Z",
-    "firstSeen": "2026-11-09T20:24:19.280Z"
-  },
-  {
-    "id": "0d58d30c52c9",
-    "title": "GTA 6 PS5 Pro to have updated PSSR 2 and 120Hz, but QSSR unlikely for base console",
-    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNSkZYVmhoX3BTZWFQNGRIYi1VZHpScVpXWEt0Sjc2RVhnY1dTTHh2QWsxNVNzTm8tYXZCTEhiRmd3c0ktVkFyaVk0VGtLb3E2TmRsSlFWY1Y0U0tQVVoySEVTa2taNzZLM3lTTVhiZWs0U2RVR0lSay1HeGZTYkgtREpPa2J6dHpld1FnandmLWJlRmhHb25uQmppek5MN19sVzJhdzA2TmpIalBxdGp0OUJJTm1TTnB4elU5NmRCUkQzcFNv?oc=5",
-    "source": "Notebookcheck",
-    "kind": "rumor",
-    "publishedAt": "2026-11-09T15:04:00.000Z",
-    "firstSeen": "2026-11-09T15:30:10.939Z"
-  },
-  {
-    "id": "7077db060def",
-    "title": "GTA 6 Preloading Officially Goes Live, Revealing Files That Tease Multiplayer",
-    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQZW5xSjluaEwtNFYtWUJWcUJvSG03TjZtZTVxUTdaOGc5YVNRZlFuU0FOOEFyQTVjdkc3VUMta09uWS1VNmltWGIwOHZNUUxnYnJXVDBUVVFqQXJIdGgyWFVGVUVCS254OU9zSzk2REgweXRTc3NRWWxoZ0Mxc0ZHR2pXN0ZTa0U?oc=5",
-    "source": "Polygon.com",
-    "kind": "news",
-    "publishedAt": "2026-11-09T15:02:04.000Z",
-    "firstSeen": "2026-11-09T15:32:12.535Z"
-  },
-  {
-    "id": "5b8efbd8f150",
-    "title": "When is GTA VI being released – and how much will it cost?",
-    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQVmVoOEUyLWJmMlAtODN1WmxaQ0Z6VXhJYTR4ZmJZbm05YVNnZnYzUTd3QUZTVEhYUE9fQUkydzFlQjZac21LMlJDQVFRNGYzVmwtZW5UdF9JMkJIYzktaFFBSXVpM09OY2Vya184ZWFJaVJBUHQtQU5QMlhNRXp0U2hLWkZITU5RN2txaUFiaDc0bzZVMlh6dVh1UHhZd00?oc=5",
-    "source": "The Independent",
-    "kind": "news",
-    "publishedAt": "2026-11-09T15:02:00.000Z",
-    "firstSeen": "2026-11-09T15:30:10.939Z"
-  },
-  {
-    "id": "5f19e15c3517",
-    "title": "GTA VI in Miami: News, Real Locations & Vice City Updates",
-    "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1GeFMwQjZmdlhfNEpxQk5YbnVSWDlqUGpIajM2emtwR1pRakNSclppS3BleGRyNjYybnJFaFR1dzdySEFGMEFsc0JGSEFVQjg?oc=5",
-    "source": "The Miami Guide",
-    "kind": "news",
-    "publishedAt": "2026-11-09T14:59:20.000Z",
-    "firstSeen": "2026-11-09T20:24:19.280Z"
-  },
-  {
-    "id": "95b4d9678c30",
-    "title": "'Grand Theft Auto VI' to Be Commemorated With Miami Music Festival f/ Travis Scott, Cardi B, More",
-    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZ0tMaHVIZE15a2NHZk1EcS1OZmg5RUdKWU5QdFhhMWIwYi1KbkZTb2V2THJoNWMxNXU3TFgwRVFJakY3SERtYXJobkxiODJGeUZXVlMxSjF0aXBHclRFU3FLVXVyYTJjN0U2Qm5sdWxDRDdidFhnbml4VGw4T2oxWWZiV1NKSENJeU1TQ1NnV1lIUG0xUjZ6a3ZlUXlBZw?oc=5",
-    "source": "Complex",
-    "kind": "news",
-    "publishedAt": "2026-11-09T14:56:50.000Z",
-    "firstSeen": "2026-11-09T15:30:10.939Z"
-  },
-  {
-    "id": "c788addce16f",
-    "title": "GTA VI activates High CPU Frequency Mode on PlayStation 5 Pro with CPU overclocking to 3,5 GHz",
-    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQMU51TWZPVlVMUzVNRHN3T3NrQV9PQ2lZZHlPakJoaDh2enhUa2VkbWJZd0xjWFhwYjZQUE85cU92Y2J5VUF2RzRiZjVPbFFKYmVaZ0ZTTTVwbHlkY2JyRUxMRndrLWV5RWJLa2tZSUxubEV6dW1hbGlwOHoxckVMU1h4aWt1U0gtMjJOb2NXbGxwYXhiS3hDbjZ1NTJNbkc2a1V4VG4yVk5zaE5DNm5naUlPZTlFclFVNkU4a3ktcTlxU3UyODRr?oc=5",
-    "source": "GameGPU",
-    "kind": "news",
-    "publishedAt": "2026-11-09T14:47:43.000Z",
-    "firstSeen": "2026-11-09T15:30:10.939Z"
-  },
-  {
-    "id": "51093db4e9d3",
-    "title": "Travis Scott, Cardi B, Justice, and Loads of Other Artists Will Descend on Miami for Live GTA 6 Music Concert",
-    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE10eXpfTUNNcDdXVlltM1NVOGhHS2UtQzQtcC02SjlHc1JNX3prenpPN1FNQzVndkNYR3BEeFY3TndweTNhMjFmOHBTV2I1THFxbFZBVzdYQk5yOXdCZXRVeXRzNUxfdlpwS2dFcGxvcFc1N0ZCeXVqelNrWHZRRms?oc=5",
-    "source": "IGN",
-    "kind": "news",
-    "publishedAt": "2026-11-09T14:45:55.000Z",
-    "firstSeen": "2026-11-09T15:30:10.939Z"
-  },
-  {
-    "id": "98e025d5ec75",
-    "title": "Rockstar Games is hosting a GTA 6 concert in Miami",
-    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1sYzdab01tZC1LM2M5dW9pd2pJcjFEa01FRW41TzFyMjBWdjNlWjNwS0Ryd0drMkxVRFpFNXNzaVRicTRXT2ZUbGZ5X0hSUUFRQV95enJNb2tyNmQ2bkd4Vi1oVmxaVlVWd19PQg?oc=5",
-    "source": "Shacknews",
-    "kind": "news",
-    "publishedAt": "2026-11-09T14:38:00.000Z",
-    "firstSeen": "2026-11-09T15:30:10.939Z"
-  },
-  {
-    "id": "4776c4c73faf",
-    "title": "Grand Theft Auto VI: The Festival",
-    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNZXQ2Z3VKV3ZmaXQ5d2FjQ1FWSnVJMjZxOURwa1dLNVVRMXFwMllwa1JPRTdXQ1dVQ1VCVzZDcVdBRlR5b1BWTXoyLTN1WnlaSnJFMjhMWjRvNGVXWDhnSlRjbU44eDRZSVFzQUNvTnNyX3RFZUFGdXU2SEtpell4MDh2bjJrNE5RMnptaUZjdHBXUUw5SnhGbDdR?oc=5",
-    "source": "Rockstar Games",
-    "kind": "news",
-    "publishedAt": "2026-11-09T14:33:58.000Z",
-    "firstSeen": "2026-11-09T20:24:19.280Z"
+    "publishedAt": "2026-11-09T15:08:00.000Z",
+    "summary": "GTA 6’ is out in 10 days, and the time to preload the game is almost upon us, as an unusual increase in search traffic indicates potential high sales.",
+    "firstSeen": "2026-11-10T03:30:27.513Z"
   },
   {
     "id": "fbac4ea1b23e",
@@ -866,24 +1440,6 @@
     "firstSeen": "2026-11-09T20:24:19.280Z"
   },
   {
-    "id": "ab5fbd824f50",
-    "title": "GTA 6 Preload Goes Live in New Zealand; Files Show 212 GB Size",
-    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOaG51clBlX0h0cHlzdFJ3TGJTTkZDbmZKaXgxdGowa21nVmxxZFl3SzZEQTZzTzhpaXI3ZUxYR1o0ZVZYU0ZqbHJxd05TUHYzVFZNTVAxbkxsYkRTNl8zcTZWaEtfNU9BNUEyWGpkT0FVckFCU0pKWHd4dk1ZXzVOR0ZobHFtenRfN3JNZ05LNnF5aGxCQ2pLRGVGS0pLdw?oc=5",
-    "source": "JournalArta",
-    "kind": "news",
-    "publishedAt": "2026-11-09T14:23:11.000Z",
-    "firstSeen": "2026-11-09T15:30:10.939Z"
-  },
-  {
-    "id": "51441912c2c7",
-    "title": "Grand Theft Auto 6: The Festival Revealed by Rockstar Games as Launch Event",
-    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5TVGJoUzVUMVVkb0JfYWx5ZktGSVJrS2p2b3BfNlEwUVZVSHV3RkZTQUxJZzFBWnBUUklJZW9oNWI5WFVqN29jVHczcExUZ0hINHlNUUl0bEoweEktWVctSzloTTFmMUI0QW5pb2ZIM0w4YXNOcldNZUdR?oc=5",
-    "source": "Insider Gaming",
-    "kind": "rumor",
-    "publishedAt": "2026-11-09T14:22:52.000Z",
-    "firstSeen": "2026-11-09T20:24:19.280Z"
-  },
-  {
     "id": "86c550cbeac9",
     "title": "Rockstar announces Grand Theft Auto 6 music festival taking place in Miami",
     "url": "https://www.videogameschronicle.com/news/rockstar-announces-grand-theft-auto-6-music-festival-taking-place-in-miami/",
@@ -894,15 +1450,6 @@
     "firstSeen": "2026-11-09T20:24:19.280Z"
   },
   {
-    "id": "a1cf593fdd75",
-    "title": "GTA 6 Pre-Loads Tomorrow: A Florida Police Chase Means a Felony, a 1-to-5-Year License Revocation and a Car the State Can Forfeit",
-    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNSFh4WUFYOURqSXh0WFZfNnYzMW5oajFIanRkMGJRLTRjSWJTcGwxRFBneXRpcl9uZGw5b1R1ZUhEY0tJMVhmcVNEN2ktT3poY2VJUDcwT2wxWXZoVWJ5bE05c1pGQUdrR0Ffam5ETEZ4TG8wSWNxMGVPNEVoQ2ZyZzlZYVk?oc=5",
-    "source": "Yahoo",
-    "kind": "news",
-    "publishedAt": "2026-11-09T14:15:54.000Z",
-    "firstSeen": "2026-11-09T15:30:10.939Z"
-  },
-  {
     "id": "d549a17bfb71",
     "title": "GTA 6's Exclusive Selfridges Merch Is Daylight Robbery",
     "url": "https://www.pushsquare.com/news/2026/11/gta-6s-exclusive-selfridges-merch-is-daylight-robbery",
@@ -910,42 +1457,6 @@
     "kind": "news",
     "publishedAt": "2026-11-09T14:15:00.000Z",
     "summary": "Varsity jacket for $3,300. You may need to turn to crime in order to afford UK retailer Selfridges’ exclusive roster of GTA 6 merch. Available online and in-store now, items include a £2,500 (~$3,352) varsity jacket with the Rockstar and GTA 6 logos…",
-    "firstSeen": "2026-11-09T20:24:19.280Z"
-  },
-  {
-    "id": "04dea0fe5d2d",
-    "title": "GTA 6: The Festival announced by Rockstar as real-life event rivals partying in Vice City",
-    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQVFZaVFRBdlZ3Q0dGY0R2MDFyWWNGR0tBdUJJQXBMdlpGU1B2TUFDSm9KVUtNN1RpZzVGeHFMMEYtZ3diWTVsNXFDTXVnRXN6MlRlSGtfeFVwZmczOXhqdk5iZ2JiNzdGajNnVThBUEZXVHo4TTFJeWJOcEp2MmdqRDhuNC1xRDZWUnFiTHFyTjdOclVycXpHbk5HcXBpeXQzaUlEUnUxMXY?oc=5",
-    "source": "GAMINGbible",
-    "kind": "news",
-    "publishedAt": "2026-11-09T14:11:44.000Z",
-    "firstSeen": "2026-11-09T15:30:10.939Z"
-  },
-  {
-    "id": "2310d440cc20",
-    "title": "Why New Zealand gets GTA 6 before the rest of the world, and the time-zone trick players are trying",
-    "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOZnpaOUtHYVFOckIwZ0Zjb2M0NlZwS3lJRUxLSzNKVEhRVDFMS1ZrMWhJUlNwUjF1cktLT2RFYVVSTkRvSHpjMVVma1NIREJNaFNMOE9LaTAya0NUS2pGT250VjY0c09HWUp1Z0ZGX1pIZGh3TE5lb1RQQlIxM0xiQUhoVG1mRmZVUmJwN0owQVYwVmoyR3JkWHBhYlNNWk5YYXdmUmhYZmpfUmE5Zlk4b0lvZlpoNmpUMHluVWhMTlMzdFN5WFd5RGoycXVqd1p2X1ltTkFWTU1fV3Mzd2lrUHMxcnU5SVpTaWZuYzJuMHdhZlHSAfgBQVVfeXFMTTh0VWhmLWg3YnROekFOQmpMLW9sTGRWZUJwS0dranczOHBnUnFpUTN0VmhLRHFWRjk5R2dkai1MdlBwZzNzeDY3QW96THo2YUUtN2ZJOWY4VXhSVjhPUUZlbHFfd0I3dEd3UlIyNDdhOXN4OHc4Skl5SmFibTRNUnNrb3gyZnRLVHQyQVdLb1FKZ2V1bVJ6U0sydHgwMkNOa1dldy0tQ0x1bkRWVWhXMWhJR2lDelFTS1p2c09oTXBUQUpld2ppMF9Oa1lQV3JRcHc3Y1djaUNJZDF4a3FYczRUWDhWcmxoaUJzdG9SczdDRG01cmtqUVY?oc=5",
-    "source": "The Economic Times",
-    "kind": "news",
-    "publishedAt": "2026-11-09T14:11:35.000Z",
-    "firstSeen": "2026-11-09T15:30:10.939Z"
-  },
-  {
-    "id": "a0b31cdf2d2f",
-    "title": "‘GTA 6 Online’ Info Found In Pre-Loaded ‘GTA 6’ Files And Backend",
-    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPZnRaYVNYaHNOZlZ1Ty1OS0diOFFvTVF0NmdHQmhwLUtEVVA3c3Q0dzZ1dG9yMnRqX09BWTNKSWE5d3k2TkViM2xYSF9qTFB2RTRxWF80M2RBWk81SmMzWE9IeDBSamNWVEpTUkJTbm50X0hYNTU0d0ViQnJVNUNESl9obWlNOEk5cHFTQTVYMm9NSmJON0FFdFZydm0tbkxxX2ItMUhsSXNpMnp1VlktVk5B?oc=5",
-    "source": "Forbes",
-    "kind": "news",
-    "publishedAt": "2026-11-09T14:10:46.000Z",
-    "firstSeen": "2026-11-09T15:30:10.939Z"
-  },
-  {
-    "id": "087160d840c5",
-    "title": "Grand Theft Auto VI: The Festival live event set for November 21",
-    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNQ25lZC14cjVZZDhOR3ZDbVZYTDJqNVEyc2kxZFNuRlNwaG94T25Tdnl3UVFJaUp3Zk9SakxQQ2QtUUJ0RkR1V3RmXzhaSmNfZWlkbVdITjM3RldmUkdWc1VrYWNIQXVwVTRHaEs5WkRycjBXQ21wSUZkbkpJUmhfd09HVjJHZHEwcExZZldmeFZmWHd2MmhzYjJnSQ?oc=5",
-    "source": "Gematsu",
-    "kind": "news",
-    "publishedAt": "2026-11-09T14:10:13.000Z",
     "firstSeen": "2026-11-09T20:24:19.280Z"
   },
   {
@@ -959,6 +1470,16 @@
     "firstSeen": "2026-11-09T20:24:19.280Z"
   },
   {
+    "id": "1c02a3313635",
+    "title": "Take-Two expects to make as much as $3.5 billion during the GTA 6 launch period",
+    "url": "https://finance.yahoo.com/media-advertising/articles/two-expects-much-3-5-220634428.html",
+    "source": "Yahoo Finance",
+    "kind": "news",
+    "publishedAt": "2026-11-09T14:06:00.000Z",
+    "summary": "GTA publisher Take-Two projects net bookings (total completed sales, essentially) of $3.35 to $3.5 billion for its current Q3 2027 financial quarter, \"driven by the groundbreaking release of Grand…",
+    "firstSeen": "2026-11-10T03:30:27.513Z"
+  },
+  {
     "id": "130fe4a9aab4",
     "title": "Inside selfridges for GTA VI🩷🧡💛",
     "url": "https://www.reddit.com/r/GTA6/comments/1xrsim5/inside_selfridges_for_gta_vi/",
@@ -967,60 +1488,6 @@
     "publishedAt": "2026-11-09T14:05:52.000Z",
     "firstSeen": "2026-11-09T20:24:19.281Z",
     "summary": "They were playing the radio stations and cycling through dj’s for each radio. Exclusive music and a lot of heavy metal."
-  },
-  {
-    "id": "6260c7fd3361",
-    "title": "GTA 6 Datamine Reveals Possible 120Hz Mode, But No VRR Support",
-    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQUE5RLTI3RWZkMGpOX256WkZGVzR6NVZOUU5BclpWM05qSHNQTHlVbl9LWXBZUkwxZGY2aE9lLXJUUlBLbkRtUkRnZVBCYktPaTBNbEVyNW5odVlKRmpNS19LanlkMXJldmZUOVNrejZpc29GaFFiOWxoY0RabjNFeFBqZE9qa1hSd1REMklpRUM5TG8?oc=5",
-    "source": "Insider Gaming",
-    "kind": "rumor",
-    "publishedAt": "2026-11-09T14:05:44.000Z",
-    "firstSeen": "2026-11-09T15:30:10.939Z"
-  },
-  {
-    "id": "863741c460ba",
-    "title": "New GTA 6 data points to 120Hz and PSSR support",
-    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOZERnNGZMV2xvaVBkZ3JOaF9HeThVZk1sd1lqLV9ZTjl0U0NxUF91UjROR2JnNDA1akx2WXp6S2FVZXltdmVPVWN0UWdFWjFGN1JUNGN2dUM0ejQwOThjOHJpTW5hQnhVVXhoYjNvN3VpVEVFLUd2RGRzTGlSSFN0VmNjMXNFa2RMa3hSVUN4QVFQbC1MVjRYdQ?oc=5",
-    "source": "GameGPU",
-    "kind": "news",
-    "publishedAt": "2026-11-09T14:02:30.000Z",
-    "firstSeen": "2026-11-09T15:30:10.939Z"
-  },
-  {
-    "id": "8a6bb88f0ce8",
-    "title": "Grand Theft Auto VI: The Festival, a special live event on November 21 at Mana Wynwood in Miami to celebrate the launch of GTAVI, featuring a star-studded lineup of artists from the game and the official soundtrack.",
-    "url": "https://www.reddit.com/r/GTA6/comments/1xrsf5p/grand_theft_auto_vi_the_festival_a_special_live/",
-    "source": "r/GTA6",
-    "kind": "community",
-    "publishedAt": "2026-11-09T14:02:02.000Z",
-    "firstSeen": "2026-11-09T15:30:10.939Z"
-  },
-  {
-    "id": "c3851e7080e3",
-    "title": "GTA 6 Discord Quest Guide: How to Claim Free Rewards",
-    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQdTZyWGsyb3l1ZUEzQzJ2SHNjZFJZR250OF9SZGsybUo2bE5HSlkzRHNWSnN5d1JCck9kUy04QldIWTJ1UVZwb2d6dm1pZzRENkJfMVVSMnlOUkdHY0FMUzk5SmxPOUoxcWtZckt1MEJsZ3J2UWJ1R0ViWDNhZE5sN1Z3Zk1odzNv?oc=5",
-    "source": "Cultured Vultures",
-    "kind": "news",
-    "publishedAt": "2026-11-09T14:00:27.000Z",
-    "firstSeen": "2026-11-09T15:30:10.939Z"
-  },
-  {
-    "id": "b1c43810272f",
-    "title": "Could GTA 6 Run at 40 FPS on PS5 Pro? What A New Datamine Found",
-    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE0ySV84Tzdia2g0YWphczktbW1jR1NsdDlXbWNINWVac3JjZ2dmUUNqNVBSRzBNYUVyTWtJSndOTEhuNUFNVVRuMldmR3VkbmZ4WDh5Q0JvRHJBYXowZF9XbFdaTQ?oc=5",
-    "source": "VICE",
-    "kind": "news",
-    "publishedAt": "2026-11-09T13:53:21.000Z",
-    "firstSeen": "2026-11-09T15:30:10.939Z"
-  },
-  {
-    "id": "c042b82373dd",
-    "title": "Is GTA 6's Leonida Just Florida With a Different Name?",
-    "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE5XQTRiNXVVb1BqR3o3YVEyMW1OckpfeXJJNWlmSnRsZmN4WkI4ZVNYNDFNX25Uc0xuNF81cTA5RVFjZw?oc=5",
-    "source": "YouTube",
-    "kind": "news",
-    "publishedAt": "2026-11-09T13:45:02.000Z",
-    "firstSeen": "2026-11-09T15:30:10.939Z"
   },
   {
     "id": "0969b62be9e9",
@@ -1033,13 +1500,14 @@
     "firstSeen": "2026-11-09T20:24:19.280Z"
   },
   {
-    "id": "3dd3265db786",
-    "title": "GTA 6 menu music revealed as PS5 preloads go live",
-    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOTGQ5Qkwwek9JeXY3ZWZIcjk3WTRNWUhfUFl0YzM1MnQtZ1Qtd2MwcDdYbE80SmdyYlJ4enNDRG1tNmQwMlJyY2ttbW9CazR5NUdHMEpWZ0NNVnZGcUxhQU5JOFBKb1B0WlBnekNCQ1dFdkczeVNFMEJwREkwMEgzSk1uSGtOUVpQcG1zT2ZzdUR2Nkc3V3BaZHpBTW1TVmM?oc=5",
-    "source": "TweakTown",
+    "id": "c54826543900",
+    "title": "Take-Two Interactive Software Gives Restrained Outlook Before 'Grand Theft Auto 6' Launch",
+    "url": "https://www.investors.com/news/technology/ttwo-stock-take-two-fiscal-q2-2027-earnings/",
+    "source": "Investor's Business Daily",
     "kind": "news",
-    "publishedAt": "2026-11-09T13:42:16.000Z",
-    "firstSeen": "2026-11-09T15:30:10.939Z"
+    "publishedAt": "2026-11-09T13:42:00.000Z",
+    "summary": "Take-Two Interactive Software delivered mixed results for its fiscal Q2 and missed views with its full-year outlook. TTWO stock fell late.",
+    "firstSeen": "2026-11-10T03:30:27.513Z"
   },
   {
     "id": "98831c2f3d18",
@@ -1052,22 +1520,14 @@
     "firstSeen": "2026-11-09T20:24:19.280Z"
   },
   {
-    "id": "2a5fe9e22bce",
-    "title": "GTA 6 Pre-load Go Live, With Main Menu Theme Song and Release Times Revealed",
-    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQTENqSDBiTGc4cGJKeGp2RUg2UFNCSmRqRU9BeF9CM0p1ZVFDd1piWUZLZU4xVE9HNWlVT0JfRGUyOThBV3BMOTJIZm9oQldBaFZpbDF3ZzlqSVBLUHZPall3bXVGLWtQcng0OUc0LVNpOEdjc1BhNXVRaERMVC1IbkpYNWdJc3J0dS1RZEVWLXFVUmxKN0ZVSnBSdTVEWVE?oc=5",
-    "source": "MP1st",
+    "id": "4dee9679b58b",
+    "title": "\"There's no such thing as easy money in our business\" – Strauss Zelnick on GTA 6, BioShock, Take-Two's acquisition plans, and reviving old IP",
+    "url": "https://www.gamesindustry.biz/theres-no-such-thing-as-easy-money-in-our-business-strauss-zelnick-on-gta-6-bioshock-take-twos-acquisition-plans-and-reviving-old-ip",
+    "source": "GamesIndustry.biz",
     "kind": "news",
-    "publishedAt": "2026-11-09T13:40:28.000Z",
-    "firstSeen": "2026-11-09T15:30:10.939Z"
-  },
-  {
-    "id": "33bc8f1cebbd",
-    "title": "GTA 6 Datamine Reveals Multiplayer References",
-    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9LTlJwS0YzRlpuSndIQ3hTZ21CNTZ1Y1NoUmRnZ2tHTF9vUFhqd0NSQU9lNUhxeXNXTllPR3o0cmN3UlJfRWU0N0pzZ3VCbFBvdktabThFT2FmRHFlMUxMU1hBUHVHeGRmd01xWU1pTkFlVFhZZ0FlRFJSZU9sZw?oc=5",
-    "source": "Insider Gaming",
-    "kind": "rumor",
-    "publishedAt": "2026-11-09T13:33:12.000Z",
-    "firstSeen": "2026-11-09T15:30:10.939Z"
+    "publishedAt": "2026-11-09T13:39:00.000Z",
+    "summary": "Take-Two Interactive reported the earnings for its second quarter today, and GamesIndustry.biz had a chance to talk with CEO Strauss Zelnick about the results, as well as where the company is headed.",
+    "firstSeen": "2026-11-10T03:30:27.513Z"
   },
   {
     "id": "4a50bbad64cd",
@@ -1080,194 +1540,24 @@
     "firstSeen": "2026-11-09T20:24:19.280Z"
   },
   {
-    "id": "8a641e5d5a95",
-    "title": "How To Preload GTA 6 In Full On Xbox Series X|S (Even If You Haven't Bought It)",
-    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQR2lSc0ZjcExUdlZBc2hCaTU1amZTdFZpSHVHZWJKWENEQVc5SFRZYXNkRWh4cldhbFo3dkdMcmV5VWtXSHFwVVFxdDV1bndrNGxaY296cWxoQ01HaHJpTXhyaFdPbElrbTU4LVB1aEV3eWM1cnUtbERsMWp6NGlsS21ycE52U1ZhcTNVOVZTVFJ4NUo4c2d1SUloMElsTWkyLWpOYUVwR0Z1UWpaVXZ0Q0R4TQ?oc=5",
-    "source": "Pure Xbox",
-    "kind": "news",
-    "publishedAt": "2026-11-09T13:30:00.000Z",
-    "firstSeen": "2026-11-09T15:30:10.939Z"
-  },
-  {
-    "id": "29270c5bf47a",
-    "title": "GTA 6 Preload Files Hint at Unannounced PS5 Pro Ray Tracing Boost and 40 FPS Mode",
-    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB5V04yUmtwMENZbDZ4bHJ2UFE4T2JJYzc5U1NwZDV1Z29xMjBPYVdtT0NPaXNVV0dWeTRCRV9RWmxJU1JMelFyVk9NQU5qeU1CMXByMWk3Y2NIUVhKR24yNExHTnV5ZW1NLXVUcGJ6X2kzWjZJaEE?oc=5",
-    "source": "BigGo Finance",
-    "kind": "news",
-    "publishedAt": "2026-11-09T13:29:15.000Z",
-    "firstSeen": "2026-11-09T15:30:10.939Z"
-  },
-  {
-    "id": "247320cf3eba",
-    "title": "GTA 6 lands in London as exclusive merch goes on sale at Selfridges",
-    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQN0pNR3FiUklnSlFPSnYzVlA5UFZKWUtaS0JGX1NFVlVhM2R2YWZOa0h0ZzdKMlVDTEp0dlpMUjJOWGNuYUpvSmtmVk1MUWR3ckZDMUo1MGl3WWRCc1JfclNhdzIzekdscnRkYzhWSnY5RzBJeTJoT1RlYUFlMFBnUmRvOFRyX3UxYi1Ka3poZHFQRk5pYVQzaDhKdlJtNGhTdHA4bXMwSQ?oc=5",
-    "source": "Radio Times",
-    "kind": "news",
-    "publishedAt": "2026-11-09T13:25:41.000Z",
-    "firstSeen": "2026-11-09T15:30:10.939Z"
-  },
-  {
-    "id": "95ba81a48ce9",
-    "title": "GTA 6 Merch at Selfridges Ranges From Around £5 to a £2,500 Jacket",
-    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOQjRfSHVvNzF3X0R4MHluaEl0M285b3JsZWgwWHBzX3QwXy1HcWhIeUZaYjZmNnZYNWpHT3owMXdRYjNJWWxuZi1iZ3pGbEQtQW5lRmV2ejNUYUMxY2dKV3N4VVdBb0JJV3Z2OGI5aUpUaWZqYV9ldXVWNzAyU1BYY3J2cjJaU1RzZ2Rad2RZdw?oc=5",
-    "source": "GTA BOOM",
-    "kind": "news",
-    "publishedAt": "2026-11-09T13:23:48.000Z",
-    "firstSeen": "2026-11-09T15:30:10.939Z"
-  },
-  {
-    "id": "8c1898774034",
-    "title": "GTA 6 PS5 Pro Leak Reveals Huge Upgrade for PlayStation Fans",
-    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOeFVVYlVJV1g4V1M3SWt1SF8tdVZadWVJQkk0YURnZC1Xd2hucmZMUjN2VDIxdlRiS0FRU3ptNk5yN1ZXUlczN3YwOENkVWJHSktYMl9YeC1xb0FCaXZDNXJEUkgtRlZzbU5zZ3lRc3pqTFlDNzdpcEFERFJlSnQ4WUdfVDg0NE9HOFdJUjVwcWJCa2lsNWt6TEpqRzRlaFJuNWhz?oc=5",
-    "source": "ComicBook.com",
-    "kind": "rumor",
-    "publishedAt": "2026-11-09T13:23:32.000Z",
-    "firstSeen": "2026-11-09T15:30:10.939Z"
-  },
-  {
-    "id": "1a122f99b132",
-    "title": "Selfridges Opens GTA 6 Pop-Up With 60 Items and a £2,500 Jacket",
-    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPUDNvVnh5cVc2ZXNqSnd4M0lKQ2x0VUVuLU9DSWQzWVZXX24ydDBBM0xibExYMDJobnZ5cXF5VXpWVlB6VVZlVm5VampYMk9DTjVjVUQwd1piTXVzUVRYX1ZyaHJtbDRjWXAzaHMyTDBVcDVIc1BPRTRoOFp5Y052N0JSRWh1Wl9KZUpaUHVzVW81TnF2RU1BRnpxZW54RkVPNlE?oc=5",
-    "source": "Around Prague",
-    "kind": "news",
-    "publishedAt": "2026-11-09T13:22:41.000Z",
-    "firstSeen": "2026-11-09T15:30:10.939Z"
-  },
-  {
-    "id": "df397bf4b190",
-    "title": "GTA 6 PS5 Preload Going Live on PS Store Now",
-    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAya1FaTEl6Uk1tcjhHdUQwSVhlbjdZbFpLMEduR3JBZ2hPUjdNY2RqaG5Jc1RaMnlyMWRiVFl3dXN0bEVCX1IwOVNmSEFLdk9YNXp1bVlxSFkyOGJmcnZjVXMwYm5IR1ltVFFlZllBbUZnMUg1LUE?oc=5",
-    "source": "AOL.com",
-    "kind": "news",
-    "publishedAt": "2026-11-09T13:16:07.000Z",
-    "firstSeen": "2026-11-09T15:30:10.939Z"
-  },
-  {
-    "id": "1fd8fe966d50",
-    "title": "It's getting closer. GTA 6 to start preloading onto consoles Tuesday",
-    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPbENWLU85SnV2eFdfMllFejZoaEstTEJ0bGJPTFVUSVJ4ajJEWWdnQnJiMlQ2dkRxQzU0d0RPdE5yekQ3aER1aWNnVm5LVjE4VzBkbGdUZnlJNHM3VmhFMTRjUzNUaUxVRFZlSDc2Q3p6TUlMWFNpbXd6d2cxcjY3Q0FkekhMbTdHbUtJSUlQdG1BUnRQRlpiZUkyT3V3bDhOUV9ZcXlHeE5FSkhJcGZHVTN3?oc=5",
-    "source": "USA Today",
-    "kind": "news",
-    "publishedAt": "2026-11-09T13:11:45.000Z",
-    "firstSeen": "2026-11-09T15:30:10.939Z"
-  },
-  {
-    "id": "fdfa86b877cf",
-    "title": "GTA 6 Physical Edition Surfaces Online Ahead of Launch",
-    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQcUpYdEdNRFJwd1NkTnoxMWtmWnNqUzJnUmNTRXVhUVAxOG9VWFJGdm1wMVBfSHlyc0k2S2RNTzJnSzJMLXhmTnpTZ1phcVdVNFY5bUhEanp2cE5TalctblM0LUFxd0xPSHp5UHBFVGp5OXJXOHRjTU5CMlRKQ2tkb051QkR5YnY2X0lSbzNaaXdVbWNvUGZ3NnNTT24zSUstOWc?oc=5",
-    "source": "IGN India",
-    "kind": "news",
-    "publishedAt": "2026-11-09T13:05:09.000Z",
-    "firstSeen": "2026-11-09T15:30:10.939Z"
-  },
-  {
-    "id": "882d938a6978",
-    "title": "GTA 6 Main Menu Theme Revealed as Preloads Start",
-    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPZXVIblpuMF8wTl94RUFocDNNWnd4N1dlcVZIZ2VFUjhxYzBiaDBKZHU5a2JfSDJzd0xFNjFyUlpYX3hUcU9QVTgxMVBsbUIzOFlpZmgzV2pQMHRUTWZKQTlaQzVyZjFLb1h1bmdVT3ZMU1VqRjc0ZERBRUc1dThWWFdR?oc=5",
-    "source": "Insider Gaming",
-    "kind": "rumor",
-    "publishedAt": "2026-11-09T13:04:29.000Z",
-    "firstSeen": "2026-11-09T15:30:10.939Z"
-  },
-  {
-    "id": "3b94597d89e1",
-    "title": "GTA 6 Will Reportedly Feature A Newer PSSR 2 Version And 120 Hz Support, Metadata Reveals",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9yTnA5MUJ5QlhOTHk4Q0lwcFJjY1JKdkRNdkNRUjRSUXRteWtuNDNoYkVKV0dDamwyODZDNmZ3Qjh1bG0wb1lfZTBmMTEtMnloSS1BNUlMc0Jha1NHMzFZZg?oc=5",
-    "source": "Tech4Gamers",
-    "kind": "rumor",
-    "publishedAt": "2026-11-09T13:03:47.000Z",
-    "firstSeen": "2026-11-09T15:30:10.939Z"
-  },
-  {
-    "id": "808cd06e8cfb",
-    "title": "GTA 6 Preload Data Reveals New PlayStation 5 Pro PSSR 2 Version, While 120Hz Support Keeps A 40 FPS Mode Possible",
-    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBpakFLZ2xGNHVEamhwTWpIMWdOTzZIMnZWNGJFdGkxMElGRC02NjA2WlVpNHBFWkJBRjUzSjZuU1NYd3pQUXB5QzJjMlRIdm9GdkJWSDVQWG8tMXZHRjdzOURsS0tkbDdsU0hPVGpIT3JWejg2MnFxZVkyMXlfOWfSAYQBQVVfeXFMT3Bid25uemZMTWpiM195cDNWV1pMZ1gxSU1uT2NYRVE0Z0lhUllEU1NIZjRJT0JjaHNnS1hnNmtxNGV5aFVPRERkZkV4TWRrSnFFTkgwUG1aUi0xMjZCNTUzS1QydkoxdHM2b2V3dlhTU2FCb3FLYXdxYlNPdXhxZkNoWWE5?oc=5",
-    "source": "Wccftech",
-    "kind": "rumor",
-    "publishedAt": "2026-11-09T12:52:51.000Z",
-    "firstSeen": "2026-11-09T15:30:10.939Z"
-  },
-  {
-    "id": "41951e45ec7e",
-    "title": "Thanks to GTA 6, millions of people are about to discover what a manatee is | Opinion",
-    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPbjBxN2kzZDB5UlRGZG9FUHRaUWlHOTNpU2xnZHVVbGdPdWZuUGZzbm5RNlpLbENSTzN4b182dng5QmNsV0xUald1cGxIWHUzWDJPMmdkU0Rid3dvUUg2WE1PWHFoSnNmNGk3YVlodFhEckFicHQzaGZZNFU2Y01UY2pZWmdwbUNsUmVGelFReXVlWWZKdjVvX2xYTERaZ0Y1YmxFVlZXTU8?oc=5",
-    "source": "GameDev.net",
-    "kind": "news",
-    "publishedAt": "2026-11-09T12:45:07.000Z",
-    "firstSeen": "2026-11-09T15:30:10.939Z"
-  },
-  {
-    "id": "0a4383cbe844",
-    "title": "GTA 6 Physical Edition Comes With a Poster in the Box",
-    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5QRUVIcmtxTE12eTEyQkRTclI1azc3V2NOX1FWSzRNOXlhZC13Rmp1MG54MXVicnpiREp1UXVGYVFjNHBJek16YzBMcHdNcllJeFdobG9xY0Q3UW9EWGR0RUNkTzh4MlEwck8xRUY4MA?oc=5",
-    "source": "VICE",
-    "kind": "rumor",
-    "publishedAt": "2026-11-09T12:40:58.000Z",
-    "firstSeen": "2026-11-09T15:30:10.939Z"
-  },
-  {
-    "id": "8f489392827c",
-    "title": "gta 6 multiplayer details revealed ahead of release",
-    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOdFA1aDVIZ0wzVnFmeXBYd1BINlN3N2JPLUNuTkVzSXdfQlNYUTNOSzFMTzNLMXZHLV83SHlpclhLVjhaOGhQMnpVSTJEdEQ3anI0Mk9GVmV6ZF9zOVNIUGVQTjkxWHNGRnpWQTNvNWljYmpqQ01PSXB0ZG1qMmgzRjJnZ0JpU1UwS0FvSTYzb2k?oc=5",
-    "source": "NewzTodays",
-    "kind": "rumor",
-    "publishedAt": "2026-11-09T12:38:24.000Z",
-    "firstSeen": "2026-11-09T15:30:10.939Z"
-  },
-  {
     "id": "cda7e802378c",
     "title": "As GTA 6 Preload Goes Live, Fans Dig Into the Data to Try to Unearth Unannounced Information Ahead of Launch",
     "url": "https://www.ign.com/articles/gta-6-metadata-ray-tracing-improvements-on-ps5-pro",
     "source": "IGN",
     "kind": "news",
     "publishedAt": "2026-11-09T12:33:05.000Z",
-    "summary": "GTA 6 preloads are live for those who live in New Zealand (or are pretending to live in New Zealand to play early) and fans are scanning the game files for new information.",
-    "firstSeen": "2026-11-09T20:24:19.280Z"
+    "firstSeen": "2026-11-09T20:24:19.280Z",
+    "summary": "GTA 6 preloads are live for those who live in New Zealand (or are pretending to live in New Zealand to play early) and fans are scanning the game files for new information."
   },
   {
-    "id": "06e7d4b3cfdd",
-    "title": "GTA 6 Will Reportedly Take 223 GB Of Space On PS5 Consoles Worldwide",
-    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5MTHhPcHpRNXh5QURBTGdoRFBIY0VFRU56TTVKUVM3eEV4UjJlSmFSM2tzNUpaTlZzUndaTWRHemNaYjFFZVpEaDNfNXp5WXFpMTN6MHRiLXRyeXdhMUNtRmtR?oc=5",
-    "source": "Tech4Gamers",
-    "kind": "rumor",
-    "publishedAt": "2026-11-09T12:29:56.000Z",
-    "firstSeen": "2026-11-09T15:30:10.939Z"
-  },
-  {
-    "id": "c51d9c173584",
-    "title": "Gear up for spatial audio in GTA 6 with Sony's INZONE H9 wireless gaming headset at 46% off today",
-    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPX2l6dk9hVnpEMFB0SnBDYkd6RWtOX01CR3ppeHFORTBoaGczNWdYLS1UVFdUNzRjc3hfc054VV95X0djZTE4RHF6eUluM1FVY2NDVUVEczY4amtUQWgzMWYwVjF4MHVBRjR1Xzc5dHBfLXZ2bXFjZE1xd082WEUyUERST1NIeUwwYVZKa1hfZVpocG1HYVlqUmlSdVJIMC1mZ3lmV0JYX0h4Zw?oc=5",
-    "source": "9to5Toys",
-    "kind": "news",
-    "publishedAt": "2026-11-09T12:28:00.000Z",
-    "firstSeen": "2026-11-09T15:30:10.939Z"
-  },
-  {
-    "id": "4cceb53817d9",
-    "title": "GTA 6 Preload Goes Live in New Zealand With a 209.8 GB PS5 Download",
-    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQTzJ1RTl3S21MU1ZSSEpWQ21JNkk1MTFOb1JLT0stVVRKV3czcUxKcjVabDEwaTNHYWVBOTNCZEVFcnBTZ1VhakoyQ1Ric04wQ0hOVXpheGllRVBPTVEzNTdCRDNqQjRpRGZiMkp5dFl5ZGVVS213VG5tZXplRE5ac2Q1MUpibUktOEV6Q1VrcHpNd1lvcmxCQ0NVSTdPR2JQ?oc=5",
-    "source": "GTA BOOM",
-    "kind": "news",
-    "publishedAt": "2026-11-09T12:26:59.000Z",
-    "firstSeen": "2026-11-09T15:30:10.939Z"
-  },
-  {
-    "id": "afbada8762c1",
-    "title": "What is the GTA VI Selfridges pop-up? London store, £2,500 jacket, merch selling out fast",
-    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNaGc1SU41XzNsd2lwRGhaZDl4YXY5U1NHb1hFX0VFTHhWeXFqOUlTRDdnWW5RajBwSmFEYk9xMk9wWnBQVTBTa2M4bzZVTGZfSm5CTnFWTC03V1dmNW1KWlJFZnZyNDMxSkFwa2ctX250MmJ1eVZySUtJRktnQW56RmtmcDM2T3UzQ1VCZnQ2c3Z4ZjJnSGJhV2xWRE9GOEFFbk00NlFB?oc=5",
-    "source": "Nacionale",
-    "kind": "rumor",
-    "publishedAt": "2026-11-09T12:26:37.000Z",
-    "firstSeen": "2026-11-09T15:30:10.939Z"
-  },
-  {
-    "id": "108df4f68c41",
-    "title": "GTA 6 fans left baffled by £2,500 jacket as new merch collection sparks pricing controversy",
-    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQNFRadG5TYVV0SDNhUU84QWhDRnJ6bmsxb1o3aTgzemdvVWFGdXR2UlBQa3ZvSWtJeFZ0MmtmZmZyS3JiWnRZd3NFelUyVnU2aDlmSm02aGZwR2JuYUl6N1BvUXkzVnhpYlFsTThaZUVBTU9MSUxRMFJtbFFFZTB6VmRCRGhNSlBMcmZtQ2lNcWVmOVZu?oc=5",
-    "source": "GAMINGbible",
-    "kind": "news",
-    "publishedAt": "2026-11-09T12:24:56.000Z",
-    "firstSeen": "2026-11-09T15:30:10.939Z"
+    "id": "786895a0b444",
+    "title": "24k people watching live gta 6 downloading before gta 6 is crazy",
+    "url": "https://www.reddit.com/r/GTA6/comments/1xrqbhe/24k_people_watching_live_gta_6_downloading_before/",
+    "source": "r/GTA6",
+    "kind": "community",
+    "publishedAt": "2026-11-09T12:23:48.000Z",
+    "summary": "submitted by /u/confused-xd0 [link] [comments]",
+    "firstSeen": "2026-11-10T03:30:27.514Z"
   },
   {
     "id": "7637c80aefa3",
@@ -1286,8 +1576,8 @@
     "source": "Consequence",
     "kind": "news",
     "publishedAt": "2026-11-09T12:18:00.000Z",
-    "summary": "Grand Theft Auto 6 preloads are beginning to roll out ahead of its November 19th launch across PlayStation 5 and XBOX Series X/S.",
-    "firstSeen": "2026-11-09T20:24:19.280Z"
+    "firstSeen": "2026-11-09T20:24:19.280Z",
+    "summary": "Grand Theft Auto 6 preloads are beginning to roll out ahead of its November 19th launch across PlayStation 5 and XBOX Series X/S."
   },
   {
     "id": "c6058ad041fa",
@@ -1296,8 +1586,8 @@
     "source": "The Music Universe",
     "kind": "news",
     "publishedAt": "2026-11-09T12:01:00.000Z",
-    "summary": "Rockstar Games and PlayStation have revealed Grand Theft Auto VI: The Festival. The event will be held at Mana Wynwood in Miami on November 21st to celebrate the launch of Grand Theft Auto VI with an…",
-    "firstSeen": "2026-11-09T20:24:19.280Z"
+    "firstSeen": "2026-11-09T20:24:19.280Z",
+    "summary": "Rockstar Games and PlayStation have revealed Grand Theft Auto VI: The Festival. The event will be held at Mana Wynwood in Miami on November 21st to celebrate the launch of Grand Theft Auto VI with an…"
   },
   {
     "id": "a0d8bcbf6b0e",
@@ -1306,8 +1596,8 @@
     "source": "iHeart on MSN",
     "kind": "news",
     "publishedAt": "2026-11-09T11:56:00.000Z",
-    "summary": "A festival celebrating 'GTA VI' will be held in Miami on November 21, featuring Cardi B, Travis Scott, and more. Tickets are available through a lottery system, with entry open until November 10.",
-    "firstSeen": "2026-11-09T20:24:19.280Z"
+    "firstSeen": "2026-11-09T20:24:19.280Z",
+    "summary": "A festival celebrating 'GTA VI' will be held in Miami on November 21, featuring Cardi B, Travis Scott, and more. Tickets are available through a lottery system, with entry open until November 10."
   },
   {
     "id": "9c1de63c55fe",
@@ -1316,8 +1606,8 @@
     "source": "r/GTA6",
     "kind": "community",
     "publishedAt": "2026-11-09T11:51:23.000Z",
-    "firstSeen": "2026-11-09T15:30:10.939Z",
-    "summary": "Posted on a Portuguese gaming subreddit. The user claims that the box only contains a poster featuring the girl on one side and the game's cover art on the other, no map included. He pre-ordered it from a local retailer in late July, and it arrived today.…"
+    "summary": "Posted on a Portuguese gaming subreddit. The user claims that the box only contains a poster featuring the girl on one side and the game's cover art on the other, no map included. He pre-ordered it from a local retailer in late July, and it arrived today.…",
+    "firstSeen": "2026-11-09T15:30:10.939Z"
   },
   {
     "id": "7782124dea42",
@@ -1336,8 +1626,8 @@
     "source": "Power Up Gaming",
     "kind": "rumor",
     "publishedAt": "2026-11-09T11:15:00.000Z",
-    "summary": "GTA 6’s PS5 metadata reportedly includes 120Hz support, raising hopes for a 40fps mode. We break down what the discovery means.",
-    "firstSeen": "2026-11-09T20:24:19.280Z"
+    "firstSeen": "2026-11-09T20:24:19.280Z",
+    "summary": "GTA 6’s PS5 metadata reportedly includes 120Hz support, raising hopes for a 40fps mode. We break down what the discovery means."
   },
   {
     "id": "8d27f40ae784",
@@ -1346,8 +1636,8 @@
     "source": "NewsNation",
     "kind": "news",
     "publishedAt": "2026-11-09T11:12:00.000Z",
-    "summary": "( NewsNation) — Gamers are now one step closer to playing the highly anticipated Grand Theft Auto VI. Rockstar announced that gamers can preload GTA 6 on PlayStation and Xbox consoles starting Tuesday…",
-    "firstSeen": "2026-11-09T20:24:19.280Z"
+    "firstSeen": "2026-11-09T20:24:19.280Z",
+    "summary": "( NewsNation) — Gamers are now one step closer to playing the highly anticipated Grand Theft Auto VI. Rockstar announced that gamers can preload GTA 6 on PlayStation and Xbox consoles starting Tuesday…"
   },
   {
     "id": "bac7d586f913",
@@ -1356,8 +1646,8 @@
     "source": "Yahoo",
     "kind": "news",
     "publishedAt": "2026-11-09T11:06:00.000Z",
-    "summary": "Stick tells the story of optimistic ex-professional golfer Pryce Cahill (Owen Wilson), who might be good friends with one Ted Lasso if they ever overlapped in their sports worlds. Hailing from creator…",
-    "firstSeen": "2026-11-09T20:24:19.280Z"
+    "firstSeen": "2026-11-09T20:24:19.280Z",
+    "summary": "Stick tells the story of optimistic ex-professional golfer Pryce Cahill (Owen Wilson), who might be good friends with one Ted Lasso if they ever overlapped in their sports worlds. Hailing from creator…"
   },
   {
     "id": "5a1b045dd6fa",
@@ -1366,8 +1656,8 @@
     "source": "r/GTA6",
     "kind": "community",
     "publishedAt": "2026-11-09T11:04:00.000Z",
-    "firstSeen": "2026-11-09T15:30:10.939Z",
-    "summary": "Can’t believe it’s finally starting to happen. A little over a week now!"
+    "summary": "Can’t believe it’s finally starting to happen. A little over a week now! submitted by /u/ohyoudidntknooow [link] [comments]",
+    "firstSeen": "2026-11-09T15:30:10.939Z"
   },
   {
     "id": "b9970351f64c",
@@ -1376,8 +1666,8 @@
     "source": "Dayton Daily News",
     "kind": "news",
     "publishedAt": "2026-11-09T10:52:00.000Z",
-    "summary": "A billboard for the video game \"Grand Theft Auto VI\" is pictured above Hollywood Blvd. on Wednesday, Nov. 4, 2026, in Los Angeles. A billboard for the video game \"Grand Theft Auto VI\" is pictured…",
-    "firstSeen": "2026-11-09T20:24:19.280Z"
+    "firstSeen": "2026-11-09T20:24:19.280Z",
+    "summary": "A billboard for the video game \"Grand Theft Auto VI\" is pictured above Hollywood Blvd. on Wednesday, Nov. 4, 2026, in Los Angeles. A billboard for the video game \"Grand Theft Auto VI\" is pictured…"
   },
   {
     "id": "d7c4b010262a",
@@ -1386,8 +1676,8 @@
     "source": "YAHOO!",
     "kind": "news",
     "publishedAt": "2026-11-09T10:44:00.000Z",
-    "summary": "Rockstar Games is giving Cardi B, Travis Scott, and others a major role in GTA VI. The video game publisher is bringing the world of GTA 6 into real life with a music festival soon after the…",
-    "firstSeen": "2026-11-09T20:24:19.280Z"
+    "firstSeen": "2026-11-09T20:24:19.280Z",
+    "summary": "Rockstar Games is giving Cardi B, Travis Scott, and others a major role in GTA VI. The video game publisher is bringing the world of GTA 6 into real life with a music festival soon after the…"
   },
   {
     "id": "d30b70114864",
@@ -1396,8 +1686,8 @@
     "source": "TweakTown",
     "kind": "news",
     "publishedAt": "2026-11-09T10:43:00.000Z",
-    "summary": "There's been chatter about a 40 FPS mode before, and with 120Hz support seemingly present, this makes such a mode seem a little more like a possibility.",
-    "firstSeen": "2026-11-09T20:24:19.280Z"
+    "firstSeen": "2026-11-09T20:24:19.280Z",
+    "summary": "There's been chatter about a 40 FPS mode before, and with 120Hz support seemingly present, this makes such a mode seem a little more like a possibility."
   },
   {
     "id": "71de933239e9",
@@ -1406,8 +1696,8 @@
     "source": "Gamereactor",
     "kind": "rumor",
     "publishedAt": "2026-11-09T10:41:00.000Z",
-    "summary": "GTA 6 preloads are live and dataminers report multiplayer file hints, PS5 Pro ray tracing data and a missing ANZ file ten days before launch. What they can and can't tell us.",
-    "firstSeen": "2026-11-09T20:24:19.280Z"
+    "firstSeen": "2026-11-09T20:24:19.280Z",
+    "summary": "GTA 6 preloads are live and dataminers report multiplayer file hints, PS5 Pro ray tracing data and a missing ANZ file ten days before launch. What they can and can't tell us."
   },
   {
     "id": "32ec90d0b10f",
@@ -1416,8 +1706,8 @@
     "source": "Morning Overview on MSN",
     "kind": "rumor",
     "publishedAt": "2026-11-09T10:35:00.000Z",
-    "summary": "Between July 1 and Oct. 27, Netcraft’s analysts logged 121 newly registered domains containing the word “cyberleek”, the name attached to an anonymous leaker who began posting apparent Grand Theft…",
-    "firstSeen": "2026-11-09T20:24:19.280Z"
+    "firstSeen": "2026-11-09T20:24:19.280Z",
+    "summary": "Between July 1 and Oct. 27, Netcraft’s analysts logged 121 newly registered domains containing the word “cyberleek”, the name attached to an anonymous leaker who began posting apparent Grand Theft…"
   },
   {
     "id": "88a6e48d1a09",
@@ -1426,8 +1716,8 @@
     "source": "SomeOrdinaryGamers on MSN",
     "kind": "rumor",
     "publishedAt": "2026-11-09T10:34:41.000Z",
-    "summary": "Mutahar looks back at claims that Cyber League shared GTA 6 gameplay clips and a map before the game's release. He explains why he viewed the material as notable and outlines the group's dispute with…",
-    "firstSeen": "2026-11-09T20:24:19.280Z"
+    "firstSeen": "2026-11-09T20:24:19.280Z",
+    "summary": "Mutahar looks back at claims that Cyber League shared GTA 6 gameplay clips and a map before the game's release. He explains why he viewed the material as notable and outlines the group's dispute with…"
   },
   {
     "id": "7850718f0b55",
@@ -1436,8 +1726,8 @@
     "source": "Axios",
     "kind": "news",
     "publishedAt": "2026-11-09T10:12:00.000Z",
-    "summary": "Mana Wynwood to \"celebrate the launch\" of the game, Rockstar Games announced Monday, in partnership with Playstation and…",
-    "firstSeen": "2026-11-09T20:24:19.280Z"
+    "firstSeen": "2026-11-09T20:24:19.280Z",
+    "summary": "Mana Wynwood to \"celebrate the launch\" of the game, Rockstar Games announced Monday, in partnership with Playstation and…"
   },
   {
     "id": "37e916a0962b",
@@ -1460,6 +1750,16 @@
     "firstSeen": "2026-11-09T20:24:19.280Z"
   },
   {
+    "id": "6164551b2588",
+    "title": "New GTA 6 advertisement spotted in Selfridges, London👀",
+    "url": "https://www.reddit.com/r/GTA6/comments/1xrniyw/new_gta_6_advertisement_spotted_in_selfridges/",
+    "source": "r/GTA6",
+    "kind": "community",
+    "publishedAt": "2026-11-09T09:42:50.000Z",
+    "summary": "submitted by /u/prtempoz [link] [comments]",
+    "firstSeen": "2026-11-10T03:30:27.514Z"
+  },
+  {
     "id": "7ed5f43198f2",
     "title": "GTA 6 reportedly has 55 Achievements/Trophies, more than both GTA 5 and Red Dead Redemption 2 had at launch",
     "url": "https://www.eurogamer.net/gta-6-achievements-trophies-55",
@@ -1476,8 +1776,8 @@
     "source": "Game Rant",
     "kind": "news",
     "publishedAt": "2026-11-09T09:20:00.000Z",
-    "summary": "Rockstar Games is giving fans a brand-new way to celebrate the launch of Grand Theft Auto 6 with an exclusive event, The Festival.",
-    "firstSeen": "2026-11-09T20:24:19.280Z"
+    "firstSeen": "2026-11-09T20:24:19.280Z",
+    "summary": "Rockstar Games is giving fans a brand-new way to celebrate the launch of Grand Theft Auto 6 with an exclusive event, The Festival."
   },
   {
     "id": "f1510fc98ce3",
@@ -1486,8 +1786,8 @@
     "source": "shattered.io",
     "kind": "rumor",
     "publishedAt": "2026-11-09T09:11:00.000Z",
-    "summary": "GTA 6 PS5 Pro reports point to PSSR 2 and 120Hz, with no QSSR entry for base PS5. What Sony confirmed and what is still alleged.",
-    "firstSeen": "2026-11-09T20:24:19.280Z"
+    "firstSeen": "2026-11-09T20:24:19.280Z",
+    "summary": "GTA 6 PS5 Pro reports point to PSSR 2 and 120Hz, with no QSSR entry for base PS5. What Sony confirmed and what is still alleged."
   },
   {
     "id": "295f5810d220",
@@ -1496,8 +1796,8 @@
     "source": "HotNewHipHop",
     "kind": "rumor",
     "publishedAt": "2026-11-09T08:58:00.000Z",
-    "summary": "A \"GTA VI\" leaker online has delivered alleged tracklists for the two hip-hop music stations in the upcoming game.",
-    "firstSeen": "2026-11-09T20:24:19.280Z"
+    "firstSeen": "2026-11-09T20:24:19.280Z",
+    "summary": "A \"GTA VI\" leaker online has delivered alleged tracklists for the two hip-hop music stations in the upcoming game."
   },
   {
     "id": "bfa44472e584",
@@ -1506,8 +1806,8 @@
     "source": "USA TODAY",
     "kind": "news",
     "publishedAt": "2026-11-09T08:56:00.000Z",
-    "summary": "Cardi B, Travis Scott and Metro Boomin are set to headline a music festival for the release of GTA 6 later this month. On Nov. 9, Rockstar Games announced Grand Theft Auto VI: The Festival, a…",
-    "firstSeen": "2026-11-09T20:24:19.280Z"
+    "firstSeen": "2026-11-09T20:24:19.280Z",
+    "summary": "Cardi B, Travis Scott and Metro Boomin are set to headline a music festival for the release of GTA 6 later this month. On Nov. 9, Rockstar Games announced Grand Theft Auto VI: The Festival, a…"
   },
   {
     "id": "a1bf039fd111",
@@ -1516,8 +1816,8 @@
     "source": "DualShockers",
     "kind": "news",
     "publishedAt": "2026-11-09T08:47:00.000Z",
-    "summary": "A massive music festival will be held in Miami the weekend following the game's release, with numerous big-name performers to participate.",
-    "firstSeen": "2026-11-09T20:24:19.280Z"
+    "firstSeen": "2026-11-09T20:24:19.280Z",
+    "summary": "A massive music festival will be held in Miami the weekend following the game's release, with numerous big-name performers to participate."
   },
   {
     "id": "aefd3d4d0a00",
@@ -1536,8 +1836,18 @@
     "source": "london-now",
     "kind": "news",
     "publishedAt": "2026-11-09T08:31:00.000Z",
-    "summary": "A slice of Grand Theft Auto’s Vice City has made its way to Oxford Street as Selfridges has been transformed - with hundreds of fans lining up in slow-moving queues.",
-    "firstSeen": "2026-11-09T20:24:19.280Z"
+    "firstSeen": "2026-11-09T20:24:19.280Z",
+    "summary": "A slice of Grand Theft Auto’s Vice City has made its way to Oxford Street as Selfridges has been transformed - with hundreds of fans lining up in slow-moving queues."
+  },
+  {
+    "id": "46ce021b443a",
+    "title": "Thanks to Sony, the existence of GTA 6 Online may have just leaked",
+    "url": "https://www.pcgamesn.com/grand-theft-auto-vi/online-leak-ps5",
+    "source": "PCGamesN",
+    "kind": "rumor",
+    "publishedAt": "2026-11-09T08:27:00.000Z",
+    "summary": "PlayStation 5 database discoveries suggest Rockstar is preparing GTA 6 Online, but could its PC release be part of the plan?",
+    "firstSeen": "2026-11-10T03:30:27.513Z"
   },
   {
     "id": "0aa7df565c09",
@@ -1546,8 +1856,8 @@
     "source": "Power Up Gaming",
     "kind": "news",
     "publishedAt": "2026-11-09T08:20:00.000Z",
-    "summary": "GTA 6 has started to be preloaded on consoles, and data miners have already found possible references to an upcoming online mode.",
-    "firstSeen": "2026-11-09T20:24:19.280Z"
+    "firstSeen": "2026-11-09T20:24:19.280Z",
+    "summary": "GTA 6 has started to be preloaded on consoles, and data miners have already found possible references to an upcoming online mode."
   },
   {
     "id": "f7b2ce31b2d1",
@@ -1556,8 +1866,18 @@
     "source": "International Business Times UK",
     "kind": "news",
     "publishedAt": "2026-11-09T07:55:00.000Z",
-    "summary": "GTA 6 preload begins on 9 November for US Xbox players. Check PS5 and Xbox start times, the 212 GB storage requirement and the 19 November release…",
-    "firstSeen": "2026-11-09T20:24:19.280Z"
+    "firstSeen": "2026-11-09T20:24:19.280Z",
+    "summary": "GTA 6 preload begins on 9 November for US Xbox players. Check PS5 and Xbox start times, the 212 GB storage requirement and the 19 November release…"
+  },
+  {
+    "id": "20f79d0b464d",
+    "title": "GTA6 PS5 Home Screen Background Music",
+    "url": "https://www.reddit.com/r/GTA6/comments/1xrlqks/gta6_ps5_home_screen_background_music/",
+    "source": "r/GTA6",
+    "kind": "community",
+    "publishedAt": "2026-11-09T07:48:22.000Z",
+    "summary": "submitted by /u/ADeadlyAlien [link] [comments]",
+    "firstSeen": "2026-11-10T03:30:27.514Z"
   },
   {
     "id": "6e0b6ffefde5",
@@ -1636,8 +1956,8 @@
     "source": "GameSpot",
     "kind": "news",
     "publishedAt": "2026-11-05T16:47:41.000Z",
-    "summary": "Compared to previous games in the series, Grand Theft Auto 6 looks like it'll only be a few steps removed from reality when it launches this month. Actions have consequences, working on a relationship requires more than just hitting a few button prompts, and…",
-    "firstSeen": "2026-11-09T20:24:39.517Z"
+    "firstSeen": "2026-11-09T20:24:39.517Z",
+    "summary": "Compared to previous games in the series, Grand Theft Auto 6 looks like it'll only be a few steps removed from reality when it launches this month. Actions have consequences, working on a relationship requires more than just hitting a few button prompts, and…"
   },
   {
     "id": "867546ffa3ac",
@@ -1666,10 +1986,10 @@
     "source": "Rockstar Games UK & Ireland (YouTube)",
     "kind": "video",
     "publishedAt": "2026-10-15T13:12:37.000Z",
-    "summary": "Vice City, USA. Jason and Lucia have always known the deck is stacked against them. But when an easy score goes wrong, they find themselves on the darkest side of the sunniest place in America, in the middle of a criminal conspiracy stretching across the…",
     "videoId": "RiR77AI4uQ8",
     "thumbnail": "https://i.ytimg.com/vi/RiR77AI4uQ8/hqdefault.jpg",
-    "firstSeen": "2026-11-09T20:24:39.517Z"
+    "firstSeen": "2026-11-09T20:24:39.517Z",
+    "summary": "Vice City, USA. Jason and Lucia have always known the deck is stacked against them. But when an easy score goes wrong, they find themselves on the darkest side of the sunniest place in America, in the middle of a criminal conspiracy stretching across the…"
   },
   {
     "id": "bdcb0a5f6d98",
@@ -1689,10 +2009,10 @@
     "source": "Rockstar Games (YouTube)",
     "kind": "video",
     "publishedAt": "2026-08-28T01:00:48.000Z",
-    "summary": "Captured entirely from in-game footage on PlayStation 5, this extended look at the next Grand Theft Auto showcases the biggest, most immersive evolution of the series yet. Grand Theft Auto VI plays best on PlayStation 5. Coming November 19.",
     "videoId": "tJbzMqJGH4k",
     "thumbnail": "https://i.ytimg.com/vi/tJbzMqJGH4k/hqdefault.jpg",
-    "firstSeen": "2026-11-09T20:24:39.517Z"
+    "firstSeen": "2026-11-09T20:24:39.517Z",
+    "summary": "Captured entirely from in-game footage on PlayStation 5, this extended look at the next Grand Theft Auto showcases the biggest, most immersive evolution of the series yet. Grand Theft Auto VI plays best on PlayStation 5. Coming November 19."
   },
   {
     "id": "fa8f12754ed3",
@@ -1701,10 +2021,10 @@
     "source": "Rockstar Games (YouTube)",
     "kind": "video",
     "publishedAt": "2026-08-06T12:09:13.000Z",
-    "summary": "Grand Theft Auto VI: An Extended Look will premiere on Netflix Thursday, August 27 at 3 p.m. ET and will also launch on the official Rockstar Games YouTube channel and the Grand Theft Auto VI site at 9 p.m. ET on August 27. https://netflix.com/GTAVI Grand…",
     "videoId": "YmzCydc4qOk",
     "thumbnail": "https://i.ytimg.com/vi/YmzCydc4qOk/hqdefault.jpg",
-    "firstSeen": "2026-11-09T20:24:39.517Z"
+    "firstSeen": "2026-11-09T20:24:39.517Z",
+    "summary": "Grand Theft Auto VI: An Extended Look will premiere on Netflix Thursday, August 27 at 3 p.m. ET and will also launch on the official Rockstar Games YouTube channel and the Grand Theft Auto VI site at 9 p.m. ET on August 27. https://netflix.com/GTAVI Grand…"
   },
   {
     "id": "9fcf000caf07",
@@ -1713,10 +2033,10 @@
     "source": "Rockstar Games UK & Ireland (YouTube)",
     "kind": "video",
     "publishedAt": "2026-06-18T13:09:33.000Z",
-    "summary": "Pre-orders for Grand Theft Auto VI will officially begin on June 25 on digital storefronts and at other select retailers. Check out the official cover art, also available as downloadable artwork at rockstargames.com/VI",
     "videoId": "evtZ-L7FIbw",
     "thumbnail": "https://i.ytimg.com/vi/evtZ-L7FIbw/hqdefault.jpg",
-    "firstSeen": "2026-11-09T20:24:39.517Z"
+    "firstSeen": "2026-11-09T20:24:39.517Z",
+    "summary": "Pre-orders for Grand Theft Auto VI will officially begin on June 25 on digital storefronts and at other select retailers. Check out the official cover art, also available as downloadable artwork at rockstargames.com/VI"
   },
   {
     "id": "70dfa1a5c7f5",
