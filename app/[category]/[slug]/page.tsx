@@ -4,9 +4,14 @@ import { notFound } from "next/navigation";
 import { MDXRemote } from "next-mdx-remote/rsc";
 import type { ReactNode } from "react";
 import { AdSlot } from "@/components/AdSlot";
+import { ArticleCard } from "@/components/ArticleCard";
+import { Faq } from "@/components/Faq";
 import { Infobox } from "@/components/Infobox";
+import { Timeline } from "@/components/Timeline";
 import { Toc } from "@/components/Toc";
-import { getAllArticles, getArticle, getHeadings, slugify } from "@/lib/content";
+import { VideoEmbed } from "@/components/VideoEmbed";
+import { WikiHero } from "@/components/WikiHero";
+import { getAllArticles, getArticle, getHeadings, slugify, type Heading } from "@/lib/content";
 import { categories, site } from "@/lib/site";
 
 export function generateStaticParams() {
@@ -43,7 +48,17 @@ export default async function ArticlePage({ params }: PageProps<"/[category]/[sl
   if (!article) notFound();
 
   const cat = categories.find((c) => c.slug === category)!;
-  const headings = getHeadings(article.body);
+  const isWiki = category !== "news";
+  const hasVideos = article.videos.length > 0;
+  const hasTimeline = article.timeline.length > 0;
+  const hasFaq = article.faq.length > 0;
+  const headings: Heading[] = [
+    ...getHeadings(article.body),
+    ...(hasVideos ? [{ id: "videos", text: "Official videos", level: 2 as const }] : []),
+    ...(hasTimeline ? [{ id: "timeline", text: "Timeline", level: 2 as const }] : []),
+    ...(hasFaq ? [{ id: "faq", text: "Questions", level: 2 as const }] : []),
+  ];
+  const heroFacts = Object.entries(article.infobox ?? {}).slice(0, 3);
   const all = getAllArticles();
   const related = article.related
     .map((href) => all.find((a) => a.href === href))
@@ -63,28 +78,72 @@ export default async function ArticlePage({ params }: PageProps<"/[category]/[sl
     ...(article.sources.length > 0 && { citation: article.sources.map((s) => s.url) }),
   };
 
+  const faqLd = hasFaq && {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: article.faq.map((f) => ({
+      "@type": "Question",
+      name: f.q,
+      acceptedAnswer: { "@type": "Answer", text: f.a },
+    })),
+  };
+
   return (
     <div className="mx-auto grid max-w-6xl gap-10 px-5 py-12 lg:grid-cols-[1fr_300px]">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      {faqLd && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }} />}
       <article>
-        <p className="text-sm text-muted">
-          <Link href={`/${cat.slug}`} className="text-peach hover:underline">{cat.label}</Link> / {article.title}
-        </p>
-        <h1 className="mt-2 font-display text-6xl leading-none tracking-wide text-pink sm:text-8xl">
-          {article.title}
-        </h1>
-        <p className="mt-4 text-xl leading-snug text-cream sm:text-2xl">{article.summary}</p>
-        <p className="mt-2 text-xs text-muted">
-          {article.kind === "rumor" && (
-            <span className="mr-2 font-bold uppercase tracking-widest text-peach">Rumor · unconfirmed</span>
-          )}
-          {category === "news" ? "Published" : "Last updated"}{" "}
-          <time dateTime={article.published ?? article.updated}>{article.updated}</time>
-        </p>
+        {isWiki ? (
+          <WikiHero
+            category={cat}
+            title={article.title}
+            summary={article.summary}
+            facts={heroFacts}
+            updated={article.updated}
+          />
+        ) : (
+          <>
+            <p className="text-sm text-muted">
+              <Link href={`/${cat.slug}`} className="text-peach hover:underline">{cat.label}</Link> / {article.title}
+            </p>
+            <h1 className="mt-2 font-display text-6xl leading-none tracking-wide text-pink sm:text-8xl">
+              {article.title}
+            </h1>
+            <p className="mt-4 text-xl leading-snug text-cream sm:text-2xl">{article.summary}</p>
+            <p className="mt-2 text-xs text-muted">
+              {article.kind === "rumor" && (
+                <span className="mr-2 font-bold uppercase tracking-widest text-peach">Rumor · unconfirmed</span>
+              )}
+              Published <time dateTime={article.published ?? article.updated}>{article.updated}</time>
+            </p>
+          </>
+        )}
         <AdSlot slot="article-top" minHeight={120} />
         <div className="prose-wiki mt-6">
           <MDXRemote source={article.body} components={mdxComponents} />
         </div>
+        {hasVideos && (
+          <section id="videos" className="mt-12 scroll-mt-24">
+            <h2 className="mb-4 font-display text-4xl tracking-wide text-white">Official videos</h2>
+            <div className="grid gap-6 sm:grid-cols-2">
+              {article.videos.map((v) => (
+                <VideoEmbed key={v.id} id={v.id} title={v.title} />
+              ))}
+            </div>
+          </section>
+        )}
+        {hasTimeline && (
+          <section id="timeline" className="mt-12 scroll-mt-24">
+            <h2 className="mb-5 font-display text-4xl tracking-wide text-white">Timeline</h2>
+            <Timeline items={article.timeline} />
+          </section>
+        )}
+        {hasFaq && (
+          <section id="faq" className="mt-12 scroll-mt-24">
+            <h2 className="mb-4 font-display text-4xl tracking-wide text-white">Questions</h2>
+            <Faq items={article.faq} />
+          </section>
+        )}
         {article.sources.length > 0 && (
           <section className="mt-12 rounded-card border border-white/10 bg-surface p-6">
             <h2 className="mb-3 font-display text-3xl tracking-wide text-white">Sources</h2>
@@ -111,21 +170,17 @@ export default async function ArticlePage({ params }: PageProps<"/[category]/[sl
         )}
         {related.length > 0 && (
           <section className="mt-12">
-            <h2 className="mb-3 font-display text-3xl tracking-wide text-white">Related</h2>
-            <ul className="flex flex-wrap gap-3">
+            <h2 className="mb-4 font-display text-4xl tracking-wide text-white">Related</h2>
+            <div className="grid gap-5 sm:grid-cols-2">
               {related.map((r) => (
-                <li key={r.href}>
-                  <Link href={r.href} className="rounded-full border border-white/15 px-4 py-1.5 text-sm hover:border-pink hover:text-pink">
-                    {r.title}
-                  </Link>
-                </li>
+                <ArticleCard key={r.href} article={r} />
               ))}
-            </ul>
+            </div>
           </section>
         )}
       </article>
       <div className="space-y-6 lg:sticky lg:top-24 lg:self-start">
-        {article.infobox && <Infobox title={article.title} data={article.infobox} />}
+        {article.infobox && <Infobox title="At a glance" data={article.infobox} />}
         <Toc headings={headings} />
         <AdSlot slot="sidebar" className="hidden lg:block" />
       </div>

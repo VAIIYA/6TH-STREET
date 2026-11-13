@@ -16,6 +16,10 @@ const schema = z.object({
   kind: z.enum(["news", "rumor"]).optional(),
   published: z.string().optional(), // ISO datetime
   infobox: z.record(z.string(), z.string()).optional(),
+  // Official Rockstar videos, embedded click-to-play. `id` is the YouTube video id.
+  videos: z.array(z.object({ id: z.string(), title: z.string() })).default([]),
+  timeline: z.array(z.object({ date: z.string(), label: z.string() })).default([]),
+  faq: z.array(z.object({ q: z.string(), a: z.string() })).default([]),
   related: z.array(z.string()).default([]),
   sources: z
     .array(z.object({ label: z.string(), url: z.string().url() }))
