@@ -21,6 +21,8 @@ jobs:
       - run: npm ci
       - name: Collect headlines and sources
         run: node scripts/update-feed.mjs
+      - name: Collect YouTube Shorts and TikToks
+        run: node scripts/update-shorts.mjs
       - name: Rewrite every item and collect its image
         # Needs the ANTHROPIC_API_KEY repository secret. Images are collected even without it.
         env:

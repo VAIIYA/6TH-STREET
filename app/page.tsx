@@ -13,7 +13,7 @@ export default function Home() {
   const secondary = rest.slice(0, 4);
   const latest = rest.slice(4, 14);
   const rumors = getFeedItems("rumor").slice(0, 5);
-  const videos = getFeedItems("video").slice(0, 3);
+  const videos = getFeedItems("video").filter((v) => !v.platform).slice(0, 3);
   const wiki = getWikipedia();
   const stories = getLatestStories(3);
   const featured = getAllArticles()

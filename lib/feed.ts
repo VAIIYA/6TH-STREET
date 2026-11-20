@@ -25,6 +25,7 @@ const itemSchema = z.object({
   firstSeen: z.string().optional(),
   summary: z.string().optional(),
   videoId: z.string().optional(),
+  platform: z.enum(["short", "tiktok"]).optional(),
   thumbnail: z.string().url().optional(),
 });
 
@@ -123,4 +124,17 @@ export const feedHref = (item: FeedItem) => `/updates/${feedSlug(item)}`;
 export function getFeedItem(slug: string): FeedItem | undefined {
   const id = slug.slice(-12);
   return getFeedItems().find((i) => i.id === id);
+}
+
+/** Official channel videos have no platform; Shorts and TikToks do. */
+export const isOfficialVideo = (i: FeedItem) => i.kind === "video" && !i.platform;
+
+/** Official embed player for a video item. Vertical formats (Shorts, TikTok) are 9:16. */
+export function embedFor(item: FeedItem): { src: string; vertical: boolean } | undefined {
+  if (!item.videoId) return undefined;
+  if (item.platform === "tiktok") return { src: `https://www.tiktok.com/player/v1/${item.videoId}`, vertical: true };
+  return {
+    src: `https://www.youtube-nocookie.com/embed/${item.videoId}`,
+    vertical: item.platform === "short",
+  };
 }

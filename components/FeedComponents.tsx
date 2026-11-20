@@ -98,7 +98,7 @@ export function VideoCard({ item }: { item: FeedItem }) {
           <div aria-hidden className="absolute inset-0" style={{ background: "var(--sunset)" }} />
         )}
         <span aria-hidden className="absolute bottom-3 left-3 rounded-full bg-bg/80 px-3 py-1 text-xs font-bold uppercase tracking-widest text-peach">
-          ▶ Video
+          {item.platform === "tiktok" ? "♪ TikTok" : item.platform === "short" ? "▶ Short" : "▶ Video"}
         </span>
       </div>
       <div className="flex flex-1 flex-col p-5">

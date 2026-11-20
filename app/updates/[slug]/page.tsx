@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { FeedRow, KindLabel, SectionHeading } from "@/components/FeedComponents";
-import { feedHref, feedSlug, formatDateTime, getFeedItem, getFeedItems, getRewrite } from "@/lib/feed";
+import { feedHref, feedSlug, formatDateTime, getFeedItem, embedFor, getFeedItems, getRewrite } from "@/lib/feed";
 import { site } from "@/lib/site";
 
 export function generateStaticParams() {
@@ -40,6 +40,7 @@ export default async function UpdatePage({ params }: PageProps<"/updates/[slug]"
   const rw = getRewrite(item.id);
   const title = rw?.title ?? item.title;
   const image = item.thumbnail ?? rw?.image;
+  const embed = embedFor(item);
   const more = getFeedItems(item.kind)
     .filter((i) => i.id !== item.id)
     .slice(0, 5);
@@ -53,7 +54,7 @@ export default async function UpdatePage({ params }: PageProps<"/updates/[slug]"
     dateModified: item.publishedAt,
     mainEntityOfPage: `${site.url}${feedHref(item)}`,
     ...(image && { image: [image], ...(item.kind === "video" && { thumbnailUrl: image }) }),
-    ...(item.kind === "video" && { uploadDate: item.publishedAt }),
+    ...(item.kind === "video" && { uploadDate: item.publishedAt, ...(embed && { embedUrl: embed.src }) }),
     isBasedOn: item.url,
     publisher: { "@type": "Organization", name: site.name, url: site.url },
   };
@@ -73,7 +74,21 @@ export default async function UpdatePage({ params }: PageProps<"/updates/[slug]"
         <time dateTime={item.publishedAt}>{formatDateTime(item.publishedAt)}</time>
       </p>
 
-      {image && (
+      {embed && (
+        <div className={`mt-6 overflow-hidden rounded-card border border-white/10 bg-black ${embed.vertical ? "mx-auto max-w-[340px]" : ""}`}>
+          <iframe
+            src={embed.src}
+            title={title}
+            loading="lazy"
+            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
+            allowFullScreen
+            referrerPolicy="strict-origin-when-cross-origin"
+            className={`w-full ${embed.vertical ? "aspect-[9/16]" : "aspect-video"}`}
+          />
+        </div>
+      )}
+
+      {!embed && image && (
         <div className="mt-6 overflow-hidden rounded-card border border-white/10 bg-surface">
           {/* Publisher image, embedded from its own URL: next/image would proxy and re-host it. */}
           {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -103,7 +118,7 @@ export default async function UpdatePage({ params }: PageProps<"/updates/[slug]"
         rel="noopener noreferrer"
         className="mt-6 inline-block rounded-full bg-pink px-6 py-2.5 text-sm font-bold uppercase tracking-widest text-bg hover:bg-peach"
       >
-        {item.kind === "video" ? "Watch on YouTube" : `Read the full story at ${item.source}`} →
+        {item.platform === "tiktok" ? "Open on TikTok" : item.kind === "video" ? "Watch on YouTube" : `Read the full story at ${item.source}`} →
       </a>
       <p className="mt-4 text-xs text-muted">
         The image, headline and excerpt belong to {item.source}; the summary above is our own wording. Flamingo Six is an unofficial fan site and does not host the original
