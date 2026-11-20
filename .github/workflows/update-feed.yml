@@ -21,6 +21,11 @@ jobs:
       - run: npm ci
       - name: Collect headlines and sources
         run: node scripts/update-feed.mjs
+      - name: Rewrite every item and collect its image
+        # Needs the ANTHROPIC_API_KEY repository secret. Images are collected even without it.
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: node scripts/rewrite-items.mjs
       - name: Write our own articles from the feed
         # Needs the ANTHROPIC_API_KEY repository secret. Without it this step does nothing.
         env:

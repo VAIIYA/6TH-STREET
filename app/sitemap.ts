@@ -1,5 +1,6 @@
 import type { MetadataRoute } from "next";
 import { getAllArticles } from "@/lib/content";
+import { feedHref, getFeedItems } from "@/lib/feed";
 import { categories, site } from "@/lib/site";
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -9,5 +10,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     url: `${site.url}${a.href}`,
     lastModified: a.published ?? a.updated,
   }));
-  return [...pages, ...cats, ...articles];
+  const updates = getFeedItems().map((i) => ({
+    url: `${site.url}${feedHref(i)}`,
+    lastModified: i.publishedAt,
+  }));
+  return [...pages, ...cats, ...articles, ...updates];
 }

@@ -16,7 +16,7 @@ const FEED_DIR = path.join(ROOT, "content", "feed");
 const ITEMS_FILE = path.join(FEED_DIR, "items.json");
 const WIKI_FILE = path.join(FEED_DIR, "wikipedia.json");
 
-const MAX_ITEMS = 300;
+const MAX_ITEMS = 1500; // every item has its own indexed page; keep them so URLs never 404
 const MAX_HEADLINE_ONLY = 120;
 const TIMEOUT_MS = 20_000;
 const USER_AGENT = "FlamingoSixFeedBot/1.0 (+https://github.com/VAIIYA/FLAMINGO-SIX)";

@@ -38,6 +38,21 @@ const wikiSchema = z.object({
   thumbnail: z.string().url().optional(),
 });
 
+// Written hourly by scripts/rewrite-items.mjs. Parsed leniently: a bad entry is ignored, never a build error.
+const rewriteSchema = z.object({
+  title: z.string().optional(),
+  body: z.string().optional(),
+  image: z.string().url().optional(),
+});
+export type Rewrite = z.infer<typeof rewriteSchema>;
+
+export function getRewrite(id: string): Rewrite | undefined {
+  const data = readJson("rewrites.json");
+  if (!data || typeof data !== "object") return undefined;
+  const parsed = rewriteSchema.safeParse((data as Record<string, unknown>)[id]);
+  return parsed.success ? parsed.data : undefined;
+}
+
 export type WikiSnapshot = z.infer<typeof wikiSchema>;
 
 function readJson(file: string): unknown {
@@ -87,4 +102,25 @@ export function formatDateTime(iso: string) {
     timeZone: "UTC",
     timeZoneName: "short",
   }).format(new Date(iso));
+}
+
+/** URL slug for an item's own page: readable words for Google, plus the id so it stays unique and stable. */
+export function feedSlug(item: FeedItem) {
+  const words = item.title
+    .toLowerCase()
+    .normalize("NFKD")
+    .replace(/[̀-ͯ]/g, "")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "")
+    .slice(0, 70)
+    .replace(/-+$/g, "");
+  return words ? `${words}-${item.id}` : item.id;
+}
+
+export const feedHref = (item: FeedItem) => `/updates/${feedSlug(item)}`;
+
+/** Look up by the trailing id, so a changed headline never breaks an indexed URL. */
+export function getFeedItem(slug: string): FeedItem | undefined {
+  const id = slug.slice(-12);
+  return getFeedItems().find((i) => i.id === id);
 }
