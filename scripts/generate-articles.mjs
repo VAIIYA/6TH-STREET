@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// Turns the hourly feed into original 6th Street news articles (content/news/*.mdx).
+// Turns the hourly feed into original Flamingo Six news articles (content/news/*.mdx).
 //
 // For each story that several outlets cover, Claude writes a short, fully
 // paraphrased article from the headlines and snippets in content/feed/items.json.
@@ -138,7 +138,7 @@ const DRAFT_SCHEMA = {
   additionalProperties: false,
 };
 
-const SYSTEM = `You are the news editor of 6th Street, an unofficial fan site about Grand Theft Auto VI. You write short, original news articles from source material that the user supplies.
+const SYSTEM = `You are the news editor of Flamingo Six, an unofficial fan site about Grand Theft Auto VI. You write short, original news articles from source material that the user supplies.
 
 Hard rules:
 - Use only facts that are stated in the supplied material. Never add details, numbers, dates, names or quotes that are not in it, and never speculate.

@@ -104,7 +104,7 @@ export default async function ArticlePage({ params }: PageProps<"/[category]/[sl
             </ol>
             <p className="mt-3 text-xs text-muted">
               {article.auto
-                ? "Written by 6th Street from the reporting linked above, with AI assistance. We only restate what those sources say; follow the links for the original coverage."
+                ? "Written by Flamingo Six from the reporting linked above, with AI assistance. We only restate what those sources say; follow the links for the original coverage."
                 : "This article is our own summary. Follow the links above for the original sources."}
             </p>
           </section>
